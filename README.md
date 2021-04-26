@@ -11,7 +11,7 @@
     - see https://github.com/huitang-earth/fates/commit/e4716ec7132cbf73728a07085de65da885d06345# line 1536-1538 
 
 - cesm.log.2139491.210224-174705.gz
-  - The same as above, but in this simulation the following codes have been added. The error is gone.
+  - The same as above, but in this simulation the following codes have been added. **treelai and treesai are now initialized with the prescribed values, i.e., 2.0 and 0.5, respectively. The balance error is also gone.**
     - see https://github.com/huitang-earth/ctsm/commit/28df6f7367ac7c38e25bde6c0655515b8ddeb397
     - see https://github.com/huitang-earth/ctsm/commit/913910fe569a1a3c42227cedb032b8d79d6da1f3 line 1024-1040
 
