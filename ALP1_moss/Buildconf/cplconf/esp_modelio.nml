@@ -1,0 +1,13 @@
+&modelio
+  diri = "/cluster/work/users/huit/ctsm/ALP1_moss/bld/esp"
+  diro = "/cluster/work/users/huit/ctsm/ALP1_moss/run"
+  logfile = "esp.log.2455375.210311-122251"
+/
+&pio_inparm
+  pio_netcdf_format = ""
+  pio_numiotasks = -99
+  pio_rearranger = -99
+  pio_root = -99
+  pio_stride = -99
+  pio_typename = "nothing"
+/

@@ -1,0 +1,48 @@
+2021-02-23 20:15:23: ./create_newcase --case ../../../ctsm_cases/ALP1_moss --compset 2000_DATM%1PTGSWP3_CLM50%FATES_SICE_SOCN_MOSART_SGLC_SWAV --res 1x1_ALP1 --machine saga --run-unsupported --project nn2806k --extra-machines-dir /cluster/home/huit/.cime
+ ---------------------------------------------------
+2021-02-23 20:15:23: Compset longname is 2000_DATM%1PTGSWP3_CLM50%FATES_SICE_SOCN_MOSART_SGLC_SWAV_SIAC_SESP
+ ---------------------------------------------------
+2021-02-23 20:15:23: Compset specification file is /cluster/home/huit/ctsm_region/cime_config/config_compsets.xml
+ ---------------------------------------------------
+2021-02-23 20:15:23: Pes     specification file is /cluster/home/huit/ctsm_region/cime_config/config_pes.xml
+ ---------------------------------------------------
+2021-02-23 20:15:23: Forcing is 1972-2004
+ ---------------------------------------------------
+2021-02-23 20:15:23: Using None coupler instances
+ ---------------------------------------------------
+2021-02-23 20:15:23: Component ATM is  Data driven ATM single point tower site data set 
+ ---------------------------------------------------
+2021-02-23 20:15:23: ATM_GRID is 1x1_ALP1
+ ---------------------------------------------------
+2021-02-23 20:15:23: Component LND is clm5.0:FATES (Functionally Assembled Terrestrial Ecosystem Simulator) Ecosystem Demography model: (experimental)
+ ---------------------------------------------------
+2021-02-23 20:15:23: LND_GRID is 1x1_ALP1
+ ---------------------------------------------------
+2021-02-23 20:15:23: Component ICE is Stub ice component
+ ---------------------------------------------------
+2021-02-23 20:15:23: ICE_GRID is null
+ ---------------------------------------------------
+2021-02-23 20:15:23: Component OCN is Stub ocn component
+ ---------------------------------------------------
+2021-02-23 20:15:23: OCN_GRID is null
+ ---------------------------------------------------
+2021-02-23 20:15:23: Component ROF is MOSART: MOdel for Scale Adaptive River Transport
+ ---------------------------------------------------
+2021-02-23 20:15:23: ROF_GRID is null
+ ---------------------------------------------------
+2021-02-23 20:15:23: Component GLC is Stub glacier (land ice) component
+ ---------------------------------------------------
+2021-02-23 20:15:23: GLC_GRID is null
+ ---------------------------------------------------
+2021-02-23 20:15:23: Component WAV is Stub wave component
+ ---------------------------------------------------
+2021-02-23 20:15:23: WAV_GRID is null
+ ---------------------------------------------------
+2021-02-23 20:15:23: Component IAC is Stub iac component
+ ---------------------------------------------------
+2021-02-23 20:15:23: IAC_GRID is null
+ ---------------------------------------------------
+2021-02-23 20:15:23: Component ESP is Stub external system processing (ESP) component
+ ---------------------------------------------------
+2021-02-23 20:15:23: ESP_GRID is None
+ ---------------------------------------------------

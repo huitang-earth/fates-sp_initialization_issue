@@ -1,0 +1,45 @@
+&comp_inparm 
+
+ use_bedrock = .false.
+
+
+
+ use_fates = .true.
+
+ use_fates_cohort_age_tracking = .false.
+
+ use_fates_ed_prescribed_phys = .false.
+
+ use_fates_ed_st3 = .false.
+
+ use_fates_fixed_biogeog = .true.
+
+ use_fates_inventory_init = .false.
+
+ use_fates_logging = .false.
+
+ use_fates_nocomp = .true.
+
+ use_fates_planthydro = .false.
+
+ use_fates_sp = .true.
+
+ fsurdat = "/cluster/work/users/huit/inputdata/lnd/clm2/surfdata_map/ALP1/surfdata_ALP1_simyr2000_moss.nc"
+
+ fates_paramfile = "/cluster/work/users/huit/inputdata/lnd/clm2/paramdata/fates_params_moss_only_0tau_10clump_0xl.nc"
+
+ 
+
+hist_fincl2 ='FSR','PARVEGLN','FSDS','QSOIL','QVEGE','QVEGT','EFLX_LH_TOT','FSH','RAIN','SNOW','H2OCAN','LIQCAN','SNOCAN','SOILWATER_10CM','SOILRESIS','RSCANOPY','TSOI_10CM','TG','TSA','TSL','TV','TSKIN','TBOT','GPP','QINTR' 
+
+hist_fincl3 ='FSR','PARVEGLN','FSDS','QSOIL','QVEGE','QVEGT','EFLX_LH_TOT','FSH','RAIN','SNOW','H2OCAN','LIQCAN','SNOCAN','SOILWATER_10CM','SOILRESIS','RSCANOPY','TSOI_10CM','TG','TSA','TSL','TV','TSKIN','TBOT','GPP','QINTR' 
+
+hist_avgflag_pertape = 'A', 'A', 'A'
+
+hist_nhtfrq = 0,-3,-24
+
+hist_mfilt  = 1,8,1
+
+hist_dov2xy = .true.,.true.,.true.                 
+
+/ 

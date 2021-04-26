@@ -1,0 +1,1300 @@
+2021-02-23 20:28:41: case.setup starting 
+ ---------------------------------------------------
+2021-02-23 20:28:46: case.setup success 
+ ---------------------------------------------------
+2021-02-23 20:29:05: case.build starting 
+ ---------------------------------------------------
+2021-02-23 20:35:51: case.build error 
+ERROR: BUILD FAIL: clm.buildlib failed, cat /cluster/work/users/huit/ctsm/ALP1_moss/bld/lnd.bldlog.210223-202905
+ ---------------------------------------------------
+2021-02-23 20:50:35: case.build starting 
+ ---------------------------------------------------
+2021-02-23 20:51:01: case.build error 
+ERROR: BUILD FAIL: clm.buildlib failed, cat /cluster/work/users/huit/ctsm/ALP1_moss/bld/lnd.bldlog.210223-205035
+ ---------------------------------------------------
+2021-02-23 21:34:27: case.build starting 
+ ---------------------------------------------------
+2021-02-23 21:35:13: case.build error 
+ERROR: BUILD FAIL: clm.buildlib failed, cat /cluster/work/users/huit/ctsm/ALP1_moss/bld/lnd.bldlog.210223-213428
+ ---------------------------------------------------
+2021-02-23 22:09:33: case.build starting 
+ ---------------------------------------------------
+2021-02-23 22:10:14: case.build error 
+ERROR: BUILD FAIL: clm.buildlib failed, cat /cluster/work/users/huit/ctsm/ALP1_moss/bld/lnd.bldlog.210223-220933
+ ---------------------------------------------------
+2021-02-23 22:10:52: case.build starting 
+ ---------------------------------------------------
+2021-02-23 22:11:22: case.build error 
+ERROR: BUILD FAIL: clm.buildlib failed, cat /cluster/work/users/huit/ctsm/ALP1_moss/bld/lnd.bldlog.210223-221052
+ ---------------------------------------------------
+2021-02-23 22:50:59: case.build starting 
+ ---------------------------------------------------
+2021-02-23 22:51:37: case.build error 
+ERROR: BUILD FAIL: clm.buildlib failed, cat /cluster/work/users/huit/ctsm/ALP1_moss/bld/lnd.bldlog.210223-225059
+ ---------------------------------------------------
+2021-02-23 22:52:17: case.build starting 
+ ---------------------------------------------------
+CESM version is release-emerald-platform3.0.0
+Processing externals description file : Externals.cfg
+Processing externals description file : Externals_CLM.cfg
+Processing externals description file : ../Externals_cime.cfg
+Processing externals description file : .gitmodules
+Processing submodules description file : .gitmodules
+Processing externals description file : Externals_CISM.cfg
+Processing externals description file : .gitmodules
+Processing submodules description file : .gitmodules
+Checking status of externals: clm, fates, ptclm, mosart, cime, cmeps, nems/lib/parallelio, nems/lib/genf90, rtm, cism, source_cism, cdeps, fox, 
+ M  ./cime
+        modified sandbox, on release-emerald3.0.0-work
+    ./cime/src/drivers/nuopc/
+        clean sandbox, on 76540383e4bd37142814812903fc2eed4a1b39e1
+    ./cime/src/drivers/nuopc/nems/lib/ParallelIO
+        clean sandbox, on pio2_4_4
+    ./cime/src/drivers/nuopc/nems/lib/genf90
+        clean sandbox, on genf90_140121
+    ./components/cdeps
+        clean sandbox, on 45b7a85823da1d187fe500d1be6e96bbcd1dff2e
+    ./components/cdeps/fox
+        clean sandbox, on 7b9488446b193192dd3f0378541e71099cb4e8a8
+    ./components/cism
+        clean sandbox, on cism2_1_69
+    ./components/cism/source_cism
+        clean sandbox, on f1a88d6bbe3bb5e2e8817f91aed6de87227f4bb7
+    ./components/mosart
+        clean sandbox, on mosart1_0_37
+    ./components/rtm
+        clean sandbox, on rtm1_0_72
+sM  ./src/fates
+        modified sandbox, MossLichen_sci.1.43.2_api.14.2.0 --> sci.1.43.2_api.14.2.0
+    ./tools/PTCLM
+        clean sandbox, on PTCLM2_20200121
+2021-02-23 22:54:33: case.build success 
+ ---------------------------------------------------
+2021-02-23 23:24:19: case.submit starting 
+ ---------------------------------------------------
+2021-02-23 23:25:01: case.submit success case.run:2122935, case.st_archive:2122936
+ ---------------------------------------------------
+2021-02-23 23:57:18: case.submit starting 
+ ---------------------------------------------------
+2021-02-23 23:57:34: case.submit success case.run:2122945, case.st_archive:2122946
+ ---------------------------------------------------
+2021-02-23 23:58:23: case.submit starting 
+ ---------------------------------------------------
+2021-02-23 23:58:31: case.submit success case.run:2122950, case.st_archive:2122951
+ ---------------------------------------------------
+2021-02-23 23:58:59: case.run starting 
+ ---------------------------------------------------
+2021-02-23 23:59:06: model execution starting 
+ ---------------------------------------------------
+2021-02-24 00:12:31: model execution error 
+ERROR: Command: 'mpirun  /cluster/work/users/huit/ctsm/ALP1_moss/bld/cesm.exe   >> cesm.log.$LID 2>&1 ' failed with error '' from dir '/cluster/work/users/huit/ctsm/ALP1_moss/run'
+ ---------------------------------------------------
+2021-02-24 00:12:31: case.run error 
+ERROR: RUN FAIL: Command 'mpirun  /cluster/work/users/huit/ctsm/ALP1_moss/bld/cesm.exe   >> cesm.log.$LID 2>&1 ' failed
+See log file for details: /cluster/work/users/huit/ctsm/ALP1_moss/run/cesm.log.2122950.210223-235859
+ ---------------------------------------------------
+2021-02-24 00:32:48: case.submit starting 
+ ---------------------------------------------------
+2021-02-24 00:33:05: case.submit error 
+ERROR: Command /cluster/home/huit/ctsm_region/bld/build-namelist failed rc=255
+out=
+err=ERROR(Build::Namelist::_parse_next): expect a F90 constant for a namelist instead got:  /cluster/work/users/huit/inputdata/lnd/clm2/surfdata_map/ALP1/surfdata_ALP1_simyr2000_moss.nc
+ ---------------------------------------------------
+2021-02-24 00:33:51: case.submit starting 
+ ---------------------------------------------------
+2021-02-24 00:34:05: case.submit success case.run:2123639, case.st_archive:2123640
+ ---------------------------------------------------
+2021-02-24 00:34:21: case.run starting 
+ ---------------------------------------------------
+2021-02-24 00:34:28: model execution starting 
+ ---------------------------------------------------
+2021-02-24 00:47:17: model execution error 
+ERROR: Command: 'mpirun  /cluster/work/users/huit/ctsm/ALP1_moss/bld/cesm.exe   >> cesm.log.$LID 2>&1 ' failed with error '' from dir '/cluster/work/users/huit/ctsm/ALP1_moss/run'
+ ---------------------------------------------------
+2021-02-24 00:47:17: case.run error 
+ERROR: RUN FAIL: Command 'mpirun  /cluster/work/users/huit/ctsm/ALP1_moss/bld/cesm.exe   >> cesm.log.$LID 2>&1 ' failed
+See log file for details: /cluster/work/users/huit/ctsm/ALP1_moss/run/cesm.log.2123639.210224-003421
+ ---------------------------------------------------
+2021-02-24 01:15:09: case.submit starting 
+ ---------------------------------------------------
+2021-02-24 01:15:28: case.submit success case.run:2123807, case.st_archive:2123808
+ ---------------------------------------------------
+2021-02-24 01:16:01: case.run starting 
+ ---------------------------------------------------
+2021-02-24 01:16:12: model execution starting 
+ ---------------------------------------------------
+2021-02-24 01:28:57: model execution error 
+ERROR: Command: 'mpirun  /cluster/work/users/huit/ctsm/ALP1_moss/bld/cesm.exe   >> cesm.log.$LID 2>&1 ' failed with error '' from dir '/cluster/work/users/huit/ctsm/ALP1_moss/run'
+ ---------------------------------------------------
+2021-02-24 01:28:58: case.run error 
+ERROR: RUN FAIL: Command 'mpirun  /cluster/work/users/huit/ctsm/ALP1_moss/bld/cesm.exe   >> cesm.log.$LID 2>&1 ' failed
+See log file for details: /cluster/work/users/huit/ctsm/ALP1_moss/run/cesm.log.2123807.210224-011601
+ ---------------------------------------------------
+2021-02-24 08:24:16: case.build starting 
+ ---------------------------------------------------
+CESM version is release-emerald-platform3.0.0
+Processing externals description file : Externals.cfg
+Processing externals description file : Externals_CLM.cfg
+Processing externals description file : ../Externals_cime.cfg
+Processing externals description file : .gitmodules
+Processing submodules description file : .gitmodules
+Processing externals description file : Externals_CISM.cfg
+Processing externals description file : .gitmodules
+Processing submodules description file : .gitmodules
+Checking status of externals: clm, fates, ptclm, mosart, cime, cmeps, nems/lib/parallelio, nems/lib/genf90, rtm, cism, source_cism, cdeps, fox, 
+ M  ./cime
+        modified sandbox, on release-emerald3.0.0-work
+    ./cime/src/drivers/nuopc/
+        clean sandbox, on 76540383e4bd37142814812903fc2eed4a1b39e1
+    ./cime/src/drivers/nuopc/nems/lib/ParallelIO
+        clean sandbox, on pio2_4_4
+    ./cime/src/drivers/nuopc/nems/lib/genf90
+        clean sandbox, on genf90_140121
+    ./components/cdeps
+        clean sandbox, on 45b7a85823da1d187fe500d1be6e96bbcd1dff2e
+    ./components/cdeps/fox
+        clean sandbox, on 7b9488446b193192dd3f0378541e71099cb4e8a8
+    ./components/cism
+        clean sandbox, on cism2_1_69
+    ./components/cism/source_cism
+        clean sandbox, on f1a88d6bbe3bb5e2e8817f91aed6de87227f4bb7
+    ./components/mosart
+        clean sandbox, on mosart1_0_37
+    ./components/rtm
+        clean sandbox, on rtm1_0_72
+sM  ./src/fates
+        modified sandbox, MossLichen_sci.1.43.2_api.14.2.0 --> sci.1.43.2_api.14.2.0
+    ./tools/PTCLM
+        clean sandbox, on PTCLM2_20200121
+2021-02-24 08:27:42: case.build success 
+ ---------------------------------------------------
+2021-02-24 08:30:20: case.submit starting 
+ ---------------------------------------------------
+2021-02-24 08:30:29: case.submit success case.run:2125241, case.st_archive:2125242
+ ---------------------------------------------------
+2021-02-24 08:30:45: case.run starting 
+ ---------------------------------------------------
+2021-02-24 08:30:51: model execution starting 
+ ---------------------------------------------------
+2021-02-24 08:43:51: model execution error 
+ERROR: Command: 'mpirun  /cluster/work/users/huit/ctsm/ALP1_moss/bld/cesm.exe   >> cesm.log.$LID 2>&1 ' failed with error '' from dir '/cluster/work/users/huit/ctsm/ALP1_moss/run'
+ ---------------------------------------------------
+2021-02-24 08:43:51: case.run error 
+ERROR: RUN FAIL: Command 'mpirun  /cluster/work/users/huit/ctsm/ALP1_moss/bld/cesm.exe   >> cesm.log.$LID 2>&1 ' failed
+See log file for details: /cluster/work/users/huit/ctsm/ALP1_moss/run/cesm.log.2125241.210224-083045
+ ---------------------------------------------------
+2021-02-24 08:59:06: case.submit starting 
+ ---------------------------------------------------
+2021-02-24 08:59:18: case.submit success case.run:2125541, case.st_archive:2125542
+ ---------------------------------------------------
+2021-02-24 08:59:22: case.run starting 
+ ---------------------------------------------------
+2021-02-24 08:59:28: model execution starting 
+ ---------------------------------------------------
+2021-02-24 09:13:07: model execution success 
+ ---------------------------------------------------
+2021-02-24 09:13:07: case.run success 
+ ---------------------------------------------------
+2021-02-24 09:13:33: st_archive starting 
+ ---------------------------------------------------
+2021-02-24 09:13:35: st_archive success 
+ ---------------------------------------------------
+2021-02-24 09:24:19: xmlchange success <command> ./xmlchange --file env_run.xml --id STOP_OPTION --val nyears  </command>
+ ---------------------------------------------------
+2021-02-24 09:24:48: xmlchange success <command> ./xmlchange --file env_run.xml --id STOP_N --val 1  </command>
+ ---------------------------------------------------
+2021-02-24 09:29:41: case.submit starting 
+ ---------------------------------------------------
+2021-02-24 09:29:53: case.submit success case.run:2125859
+ ---------------------------------------------------
+2021-02-24 09:30:11: case.run starting 
+ ---------------------------------------------------
+2021-02-24 09:30:18: model execution starting 
+ ---------------------------------------------------
+2021-02-24 09:30:51: model execution success 
+ ---------------------------------------------------
+2021-02-24 09:30:51: case.run success 
+ ---------------------------------------------------
+2021-02-24 11:57:57: case.submit starting 
+ ---------------------------------------------------
+2021-02-24 11:58:01: case.submit error 
+ERROR: Command /cluster/home/huit/ctsm_region/bld/build-namelist failed rc=255
+out=
+err=ERROR(Build::Namelist::_parse_next): expect a equal '=' sign or '+=', instead got:  2967C
+ ---------------------------------------------------
+2021-02-24 11:59:03: case.build starting 
+ ---------------------------------------------------
+CESM version is release-emerald-platform3.0.0
+Processing externals description file : Externals.cfg
+Processing externals description file : Externals_CLM.cfg
+Processing externals description file : ../Externals_cime.cfg
+Processing externals description file : .gitmodules
+Processing submodules description file : .gitmodules
+Processing externals description file : Externals_CISM.cfg
+Processing externals description file : .gitmodules
+Processing submodules description file : .gitmodules
+Checking status of externals: clm, fates, ptclm, mosart, cime, cmeps, nems/lib/parallelio, nems/lib/genf90, rtm, cism, source_cism, cdeps, fox, 
+ M  ./cime
+        modified sandbox, on release-emerald3.0.0-work
+    ./cime/src/drivers/nuopc/
+        clean sandbox, on 76540383e4bd37142814812903fc2eed4a1b39e1
+    ./cime/src/drivers/nuopc/nems/lib/ParallelIO
+        clean sandbox, on pio2_4_4
+    ./cime/src/drivers/nuopc/nems/lib/genf90
+        clean sandbox, on genf90_140121
+    ./components/cdeps
+        clean sandbox, on 45b7a85823da1d187fe500d1be6e96bbcd1dff2e
+    ./components/cdeps/fox
+        clean sandbox, on 7b9488446b193192dd3f0378541e71099cb4e8a8
+    ./components/cism
+        clean sandbox, on cism2_1_69
+    ./components/cism/source_cism
+        clean sandbox, on f1a88d6bbe3bb5e2e8817f91aed6de87227f4bb7
+    ./components/mosart
+        clean sandbox, on mosart1_0_37
+    ./components/rtm
+        clean sandbox, on rtm1_0_72
+sM  ./src/fates
+        modified sandbox, MossLichen_sci.1.43.2_api.14.2.0 --> sci.1.43.2_api.14.2.0
+    ./tools/PTCLM
+        clean sandbox, on PTCLM2_20200121
+2021-02-24 12:00:12: case.build success 
+ ---------------------------------------------------
+2021-02-24 12:00:18: case.submit starting 
+ ---------------------------------------------------
+2021-02-24 12:00:23: case.submit success case.run:2128077
+ ---------------------------------------------------
+2021-02-24 12:00:34: case.run starting 
+ ---------------------------------------------------
+2021-02-24 12:00:40: model execution starting 
+ ---------------------------------------------------
+2021-02-24 12:01:09: model execution success 
+ ---------------------------------------------------
+2021-02-24 12:01:09: case.run success 
+ ---------------------------------------------------
+2021-02-24 12:25:53: case.submit starting 
+ ---------------------------------------------------
+2021-02-24 12:25:59: case.submit success case.run:2128376
+ ---------------------------------------------------
+2021-02-24 12:26:12: case.run starting 
+ ---------------------------------------------------
+2021-02-24 12:26:18: model execution starting 
+ ---------------------------------------------------
+2021-02-24 12:26:25: case.build starting 
+ ---------------------------------------------------
+2021-02-24 12:26:55: model execution success 
+ ---------------------------------------------------
+2021-02-24 12:26:55: case.run success 
+ ---------------------------------------------------
+CESM version is release-emerald-platform3.0.0
+Processing externals description file : Externals.cfg
+Processing externals description file : Externals_CLM.cfg
+Processing externals description file : ../Externals_cime.cfg
+Processing externals description file : .gitmodules
+Processing submodules description file : .gitmodules
+Processing externals description file : Externals_CISM.cfg
+Processing externals description file : .gitmodules
+Processing submodules description file : .gitmodules
+Checking status of externals: clm, fates, ptclm, mosart, cime, cmeps, nems/lib/parallelio, nems/lib/genf90, rtm, cism, source_cism, cdeps, fox, 
+ M  ./cime
+        modified sandbox, on release-emerald3.0.0-work
+    ./cime/src/drivers/nuopc/
+        clean sandbox, on 76540383e4bd37142814812903fc2eed4a1b39e1
+    ./cime/src/drivers/nuopc/nems/lib/ParallelIO
+        clean sandbox, on pio2_4_4
+    ./cime/src/drivers/nuopc/nems/lib/genf90
+        clean sandbox, on genf90_140121
+    ./components/cdeps
+        clean sandbox, on 45b7a85823da1d187fe500d1be6e96bbcd1dff2e
+    ./components/cdeps/fox
+        clean sandbox, on 7b9488446b193192dd3f0378541e71099cb4e8a8
+    ./components/cism
+        clean sandbox, on cism2_1_69
+    ./components/cism/source_cism
+        clean sandbox, on f1a88d6bbe3bb5e2e8817f91aed6de87227f4bb7
+    ./components/mosart
+        clean sandbox, on mosart1_0_37
+    ./components/rtm
+        clean sandbox, on rtm1_0_72
+sM  ./src/fates
+        modified sandbox, MossLichen_sci.1.43.2_api.14.2.0 --> sci.1.43.2_api.14.2.0
+    ./tools/PTCLM
+        clean sandbox, on PTCLM2_20200121
+2021-02-24 12:27:26: case.build success 
+ ---------------------------------------------------
+2021-02-24 12:27:30: case.submit starting 
+ ---------------------------------------------------
+2021-02-24 12:27:35: case.submit success case.run:2128403
+ ---------------------------------------------------
+2021-02-24 12:27:44: case.run starting 
+ ---------------------------------------------------
+2021-02-24 12:27:50: model execution starting 
+ ---------------------------------------------------
+2021-02-24 12:28:20: model execution success 
+ ---------------------------------------------------
+2021-02-24 12:28:20: case.run success 
+ ---------------------------------------------------
+2021-02-24 13:50:50: case.build starting 
+ ---------------------------------------------------
+CESM version is release-emerald-platform3.0.0
+Processing externals description file : Externals.cfg
+Processing externals description file : Externals_CLM.cfg
+Processing externals description file : ../Externals_cime.cfg
+Processing externals description file : .gitmodules
+Processing submodules description file : .gitmodules
+Processing externals description file : Externals_CISM.cfg
+Processing externals description file : .gitmodules
+Processing submodules description file : .gitmodules
+Checking status of externals: clm, fates, ptclm, mosart, cime, cmeps, nems/lib/parallelio, nems/lib/genf90, rtm, cism, source_cism, cdeps, fox, 
+ M  ./cime
+        modified sandbox, on release-emerald3.0.0-work
+    ./cime/src/drivers/nuopc/
+        clean sandbox, on 76540383e4bd37142814812903fc2eed4a1b39e1
+    ./cime/src/drivers/nuopc/nems/lib/ParallelIO
+        clean sandbox, on pio2_4_4
+    ./cime/src/drivers/nuopc/nems/lib/genf90
+        clean sandbox, on genf90_140121
+    ./components/cdeps
+        clean sandbox, on 45b7a85823da1d187fe500d1be6e96bbcd1dff2e
+    ./components/cdeps/fox
+        clean sandbox, on 7b9488446b193192dd3f0378541e71099cb4e8a8
+    ./components/cism
+        clean sandbox, on cism2_1_69
+    ./components/cism/source_cism
+        clean sandbox, on f1a88d6bbe3bb5e2e8817f91aed6de87227f4bb7
+    ./components/mosart
+        clean sandbox, on mosart1_0_37
+    ./components/rtm
+        clean sandbox, on rtm1_0_72
+sM  ./src/fates
+        modified sandbox, MossLichen_sci.1.43.2_api.14.2.0 --> sci.1.43.2_api.14.2.0
+    ./tools/PTCLM
+        clean sandbox, on PTCLM2_20200121
+2021-02-24 13:52:13: case.build success 
+ ---------------------------------------------------
+2021-02-24 13:58:33: case.submit starting 
+ ---------------------------------------------------
+2021-02-24 13:58:40: case.submit success case.run:2130471
+ ---------------------------------------------------
+2021-02-24 13:59:00: case.run starting 
+ ---------------------------------------------------
+2021-02-24 13:59:06: model execution starting 
+ ---------------------------------------------------
+2021-02-24 13:59:09: model execution error 
+ERROR: Command: 'mpirun  /cluster/work/users/huit/ctsm/ALP1_moss/bld/cesm.exe   >> cesm.log.$LID 2>&1 ' failed with error '' from dir '/cluster/work/users/huit/ctsm/ALP1_moss/run'
+ ---------------------------------------------------
+2021-02-24 13:59:09: case.run error 
+ERROR: RUN FAIL: Command 'mpirun  /cluster/work/users/huit/ctsm/ALP1_moss/bld/cesm.exe   >> cesm.log.$LID 2>&1 ' failed
+See log file for details: /cluster/work/users/huit/ctsm/ALP1_moss/run/cesm.log.2130471.210224-135900
+ ---------------------------------------------------
+2021-02-24 14:18:29: case.build starting 
+ ---------------------------------------------------
+CESM version is release-emerald-platform3.0.0
+Processing externals description file : Externals.cfg
+Processing externals description file : Externals_CLM.cfg
+Processing externals description file : ../Externals_cime.cfg
+Processing externals description file : .gitmodules
+Processing submodules description file : .gitmodules
+Processing externals description file : Externals_CISM.cfg
+Processing externals description file : .gitmodules
+Processing submodules description file : .gitmodules
+Checking status of externals: clm, fates, ptclm, mosart, cime, cmeps, nems/lib/parallelio, nems/lib/genf90, rtm, cism, source_cism, cdeps, fox, 
+ M  ./cime
+        modified sandbox, on release-emerald3.0.0-work
+    ./cime/src/drivers/nuopc/
+        clean sandbox, on 76540383e4bd37142814812903fc2eed4a1b39e1
+    ./cime/src/drivers/nuopc/nems/lib/ParallelIO
+        clean sandbox, on pio2_4_4
+    ./cime/src/drivers/nuopc/nems/lib/genf90
+        clean sandbox, on genf90_140121
+    ./components/cdeps
+        clean sandbox, on 45b7a85823da1d187fe500d1be6e96bbcd1dff2e
+    ./components/cdeps/fox
+        clean sandbox, on 7b9488446b193192dd3f0378541e71099cb4e8a8
+    ./components/cism
+        clean sandbox, on cism2_1_69
+    ./components/cism/source_cism
+        clean sandbox, on f1a88d6bbe3bb5e2e8817f91aed6de87227f4bb7
+    ./components/mosart
+        clean sandbox, on mosart1_0_37
+    ./components/rtm
+        clean sandbox, on rtm1_0_72
+sM  ./src/fates
+        modified sandbox, MossLichen_sci.1.43.2_api.14.2.0 --> sci.1.43.2_api.14.2.0
+    ./tools/PTCLM
+        clean sandbox, on PTCLM2_20200121
+2021-02-24 14:19:40: case.build success 
+ ---------------------------------------------------
+2021-02-24 14:20:14: case.submit starting 
+ ---------------------------------------------------
+2021-02-24 14:20:20: case.submit success case.run:2130868
+ ---------------------------------------------------
+2021-02-24 14:20:49: case.run starting 
+ ---------------------------------------------------
+2021-02-24 14:20:55: model execution starting 
+ ---------------------------------------------------
+2021-02-24 14:20:58: model execution error 
+ERROR: Command: 'mpirun  /cluster/work/users/huit/ctsm/ALP1_moss/bld/cesm.exe   >> cesm.log.$LID 2>&1 ' failed with error '' from dir '/cluster/work/users/huit/ctsm/ALP1_moss/run'
+ ---------------------------------------------------
+2021-02-24 14:20:58: case.run error 
+ERROR: RUN FAIL: Command 'mpirun  /cluster/work/users/huit/ctsm/ALP1_moss/bld/cesm.exe   >> cesm.log.$LID 2>&1 ' failed
+See log file for details: /cluster/work/users/huit/ctsm/ALP1_moss/run/cesm.log.2130868.210224-142049
+ ---------------------------------------------------
+2021-02-24 14:23:36: case.build starting 
+ ---------------------------------------------------
+CESM version is release-emerald-platform3.0.0
+Processing externals description file : Externals.cfg
+Processing externals description file : Externals_CLM.cfg
+Processing externals description file : ../Externals_cime.cfg
+Processing externals description file : .gitmodules
+Processing submodules description file : .gitmodules
+Processing externals description file : Externals_CISM.cfg
+Processing externals description file : .gitmodules
+Processing submodules description file : .gitmodules
+Checking status of externals: clm, fates, ptclm, mosart, cime, cmeps, nems/lib/parallelio, nems/lib/genf90, rtm, cism, source_cism, cdeps, fox, 
+ M  ./cime
+        modified sandbox, on release-emerald3.0.0-work
+    ./cime/src/drivers/nuopc/
+        clean sandbox, on 76540383e4bd37142814812903fc2eed4a1b39e1
+    ./cime/src/drivers/nuopc/nems/lib/ParallelIO
+        clean sandbox, on pio2_4_4
+    ./cime/src/drivers/nuopc/nems/lib/genf90
+        clean sandbox, on genf90_140121
+    ./components/cdeps
+        clean sandbox, on 45b7a85823da1d187fe500d1be6e96bbcd1dff2e
+    ./components/cdeps/fox
+        clean sandbox, on 7b9488446b193192dd3f0378541e71099cb4e8a8
+    ./components/cism
+        clean sandbox, on cism2_1_69
+    ./components/cism/source_cism
+        clean sandbox, on f1a88d6bbe3bb5e2e8817f91aed6de87227f4bb7
+    ./components/mosart
+        clean sandbox, on mosart1_0_37
+    ./components/rtm
+        clean sandbox, on rtm1_0_72
+sM  ./src/fates
+        modified sandbox, MossLichen_sci.1.43.2_api.14.2.0 --> sci.1.43.2_api.14.2.0
+    ./tools/PTCLM
+        clean sandbox, on PTCLM2_20200121
+2021-02-24 14:24:49: case.build success 
+ ---------------------------------------------------
+2021-02-24 14:24:55: case.submit starting 
+ ---------------------------------------------------
+2021-02-24 14:25:02: case.submit success case.run:2130909
+ ---------------------------------------------------
+2021-02-24 14:25:28: case.run starting 
+ ---------------------------------------------------
+2021-02-24 14:25:34: model execution starting 
+ ---------------------------------------------------
+2021-02-24 14:26:06: model execution success 
+ ---------------------------------------------------
+2021-02-24 14:26:06: case.run success 
+ ---------------------------------------------------
+2021-02-24 16:35:36: case.build starting 
+ ---------------------------------------------------
+2021-02-24 16:35:56: case.build error 
+ERROR: BUILD FAIL: clm.buildlib failed, cat /cluster/work/users/huit/ctsm/ALP1_moss/bld/lnd.bldlog.210224-163536
+ ---------------------------------------------------
+2021-02-24 16:37:15: case.build starting 
+ ---------------------------------------------------
+CESM version is release-emerald-platform3.0.0
+Processing externals description file : Externals.cfg
+Processing externals description file : Externals_CLM.cfg
+Processing externals description file : ../Externals_cime.cfg
+Processing externals description file : .gitmodules
+Processing submodules description file : .gitmodules
+Processing externals description file : Externals_CISM.cfg
+Processing externals description file : .gitmodules
+Processing submodules description file : .gitmodules
+Checking status of externals: clm, fates, ptclm, mosart, cime, cmeps, nems/lib/parallelio, nems/lib/genf90, rtm, cism, source_cism, cdeps, fox, 
+ M  ./cime
+        modified sandbox, on release-emerald3.0.0-work
+    ./cime/src/drivers/nuopc/
+        clean sandbox, on 76540383e4bd37142814812903fc2eed4a1b39e1
+    ./cime/src/drivers/nuopc/nems/lib/ParallelIO
+        clean sandbox, on pio2_4_4
+    ./cime/src/drivers/nuopc/nems/lib/genf90
+        clean sandbox, on genf90_140121
+    ./components/cdeps
+        clean sandbox, on 45b7a85823da1d187fe500d1be6e96bbcd1dff2e
+    ./components/cdeps/fox
+        clean sandbox, on 7b9488446b193192dd3f0378541e71099cb4e8a8
+    ./components/cism
+        clean sandbox, on cism2_1_69
+    ./components/cism/source_cism
+        clean sandbox, on f1a88d6bbe3bb5e2e8817f91aed6de87227f4bb7
+    ./components/mosart
+        clean sandbox, on mosart1_0_37
+    ./components/rtm
+        clean sandbox, on rtm1_0_72
+sM  ./src/fates
+        modified sandbox, MossLichen_sci.1.43.2_api.14.2.0 --> sci.1.43.2_api.14.2.0
+    ./tools/PTCLM
+        clean sandbox, on PTCLM2_20200121
+2021-02-24 16:38:32: case.build success 
+ ---------------------------------------------------
+2021-02-24 16:38:54: case.submit starting 
+ ---------------------------------------------------
+2021-02-24 16:39:01: case.submit success case.run:2138825
+ ---------------------------------------------------
+2021-02-24 16:39:24: case.run starting 
+ ---------------------------------------------------
+2021-02-24 16:39:30: model execution starting 
+ ---------------------------------------------------
+2021-02-24 16:40:04: model execution success 
+ ---------------------------------------------------
+2021-02-24 16:40:04: case.run success 
+ ---------------------------------------------------
+2021-02-24 16:45:12: case.build starting 
+ ---------------------------------------------------
+CESM version is release-emerald-platform3.0.0
+Processing externals description file : Externals.cfg
+Processing externals description file : Externals_CLM.cfg
+Processing externals description file : ../Externals_cime.cfg
+Processing externals description file : .gitmodules
+Processing submodules description file : .gitmodules
+Processing externals description file : Externals_CISM.cfg
+Processing externals description file : .gitmodules
+Processing submodules description file : .gitmodules
+Checking status of externals: clm, fates, ptclm, mosart, cime, cmeps, nems/lib/parallelio, nems/lib/genf90, rtm, cism, source_cism, cdeps, fox, 
+ M  ./cime
+        modified sandbox, on release-emerald3.0.0-work
+    ./cime/src/drivers/nuopc/
+        clean sandbox, on 76540383e4bd37142814812903fc2eed4a1b39e1
+    ./cime/src/drivers/nuopc/nems/lib/ParallelIO
+        clean sandbox, on pio2_4_4
+    ./cime/src/drivers/nuopc/nems/lib/genf90
+        clean sandbox, on genf90_140121
+    ./components/cdeps
+        clean sandbox, on 45b7a85823da1d187fe500d1be6e96bbcd1dff2e
+    ./components/cdeps/fox
+        clean sandbox, on 7b9488446b193192dd3f0378541e71099cb4e8a8
+    ./components/cism
+        clean sandbox, on cism2_1_69
+    ./components/cism/source_cism
+        clean sandbox, on f1a88d6bbe3bb5e2e8817f91aed6de87227f4bb7
+    ./components/mosart
+        clean sandbox, on mosart1_0_37
+    ./components/rtm
+        clean sandbox, on rtm1_0_72
+sM  ./src/fates
+        modified sandbox, MossLichen_sci.1.43.2_api.14.2.0 --> sci.1.43.2_api.14.2.0
+    ./tools/PTCLM
+        clean sandbox, on PTCLM2_20200121
+2021-02-24 16:46:23: case.build success 
+ ---------------------------------------------------
+2021-02-24 16:46:28: case.submit starting 
+ ---------------------------------------------------
+2021-02-24 16:46:34: case.submit success case.run:2138888
+ ---------------------------------------------------
+2021-02-24 16:47:02: case.run starting 
+ ---------------------------------------------------
+2021-02-24 16:47:08: model execution starting 
+ ---------------------------------------------------
+2021-02-24 16:47:11: model execution error 
+ERROR: Command: 'mpirun  /cluster/work/users/huit/ctsm/ALP1_moss/bld/cesm.exe   >> cesm.log.$LID 2>&1 ' failed with error '' from dir '/cluster/work/users/huit/ctsm/ALP1_moss/run'
+ ---------------------------------------------------
+2021-02-24 16:47:11: case.run error 
+ERROR: RUN FAIL: Command 'mpirun  /cluster/work/users/huit/ctsm/ALP1_moss/bld/cesm.exe   >> cesm.log.$LID 2>&1 ' failed
+See log file for details: /cluster/work/users/huit/ctsm/ALP1_moss/run/cesm.log.2138888.210224-164702
+ ---------------------------------------------------
+2021-02-24 17:16:25: case.build starting 
+ ---------------------------------------------------
+CESM version is release-emerald-platform3.0.0
+Processing externals description file : Externals.cfg
+Processing externals description file : Externals_CLM.cfg
+Processing externals description file : ../Externals_cime.cfg
+Processing externals description file : .gitmodules
+Processing submodules description file : .gitmodules
+Processing externals description file : Externals_CISM.cfg
+Processing externals description file : .gitmodules
+Processing submodules description file : .gitmodules
+Checking status of externals: clm, fates, ptclm, mosart, cime, cmeps, nems/lib/parallelio, nems/lib/genf90, rtm, cism, source_cism, cdeps, fox, 
+ M  ./cime
+        modified sandbox, on release-emerald3.0.0-work
+    ./cime/src/drivers/nuopc/
+        clean sandbox, on 76540383e4bd37142814812903fc2eed4a1b39e1
+    ./cime/src/drivers/nuopc/nems/lib/ParallelIO
+        clean sandbox, on pio2_4_4
+    ./cime/src/drivers/nuopc/nems/lib/genf90
+        clean sandbox, on genf90_140121
+    ./components/cdeps
+        clean sandbox, on 45b7a85823da1d187fe500d1be6e96bbcd1dff2e
+    ./components/cdeps/fox
+        clean sandbox, on 7b9488446b193192dd3f0378541e71099cb4e8a8
+    ./components/cism
+        clean sandbox, on cism2_1_69
+    ./components/cism/source_cism
+        clean sandbox, on f1a88d6bbe3bb5e2e8817f91aed6de87227f4bb7
+    ./components/mosart
+        clean sandbox, on mosart1_0_37
+    ./components/rtm
+        clean sandbox, on rtm1_0_72
+sM  ./src/fates
+        modified sandbox, MossLichen_sci.1.43.2_api.14.2.0 --> sci.1.43.2_api.14.2.0
+    ./tools/PTCLM
+        clean sandbox, on PTCLM2_20200121
+2021-02-24 17:17:38: case.build success 
+ ---------------------------------------------------
+2021-02-24 17:18:37: case.submit starting 
+ ---------------------------------------------------
+2021-02-24 17:18:44: case.submit success case.run:2139088
+ ---------------------------------------------------
+2021-02-24 17:19:10: case.run starting 
+ ---------------------------------------------------
+2021-02-24 17:19:16: model execution starting 
+ ---------------------------------------------------
+2021-02-24 17:19:20: model execution error 
+ERROR: Command: 'mpirun  /cluster/work/users/huit/ctsm/ALP1_moss/bld/cesm.exe   >> cesm.log.$LID 2>&1 ' failed with error '' from dir '/cluster/work/users/huit/ctsm/ALP1_moss/run'
+ ---------------------------------------------------
+2021-02-24 17:19:20: case.run error 
+ERROR: RUN FAIL: Command 'mpirun  /cluster/work/users/huit/ctsm/ALP1_moss/bld/cesm.exe   >> cesm.log.$LID 2>&1 ' failed
+See log file for details: /cluster/work/users/huit/ctsm/ALP1_moss/run/cesm.log.2139088.210224-171910
+ ---------------------------------------------------
+2021-02-24 17:39:54: case.build starting 
+ ---------------------------------------------------
+2021-02-24 17:40:10: case.build error 
+ERROR: BUILD FAIL: clm.buildlib failed, cat /cluster/work/users/huit/ctsm/ALP1_moss/bld/lnd.bldlog.210224-173954
+ ---------------------------------------------------
+2021-02-24 17:43:05: case.build starting 
+ ---------------------------------------------------
+2021-02-24 17:43:18: case.build error 
+ERROR: BUILD FAIL: clm.buildlib failed, cat /cluster/work/users/huit/ctsm/ALP1_moss/bld/lnd.bldlog.210224-174305
+ ---------------------------------------------------
+2021-02-24 17:45:56: case.build starting 
+ ---------------------------------------------------
+CESM version is release-emerald-platform3.0.0
+Processing externals description file : Externals.cfg
+Processing externals description file : Externals_CLM.cfg
+Processing externals description file : ../Externals_cime.cfg
+Processing externals description file : .gitmodules
+Processing submodules description file : .gitmodules
+Processing externals description file : Externals_CISM.cfg
+Processing externals description file : .gitmodules
+Processing submodules description file : .gitmodules
+Checking status of externals: clm, fates, ptclm, mosart, cime, cmeps, nems/lib/parallelio, nems/lib/genf90, rtm, cism, source_cism, cdeps, fox, 
+ M  ./cime
+        modified sandbox, on release-emerald3.0.0-work
+    ./cime/src/drivers/nuopc/
+        clean sandbox, on 76540383e4bd37142814812903fc2eed4a1b39e1
+    ./cime/src/drivers/nuopc/nems/lib/ParallelIO
+        clean sandbox, on pio2_4_4
+    ./cime/src/drivers/nuopc/nems/lib/genf90
+        clean sandbox, on genf90_140121
+    ./components/cdeps
+        clean sandbox, on 45b7a85823da1d187fe500d1be6e96bbcd1dff2e
+    ./components/cdeps/fox
+        clean sandbox, on 7b9488446b193192dd3f0378541e71099cb4e8a8
+    ./components/cism
+        clean sandbox, on cism2_1_69
+    ./components/cism/source_cism
+        clean sandbox, on f1a88d6bbe3bb5e2e8817f91aed6de87227f4bb7
+    ./components/mosart
+        clean sandbox, on mosart1_0_37
+    ./components/rtm
+        clean sandbox, on rtm1_0_72
+sM  ./src/fates
+        modified sandbox, MossLichen_sci.1.43.2_api.14.2.0 --> sci.1.43.2_api.14.2.0
+    ./tools/PTCLM
+        clean sandbox, on PTCLM2_20200121
+2021-02-24 17:46:40: case.build success 
+ ---------------------------------------------------
+2021-02-24 17:46:50: case.submit starting 
+ ---------------------------------------------------
+2021-02-24 17:46:57: case.submit success case.run:2139491
+ ---------------------------------------------------
+2021-02-24 17:47:05: case.run starting 
+ ---------------------------------------------------
+2021-02-24 17:47:11: model execution starting 
+ ---------------------------------------------------
+2021-02-24 17:47:42: model execution success 
+ ---------------------------------------------------
+2021-02-24 17:47:42: case.run success 
+ ---------------------------------------------------
+2021-02-24 19:57:58: case.build starting 
+ ---------------------------------------------------
+CESM version is release-emerald-platform3.0.0
+Processing externals description file : Externals.cfg
+Processing externals description file : Externals_CLM.cfg
+Processing externals description file : ../Externals_cime.cfg
+Processing externals description file : .gitmodules
+Processing submodules description file : .gitmodules
+Processing externals description file : Externals_CISM.cfg
+Processing externals description file : .gitmodules
+Processing submodules description file : .gitmodules
+Checking status of externals: clm, fates, ptclm, mosart, cime, cmeps, nems/lib/parallelio, nems/lib/genf90, rtm, cism, source_cism, cdeps, fox, 
+ M  ./cime
+        modified sandbox, on release-emerald3.0.0-work
+    ./cime/src/drivers/nuopc/
+        clean sandbox, on 76540383e4bd37142814812903fc2eed4a1b39e1
+    ./cime/src/drivers/nuopc/nems/lib/ParallelIO
+        clean sandbox, on pio2_4_4
+    ./cime/src/drivers/nuopc/nems/lib/genf90
+        clean sandbox, on genf90_140121
+    ./components/cdeps
+        clean sandbox, on 45b7a85823da1d187fe500d1be6e96bbcd1dff2e
+    ./components/cdeps/fox
+        clean sandbox, on 7b9488446b193192dd3f0378541e71099cb4e8a8
+    ./components/cism
+        clean sandbox, on cism2_1_69
+    ./components/cism/source_cism
+        clean sandbox, on f1a88d6bbe3bb5e2e8817f91aed6de87227f4bb7
+    ./components/mosart
+        clean sandbox, on mosart1_0_37
+    ./components/rtm
+        clean sandbox, on rtm1_0_72
+sM  ./src/fates
+        modified sandbox, MossLichen_sci.1.43.2_api.14.2.0 --> sci.1.43.2_api.14.2.0
+    ./tools/PTCLM
+        clean sandbox, on PTCLM2_20200121
+2021-02-24 19:59:48: case.build success 
+ ---------------------------------------------------
+2021-02-24 20:00:01: case.submit starting 
+ ---------------------------------------------------
+2021-02-24 20:00:15: case.submit success case.run:2140537
+ ---------------------------------------------------
+2021-02-24 20:00:21: case.run starting 
+ ---------------------------------------------------
+2021-02-24 20:00:30: model execution starting 
+ ---------------------------------------------------
+2021-02-24 20:01:04: model execution success 
+ ---------------------------------------------------
+2021-02-24 20:01:04: case.run success 
+ ---------------------------------------------------
+2021-02-24 20:16:39: case.build starting 
+ ---------------------------------------------------
+CESM version is release-emerald-platform3.0.0
+Processing externals description file : Externals.cfg
+Processing externals description file : Externals_CLM.cfg
+Processing externals description file : ../Externals_cime.cfg
+Processing externals description file : .gitmodules
+Processing submodules description file : .gitmodules
+Processing externals description file : Externals_CISM.cfg
+Processing externals description file : .gitmodules
+Processing submodules description file : .gitmodules
+Checking status of externals: clm, fates, ptclm, mosart, cime, cmeps, nems/lib/parallelio, nems/lib/genf90, rtm, cism, source_cism, cdeps, fox, 
+ M  ./cime
+        modified sandbox, on release-emerald3.0.0-work
+    ./cime/src/drivers/nuopc/
+        clean sandbox, on 76540383e4bd37142814812903fc2eed4a1b39e1
+    ./cime/src/drivers/nuopc/nems/lib/ParallelIO
+        clean sandbox, on pio2_4_4
+    ./cime/src/drivers/nuopc/nems/lib/genf90
+        clean sandbox, on genf90_140121
+    ./components/cdeps
+        clean sandbox, on 45b7a85823da1d187fe500d1be6e96bbcd1dff2e
+    ./components/cdeps/fox
+        clean sandbox, on 7b9488446b193192dd3f0378541e71099cb4e8a8
+    ./components/cism
+        clean sandbox, on cism2_1_69
+    ./components/cism/source_cism
+        clean sandbox, on f1a88d6bbe3bb5e2e8817f91aed6de87227f4bb7
+    ./components/mosart
+        clean sandbox, on mosart1_0_37
+    ./components/rtm
+        clean sandbox, on rtm1_0_72
+sM  ./src/fates
+        modified sandbox, MossLichen_sci.1.43.2_api.14.2.0 --> sci.1.43.2_api.14.2.0
+    ./tools/PTCLM
+        clean sandbox, on PTCLM2_20200121
+2021-02-24 20:18:12: case.build success 
+ ---------------------------------------------------
+2021-02-24 20:19:58: case.submit starting 
+ ---------------------------------------------------
+2021-02-24 20:20:09: case.submit success case.run:2141550
+ ---------------------------------------------------
+2021-02-24 20:20:30: case.run starting 
+ ---------------------------------------------------
+2021-02-24 20:20:37: model execution starting 
+ ---------------------------------------------------
+2021-02-24 20:21:09: model execution success 
+ ---------------------------------------------------
+2021-02-24 20:21:09: case.run success 
+ ---------------------------------------------------
+2021-02-24 21:50:47: case.build starting 
+ ---------------------------------------------------
+2021-02-24 21:51:05: case.build error 
+
+ ---------------------------------------------------
+2021-02-24 21:51:25: case.build starting 
+ ---------------------------------------------------
+CESM version is release-emerald-platform3.0.0
+Processing externals description file : Externals.cfg
+Processing externals description file : Externals_CLM.cfg
+Processing externals description file : ../Externals_cime.cfg
+Processing externals description file : .gitmodules
+Processing submodules description file : .gitmodules
+Processing externals description file : Externals_CISM.cfg
+Processing externals description file : .gitmodules
+Processing submodules description file : .gitmodules
+Checking status of externals: clm, fates, ptclm, mosart, cime, cmeps, nems/lib/parallelio, nems/lib/genf90, rtm, cism, source_cism, cdeps, fox, 
+ M  ./cime
+        modified sandbox, on release-emerald3.0.0-work
+    ./cime/src/drivers/nuopc/
+        clean sandbox, on 76540383e4bd37142814812903fc2eed4a1b39e1
+    ./cime/src/drivers/nuopc/nems/lib/ParallelIO
+        clean sandbox, on pio2_4_4
+    ./cime/src/drivers/nuopc/nems/lib/genf90
+        clean sandbox, on genf90_140121
+    ./components/cdeps
+        clean sandbox, on 45b7a85823da1d187fe500d1be6e96bbcd1dff2e
+    ./components/cdeps/fox
+        clean sandbox, on 7b9488446b193192dd3f0378541e71099cb4e8a8
+    ./components/cism
+        clean sandbox, on cism2_1_69
+    ./components/cism/source_cism
+        clean sandbox, on f1a88d6bbe3bb5e2e8817f91aed6de87227f4bb7
+    ./components/mosart
+        clean sandbox, on mosart1_0_37
+    ./components/rtm
+        clean sandbox, on rtm1_0_72
+sM  ./src/fates
+        modified sandbox, MossLichen_sci.1.43.2_api.14.2.0 --> sci.1.43.2_api.14.2.0
+    ./tools/PTCLM
+        clean sandbox, on PTCLM2_20200121
+2021-02-24 21:52:58: case.build success 
+ ---------------------------------------------------
+2021-02-24 21:53:05: case.submit starting 
+ ---------------------------------------------------
+2021-02-24 21:53:11: case.submit success case.run:2141905
+ ---------------------------------------------------
+2021-02-24 21:53:42: case.run starting 
+ ---------------------------------------------------
+2021-02-24 21:53:50: model execution starting 
+ ---------------------------------------------------
+2021-02-24 21:54:26: model execution success 
+ ---------------------------------------------------
+2021-02-24 21:54:26: case.run success 
+ ---------------------------------------------------
+2021-02-24 22:27:23: case.build starting 
+ ---------------------------------------------------
+CESM version is release-emerald-platform3.0.0
+Processing externals description file : Externals.cfg
+Processing externals description file : Externals_CLM.cfg
+Processing externals description file : ../Externals_cime.cfg
+Processing externals description file : .gitmodules
+Processing submodules description file : .gitmodules
+Processing externals description file : Externals_CISM.cfg
+Processing externals description file : .gitmodules
+Processing submodules description file : .gitmodules
+Checking status of externals: clm, fates, ptclm, mosart, cime, cmeps, nems/lib/parallelio, nems/lib/genf90, rtm, cism, source_cism, cdeps, fox, 
+ M  ./cime
+        modified sandbox, on release-emerald3.0.0-work
+    ./cime/src/drivers/nuopc/
+        clean sandbox, on 76540383e4bd37142814812903fc2eed4a1b39e1
+    ./cime/src/drivers/nuopc/nems/lib/ParallelIO
+        clean sandbox, on pio2_4_4
+    ./cime/src/drivers/nuopc/nems/lib/genf90
+        clean sandbox, on genf90_140121
+    ./components/cdeps
+        clean sandbox, on 45b7a85823da1d187fe500d1be6e96bbcd1dff2e
+    ./components/cdeps/fox
+        clean sandbox, on 7b9488446b193192dd3f0378541e71099cb4e8a8
+    ./components/cism
+        clean sandbox, on cism2_1_69
+    ./components/cism/source_cism
+        clean sandbox, on f1a88d6bbe3bb5e2e8817f91aed6de87227f4bb7
+    ./components/mosart
+        clean sandbox, on mosart1_0_37
+    ./components/rtm
+        clean sandbox, on rtm1_0_72
+sM  ./src/fates
+        modified sandbox, MossLichen_sci.1.43.2_api.14.2.0 --> sci.1.43.2_api.14.2.0
+    ./tools/PTCLM
+        clean sandbox, on PTCLM2_20200121
+2021-02-24 22:28:54: case.build success 
+ ---------------------------------------------------
+2021-02-24 22:29:12: case.submit starting 
+ ---------------------------------------------------
+2021-02-24 22:29:21: case.submit success case.run:2142086
+ ---------------------------------------------------
+2021-02-24 22:29:53: case.run starting 
+ ---------------------------------------------------
+2021-02-24 22:30:03: model execution starting 
+ ---------------------------------------------------
+2021-02-24 22:30:36: model execution success 
+ ---------------------------------------------------
+2021-02-24 22:30:36: case.run success 
+ ---------------------------------------------------
+2021-02-24 23:03:22: case.submit starting 
+ ---------------------------------------------------
+2021-02-24 23:03:37: case.submit success case.run:2142517
+ ---------------------------------------------------
+2021-02-24 23:04:06: case.run starting 
+ ---------------------------------------------------
+2021-02-24 23:04:13: model execution starting 
+ ---------------------------------------------------
+2021-02-24 23:04:17: model execution error 
+ERROR: Command: 'mpirun  /cluster/work/users/huit/ctsm/ALP1_moss/bld/cesm.exe   >> cesm.log.$LID 2>&1 ' failed with error '' from dir '/cluster/work/users/huit/ctsm/ALP1_moss/run'
+ ---------------------------------------------------
+2021-02-24 23:04:17: case.run error 
+ERROR: RUN FAIL: Command 'mpirun  /cluster/work/users/huit/ctsm/ALP1_moss/bld/cesm.exe   >> cesm.log.$LID 2>&1 ' failed
+See log file for details: /cluster/work/users/huit/ctsm/ALP1_moss/run/cesm.log.2142517.210224-230406
+ ---------------------------------------------------
+2021-02-24 23:08:53: case.submit starting 
+ ---------------------------------------------------
+2021-02-24 23:09:02: case.submit success case.run:2142537
+ ---------------------------------------------------
+2021-02-24 23:09:13: case.run starting 
+ ---------------------------------------------------
+2021-02-24 23:09:20: model execution starting 
+ ---------------------------------------------------
+2021-02-24 23:09:24: model execution error 
+ERROR: Command: 'mpirun  /cluster/work/users/huit/ctsm/ALP1_moss/bld/cesm.exe   >> cesm.log.$LID 2>&1 ' failed with error '' from dir '/cluster/work/users/huit/ctsm/ALP1_moss/run'
+ ---------------------------------------------------
+2021-02-24 23:09:24: case.run error 
+ERROR: RUN FAIL: Command 'mpirun  /cluster/work/users/huit/ctsm/ALP1_moss/bld/cesm.exe   >> cesm.log.$LID 2>&1 ' failed
+See log file for details: /cluster/work/users/huit/ctsm/ALP1_moss/run/cesm.log.2142537.210224-230913
+ ---------------------------------------------------
+2021-02-24 23:27:38: case.submit starting 
+ ---------------------------------------------------
+2021-02-24 23:27:52: case.submit success case.run:2142720
+ ---------------------------------------------------
+2021-02-24 23:28:08: case.run starting 
+ ---------------------------------------------------
+2021-02-24 23:28:16: model execution starting 
+ ---------------------------------------------------
+2021-02-24 23:28:21: model execution error 
+ERROR: Command: 'mpirun  /cluster/work/users/huit/ctsm/ALP1_moss/bld/cesm.exe   >> cesm.log.$LID 2>&1 ' failed with error '' from dir '/cluster/work/users/huit/ctsm/ALP1_moss/run'
+ ---------------------------------------------------
+2021-02-24 23:28:21: case.run error 
+ERROR: RUN FAIL: Command 'mpirun  /cluster/work/users/huit/ctsm/ALP1_moss/bld/cesm.exe   >> cesm.log.$LID 2>&1 ' failed
+See log file for details: /cluster/work/users/huit/ctsm/ALP1_moss/run/cesm.log.2142720.210224-232808
+ ---------------------------------------------------
+2021-02-24 23:33:53: case.submit starting 
+ ---------------------------------------------------
+2021-02-24 23:34:02: case.submit success case.run:2142849
+ ---------------------------------------------------
+2021-02-24 23:34:19: case.run starting 
+ ---------------------------------------------------
+2021-02-24 23:34:26: model execution starting 
+ ---------------------------------------------------
+2021-02-24 23:35:03: model execution success 
+ ---------------------------------------------------
+2021-02-24 23:35:03: case.run success 
+ ---------------------------------------------------
+2021-03-04 00:22:22: case.build starting 
+ ---------------------------------------------------
+2021-03-04 00:22:51: case.build error 
+ERROR: BUILD FAIL: clm.buildlib failed, cat /cluster/work/users/huit/ctsm/ALP1_moss/bld/lnd.bldlog.210304-002222
+ ---------------------------------------------------
+2021-03-04 00:26:23: case.build starting 
+ ---------------------------------------------------
+CESM version is release-emerald-platform3.0.0
+Processing externals description file : Externals.cfg
+Processing externals description file : Externals_CLM.cfg
+Processing externals description file : ../Externals_cime.cfg
+Processing externals description file : .gitmodules
+Processing submodules description file : .gitmodules
+Processing externals description file : Externals_CISM.cfg
+Processing externals description file : .gitmodules
+Processing submodules description file : .gitmodules
+Checking status of externals: clm, fates, ptclm, mosart, cime, cmeps, nems/lib/parallelio, nems/lib/genf90, rtm, cism, source_cism, cdeps, fox, 
+ M  ./cime
+        modified sandbox, on release-emerald3.0.0-work
+    ./cime/src/drivers/nuopc/
+        clean sandbox, on 76540383e4bd37142814812903fc2eed4a1b39e1
+    ./cime/src/drivers/nuopc/nems/lib/ParallelIO
+        clean sandbox, on pio2_4_4
+    ./cime/src/drivers/nuopc/nems/lib/genf90
+        clean sandbox, on genf90_140121
+    ./components/cdeps
+        clean sandbox, on 45b7a85823da1d187fe500d1be6e96bbcd1dff2e
+    ./components/cdeps/fox
+        clean sandbox, on 7b9488446b193192dd3f0378541e71099cb4e8a8
+    ./components/cism
+        clean sandbox, on cism2_1_69
+    ./components/cism/source_cism
+        clean sandbox, on f1a88d6bbe3bb5e2e8817f91aed6de87227f4bb7
+    ./components/mosart
+        clean sandbox, on mosart1_0_37
+    ./components/rtm
+        clean sandbox, on rtm1_0_72
+sM  ./src/fates
+        modified sandbox, MossLichen_sci.1.43.2_api.14.2.0 --> sci.1.43.2_api.14.2.0
+    ./tools/PTCLM
+        clean sandbox, on PTCLM2_20200121
+2021-03-04 00:28:46: case.build success 
+ ---------------------------------------------------
+2021-03-04 00:28:58: case.submit starting 
+ ---------------------------------------------------
+2021-03-04 00:29:05: case.submit success case.run:2308781
+ ---------------------------------------------------
+2021-03-04 00:29:11: case.run starting 
+ ---------------------------------------------------
+2021-03-04 00:29:19: model execution starting 
+ ---------------------------------------------------
+2021-03-04 00:30:05: model execution success 
+ ---------------------------------------------------
+2021-03-04 00:30:05: case.run success 
+ ---------------------------------------------------
+2021-03-04 14:47:09: case.build starting 
+ ---------------------------------------------------
+CESM version is release-emerald-platform3.0.0
+Processing externals description file : Externals.cfg
+Processing externals description file : Externals_CLM.cfg
+Processing externals description file : ../Externals_cime.cfg
+Processing externals description file : .gitmodules
+Processing submodules description file : .gitmodules
+Processing externals description file : Externals_CISM.cfg
+Processing externals description file : .gitmodules
+Processing submodules description file : .gitmodules
+Checking status of externals: clm, fates, ptclm, mosart, cime, cmeps, nems/lib/parallelio, nems/lib/genf90, rtm, cism, source_cism, cdeps, fox, 
+ M  ./cime
+        modified sandbox, on release-emerald3.0.0-work
+    ./cime/src/drivers/nuopc/
+        clean sandbox, on 76540383e4bd37142814812903fc2eed4a1b39e1
+    ./cime/src/drivers/nuopc/nems/lib/ParallelIO
+        clean sandbox, on pio2_4_4
+    ./cime/src/drivers/nuopc/nems/lib/genf90
+        clean sandbox, on genf90_140121
+    ./components/cdeps
+        clean sandbox, on 45b7a85823da1d187fe500d1be6e96bbcd1dff2e
+    ./components/cdeps/fox
+        clean sandbox, on 7b9488446b193192dd3f0378541e71099cb4e8a8
+    ./components/cism
+        clean sandbox, on cism2_1_69
+    ./components/cism/source_cism
+        clean sandbox, on f1a88d6bbe3bb5e2e8817f91aed6de87227f4bb7
+    ./components/mosart
+        clean sandbox, on mosart1_0_37
+    ./components/rtm
+        clean sandbox, on rtm1_0_72
+sM  ./src/fates
+        modified sandbox, MossLichen_sci.1.43.2_api.14.2.0 --> sci.1.43.2_api.14.2.0
+    ./tools/PTCLM
+        clean sandbox, on PTCLM2_20200121
+2021-03-04 14:48:41: case.build success 
+ ---------------------------------------------------
+2021-03-04 14:50:44: case.submit starting 
+ ---------------------------------------------------
+2021-03-04 14:50:50: case.submit success case.run:2322955
+ ---------------------------------------------------
+2021-03-04 14:50:55: case.run starting 
+ ---------------------------------------------------
+2021-03-04 14:51:02: model execution starting 
+ ---------------------------------------------------
+2021-03-04 14:51:52: model execution success 
+ ---------------------------------------------------
+2021-03-04 14:51:52: case.run success 
+ ---------------------------------------------------
+2021-03-04 15:30:46: case.submit starting 
+ ---------------------------------------------------
+2021-03-04 15:30:55: case.submit success case.run:2323578
+ ---------------------------------------------------
+2021-03-04 15:31:19: case.run starting 
+ ---------------------------------------------------
+2021-03-04 15:31:26: model execution starting 
+ ---------------------------------------------------
+2021-03-04 15:32:15: model execution success 
+ ---------------------------------------------------
+2021-03-04 15:32:15: case.run success 
+ ---------------------------------------------------
+2021-03-04 15:36:40: case.submit starting 
+ ---------------------------------------------------
+2021-03-04 15:36:45: case.submit success case.run:2323671
+ ---------------------------------------------------
+2021-03-04 15:37:05: case.run starting 
+ ---------------------------------------------------
+2021-03-04 15:37:11: model execution starting 
+ ---------------------------------------------------
+2021-03-04 15:37:50: model execution success 
+ ---------------------------------------------------
+2021-03-04 15:37:50: case.run success 
+ ---------------------------------------------------
+2021-03-09 23:33:59: case.submit starting 
+ ---------------------------------------------------
+2021-03-09 23:34:13: case.submit success case.run:2436285
+ ---------------------------------------------------
+2021-03-09 23:34:18: case.run starting 
+ ---------------------------------------------------
+2021-03-09 23:34:24: model execution starting 
+ ---------------------------------------------------
+2021-03-09 23:35:12: model execution success 
+ ---------------------------------------------------
+2021-03-09 23:35:12: case.run success 
+ ---------------------------------------------------
+2021-03-10 20:55:06: case.submit starting 
+ ---------------------------------------------------
+2021-03-10 20:55:42: case.submit success case.run:2451379
+ ---------------------------------------------------
+2021-03-10 20:56:11: case.run starting 
+ ---------------------------------------------------
+2021-03-10 20:56:47: model execution starting 
+ ---------------------------------------------------
+2021-03-10 20:59:15: model execution success 
+ ---------------------------------------------------
+2021-03-10 20:59:15: case.run success 
+ ---------------------------------------------------
+2021-03-10 22:01:56: case.build starting 
+ ---------------------------------------------------
+2021-03-10 22:10:31: case.build error 
+
+ ---------------------------------------------------
+2021-03-10 22:10:36: case.build starting 
+ ---------------------------------------------------
+CESM version is release-emerald-platform3.0.0
+Processing externals description file : Externals.cfg
+Processing externals description file : Externals_CLM.cfg
+Processing externals description file : ../Externals_cime.cfg
+Processing externals description file : .gitmodules
+Processing submodules description file : .gitmodules
+Processing externals description file : Externals_CISM.cfg
+Processing externals description file : .gitmodules
+Processing submodules description file : .gitmodules
+Checking status of externals: clm, fates, ptclm, mosart, cime, cmeps, nems/lib/parallelio, nems/lib/genf90, rtm, cism, source_cism, cdeps, fox, 
+s   ./cime
+        clean sandbox, release-emerald3.0.0-work --> release-emerald3.0.0
+    ./cime/src/drivers/nuopc/
+        clean sandbox, on 76540383e4bd37142814812903fc2eed4a1b39e1
+    ./cime/src/drivers/nuopc/nems/lib/ParallelIO
+        clean sandbox, on pio2_4_4
+    ./cime/src/drivers/nuopc/nems/lib/genf90
+        clean sandbox, on genf90_140121
+    ./components/cdeps
+        clean sandbox, on 45b7a85823da1d187fe500d1be6e96bbcd1dff2e
+    ./components/cdeps/fox
+        clean sandbox, on 7b9488446b193192dd3f0378541e71099cb4e8a8
+    ./components/cism
+        clean sandbox, on cism2_1_69
+    ./components/cism/source_cism
+        clean sandbox, on f1a88d6bbe3bb5e2e8817f91aed6de87227f4bb7
+s   ./components/mosart
+        clean sandbox, mosart1_0_38 --> mosart1_0_37
+s   ./components/rtm
+        clean sandbox, rtm1_0_73 --> rtm1_0_72
+sM  ./src/fates
+        modified sandbox, MossLichen_sci.1.43.2_api.14.2.0 --> sci.1.43.2_api.14.2.0
+    ./tools/PTCLM
+        clean sandbox, on PTCLM2_20200121
+2021-03-10 22:15:33: case.build success 
+ ---------------------------------------------------
+2021-03-10 22:16:19: case.submit starting 
+ ---------------------------------------------------
+2021-03-10 22:16:47: case.submit success case.run:2451678
+ ---------------------------------------------------
+2021-03-10 22:17:01: case.run starting 
+ ---------------------------------------------------
+2021-03-10 22:17:32: model execution starting 
+ ---------------------------------------------------
+2021-03-10 22:19:56: model execution success 
+ ---------------------------------------------------
+2021-03-10 22:19:57: case.run success 
+ ---------------------------------------------------
+2021-03-10 22:24:49: case.build starting 
+ ---------------------------------------------------
+CESM version is release-emerald-platform3.0.0
+Processing externals description file : Externals.cfg
+Processing externals description file : Externals_CLM.cfg
+Processing externals description file : ../Externals_cime.cfg
+Processing externals description file : .gitmodules
+Processing submodules description file : .gitmodules
+Processing externals description file : Externals_CISM.cfg
+Processing externals description file : .gitmodules
+Processing submodules description file : .gitmodules
+Checking status of externals: clm, fates, ptclm, mosart, cime, cmeps, nems/lib/parallelio, nems/lib/genf90, rtm, cism, source_cism, cdeps, fox, 
+s   ./cime
+        clean sandbox, release-emerald3.0.0-work --> release-emerald3.0.0
+    ./cime/src/drivers/nuopc/
+        clean sandbox, on 76540383e4bd37142814812903fc2eed4a1b39e1
+    ./cime/src/drivers/nuopc/nems/lib/ParallelIO
+        clean sandbox, on pio2_4_4
+    ./cime/src/drivers/nuopc/nems/lib/genf90
+        clean sandbox, on genf90_140121
+    ./components/cdeps
+        clean sandbox, on 45b7a85823da1d187fe500d1be6e96bbcd1dff2e
+    ./components/cdeps/fox
+        clean sandbox, on 7b9488446b193192dd3f0378541e71099cb4e8a8
+    ./components/cism
+        clean sandbox, on cism2_1_69
+    ./components/cism/source_cism
+        clean sandbox, on f1a88d6bbe3bb5e2e8817f91aed6de87227f4bb7
+s   ./components/mosart
+        clean sandbox, mosart1_0_38 --> mosart1_0_37
+s   ./components/rtm
+        clean sandbox, rtm1_0_73 --> rtm1_0_72
+sM  ./src/fates
+        modified sandbox, MossLichen_sci.1.43.2_api.14.2.0 --> sci.1.43.2_api.14.2.0
+    ./tools/PTCLM
+        clean sandbox, on PTCLM2_20200121
+2021-03-10 22:29:49: case.build success 
+ ---------------------------------------------------
+2021-03-10 22:37:09: case.submit starting 
+ ---------------------------------------------------
+2021-03-10 22:37:32: case.submit success case.run:2451730
+ ---------------------------------------------------
+2021-03-10 22:37:56: case.run starting 
+ ---------------------------------------------------
+2021-03-10 22:38:18: model execution starting 
+ ---------------------------------------------------
+2021-03-10 22:40:06: model execution success 
+ ---------------------------------------------------
+2021-03-10 22:40:06: case.run success 
+ ---------------------------------------------------
+2021-03-10 22:53:28: case.submit starting 
+ ---------------------------------------------------
+2021-03-10 22:53:52: case.submit success case.run:2451789
+ ---------------------------------------------------
+2021-03-10 22:54:15: case.run starting 
+ ---------------------------------------------------
+2021-03-10 22:54:40: model execution starting 
+ ---------------------------------------------------
+2021-03-10 22:57:07: model execution success 
+ ---------------------------------------------------
+2021-03-10 22:57:07: case.run success 
+ ---------------------------------------------------
+2021-03-11 12:12:52: case.build starting 
+ ---------------------------------------------------
+2021-03-11 12:13:24: case.build error 
+
+ ---------------------------------------------------
+2021-03-11 12:13:26: case.build starting 
+ ---------------------------------------------------
+CESM version is release-emerald-platform3.0.0
+Processing externals description file : Externals.cfg
+Processing externals description file : Externals_CLM.cfg
+Processing externals description file : ../Externals_cime.cfg
+Processing externals description file : .gitmodules
+Processing submodules description file : .gitmodules
+Processing externals description file : Externals_CISM.cfg
+Processing externals description file : .gitmodules
+Processing submodules description file : .gitmodules
+Checking status of externals: clm, fates, ptclm, mosart, cime, cmeps, nems/lib/parallelio, nems/lib/genf90, rtm, cism, source_cism, cdeps, fox, 
+s   ./cime
+        clean sandbox, release-emerald3.0.0-work --> release-emerald3.0.0
+    ./cime/src/drivers/nuopc/
+        clean sandbox, on 76540383e4bd37142814812903fc2eed4a1b39e1
+    ./cime/src/drivers/nuopc/nems/lib/ParallelIO
+        clean sandbox, on pio2_4_4
+    ./cime/src/drivers/nuopc/nems/lib/genf90
+        clean sandbox, on genf90_140121
+    ./components/cdeps
+        clean sandbox, on 45b7a85823da1d187fe500d1be6e96bbcd1dff2e
+    ./components/cdeps/fox
+        clean sandbox, on 7b9488446b193192dd3f0378541e71099cb4e8a8
+    ./components/cism
+        clean sandbox, on cism2_1_69
+    ./components/cism/source_cism
+        clean sandbox, on f1a88d6bbe3bb5e2e8817f91aed6de87227f4bb7
+s   ./components/mosart
+        clean sandbox, mosart1_0_38 --> mosart1_0_37
+s   ./components/rtm
+        clean sandbox, rtm1_0_73 --> rtm1_0_72
+sM  ./src/fates
+        modified sandbox, MossLichen_sci.1.43.2_api.14.2.0 --> sci.1.43.2_api.14.2.0
+    ./tools/PTCLM
+        clean sandbox, on PTCLM2_20200121
+2021-03-11 12:17:04: case.build success 
+ ---------------------------------------------------
+2021-03-11 12:22:26: case.submit starting 
+ ---------------------------------------------------
+2021-03-11 12:22:39: case.submit success case.run:2455375
+ ---------------------------------------------------
+2021-03-11 12:22:51: case.run starting 
+ ---------------------------------------------------
+2021-03-11 12:23:06: model execution starting 
+ ---------------------------------------------------
+2021-03-11 12:24:01: model execution success 
+ ---------------------------------------------------
+2021-03-11 12:24:01: case.run success 
+ ---------------------------------------------------

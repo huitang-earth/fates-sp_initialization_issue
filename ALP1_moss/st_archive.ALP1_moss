@@ -1,0 +1,69 @@
+Starting job 2125542 on c5-54 at Wed Feb 24 09:13:29 CET 2021
+
+Setting Environment KMP_STACKSIZE=256M
+Setting resource.RLIMIT_STACK to -1 from (-1, -1)
+st_archive starting
+moving /cluster/work/users/huit/ctsm/ALP1_moss/run/cesm.log.2123639.210224-003421 to /cluster/work/users/huit/archive/ALP1_moss/logs/cesm.log.2123639.210224-003421
+moving /cluster/work/users/huit/ctsm/ALP1_moss/run/atm.log.2123807.210224-011601 to /cluster/work/users/huit/archive/ALP1_moss/logs/atm.log.2123807.210224-011601
+moving /cluster/work/users/huit/ctsm/ALP1_moss/run/lnd.log.2125241.210224-083045 to /cluster/work/users/huit/archive/ALP1_moss/logs/lnd.log.2125241.210224-083045
+moving /cluster/work/users/huit/ctsm/ALP1_moss/run/rof.log.2125541.210224-085922.gz to /cluster/work/users/huit/archive/ALP1_moss/logs/rof.log.2125541.210224-085922.gz
+moving /cluster/work/users/huit/ctsm/ALP1_moss/run/atm.log.2122950.210223-235859 to /cluster/work/users/huit/archive/ALP1_moss/logs/atm.log.2122950.210223-235859
+moving /cluster/work/users/huit/ctsm/ALP1_moss/run/lnd.log.2123639.210224-003421 to /cluster/work/users/huit/archive/ALP1_moss/logs/lnd.log.2123639.210224-003421
+moving /cluster/work/users/huit/ctsm/ALP1_moss/run/cesm.log.2125241.210224-083045 to /cluster/work/users/huit/archive/ALP1_moss/logs/cesm.log.2125241.210224-083045
+moving /cluster/work/users/huit/ctsm/ALP1_moss/run/cpl.log.2123807.210224-011601 to /cluster/work/users/huit/archive/ALP1_moss/logs/cpl.log.2123807.210224-011601
+moving /cluster/work/users/huit/ctsm/ALP1_moss/run/cpl.log.2122950.210223-235859 to /cluster/work/users/huit/archive/ALP1_moss/logs/cpl.log.2122950.210223-235859
+moving /cluster/work/users/huit/ctsm/ALP1_moss/run/cpl.log.2123639.210224-003421 to /cluster/work/users/huit/archive/ALP1_moss/logs/cpl.log.2123639.210224-003421
+moving /cluster/work/users/huit/ctsm/ALP1_moss/run/cpl.log.2125541.210224-085922.gz to /cluster/work/users/huit/archive/ALP1_moss/logs/cpl.log.2125541.210224-085922.gz
+moving /cluster/work/users/huit/ctsm/ALP1_moss/run/cpl.log.2125241.210224-083045 to /cluster/work/users/huit/archive/ALP1_moss/logs/cpl.log.2125241.210224-083045
+moving /cluster/work/users/huit/ctsm/ALP1_moss/run/lnd.log.2125541.210224-085922.gz to /cluster/work/users/huit/archive/ALP1_moss/logs/lnd.log.2125541.210224-085922.gz
+moving /cluster/work/users/huit/ctsm/ALP1_moss/run/atm.log.2123639.210224-003421 to /cluster/work/users/huit/archive/ALP1_moss/logs/atm.log.2123639.210224-003421
+moving /cluster/work/users/huit/ctsm/ALP1_moss/run/atm.log.2125541.210224-085922.gz to /cluster/work/users/huit/archive/ALP1_moss/logs/atm.log.2125541.210224-085922.gz
+moving /cluster/work/users/huit/ctsm/ALP1_moss/run/cesm.log.2123807.210224-011601 to /cluster/work/users/huit/archive/ALP1_moss/logs/cesm.log.2123807.210224-011601
+moving /cluster/work/users/huit/ctsm/ALP1_moss/run/lnd.log.2122950.210223-235859 to /cluster/work/users/huit/archive/ALP1_moss/logs/lnd.log.2122950.210223-235859
+moving /cluster/work/users/huit/ctsm/ALP1_moss/run/atm.log.2125241.210224-083045 to /cluster/work/users/huit/archive/ALP1_moss/logs/atm.log.2125241.210224-083045
+moving /cluster/work/users/huit/ctsm/ALP1_moss/run/cesm.log.2125541.210224-085922.gz to /cluster/work/users/huit/archive/ALP1_moss/logs/cesm.log.2125541.210224-085922.gz
+moving /cluster/work/users/huit/ctsm/ALP1_moss/run/lnd.log.2123807.210224-011601 to /cluster/work/users/huit/archive/ALP1_moss/logs/lnd.log.2123807.210224-011601
+moving /cluster/work/users/huit/ctsm/ALP1_moss/run/cesm.log.2122950.210223-235859 to /cluster/work/users/huit/archive/ALP1_moss/logs/cesm.log.2122950.210223-235859
+-------------------------------------------
+Archiving restarts for date date(2000, 1, 6, 0, 0, 0)
+-------------------------------------------
+Archiving restarts for datm (atm)
+Archiving restarts for clm (lnd)
+copying file /cluster/work/users/huit/ctsm/ALP1_moss/run/ALP1_moss.clm2.r.2000-01-06-00000.nc to /cluster/work/users/huit/archive/ALP1_moss/rest/2000-01-06-00000/ALP1_moss.clm2.r.2000-01-06-00000.nc
+ WARNING: ncdump -v locfnh /cluster/work/users/huit/ctsm/ALP1_moss/run/ALP1_moss.clm2.rh0.2000-01-06-00000.nc  failed rc=1
+    out=
+    err=ncdump: locfnh: No such variable
+copying file /cluster/work/users/huit/ctsm/ALP1_moss/run/ALP1_moss.clm2.rh0.2000-01-06-00000.nc to /cluster/work/users/huit/archive/ALP1_moss/rest/2000-01-06-00000/ALP1_moss.clm2.rh0.2000-01-06-00000.nc
+Archiving restarts for mosart (rof)
+Archiving restarts for drv (cpl)
+copying file /cluster/work/users/huit/ctsm/ALP1_moss/run/ALP1_moss.cpl.r.2000-01-06-00000.nc to /cluster/work/users/huit/archive/ALP1_moss/rest/2000-01-06-00000/ALP1_moss.cpl.r.2000-01-06-00000.nc
+Archiving restarts for dart (esp)
+Archiving history files for datm (atm)
+Archiving history files for clm (lnd)
+Archiving history files for mosart (rof)
+Archiving history files for drv (cpl)
+Archiving history files for dart (esp)
+st_archive completed
+
+Task and CPU usage stats:
+       JobID    JobName  AllocCPUS   NTasks     MinCPU MinCPUTask     AveCPU    Elapsed ExitCode 
+------------ ---------- ---------- -------- ---------- ---------- ---------- ---------- -------- 
+2125542      st_archiv+          1                                             00:00:07      0:0 
+2125542.bat+      batch          1        1   00:00:00          0   00:00:00   00:00:07      0:0 
+2125542.ext+     extern          1        1   00:00:00          0   00:00:00   00:00:07      0:0 
+
+Memory usage stats:
+       JobID     MaxRSS MaxRSSTask     AveRSS MaxPages   MaxPagesTask   AvePages 
+------------ ---------- ---------- ---------- -------- -------------- ---------- 
+2125542                                                                          
+2125542.bat+          0          0          0        0              0          0 
+2125542.ext+          0          0          0        0              0          0 
+
+Disk usage stats:
+       JobID  MaxDiskRead MaxDiskReadTask    AveDiskRead MaxDiskWrite MaxDiskWriteTask   AveDiskWrite 
+------------ ------------ --------------- -------------- ------------ ---------------- -------------- 
+2125542                                                                                               
+2125542.bat+            0               0              0            0                0              0 
+2125542.ext+        0.00M               0          0.00M            0                0              0 
+
+Job 2125542 completed at Wed Feb 24 09:13:35 CET 2021

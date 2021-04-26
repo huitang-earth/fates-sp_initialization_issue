@@ -1,0 +1,2086 @@
+Starting job 2122950 on c1-40 at Tue Feb 23 23:58:57 CET 2021
+
+Setting Environment KMP_STACKSIZE=256M
+Setting resource.RLIMIT_STACK to -1 from (-1, -1)
+Generating namelists for /cluster/home/huit/ctsm_cases/ALP1_moss
+Creating component namelists
+  2021-02-23 23:59:01 atm 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/data_comps_mct/datm/cime_config/buildnml
+  2021-02-23 23:59:03 lnd 
+   Calling /cluster/home/huit/ctsm_region/cime_config/buildnml
+  2021-02-23 23:59:03 ice 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/sice/cime_config/buildnml
+  2021-02-23 23:59:03 ocn 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/socn/cime_config/buildnml
+  2021-02-23 23:59:03 rof 
+   Calling /cluster/home/huit/ctsm_region/components/mosart//cime_config/buildnml
+  2021-02-23 23:59:04 glc 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/sglc/cime_config/buildnml
+  2021-02-23 23:59:04 wav 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/swav/cime_config/buildnml
+  2021-02-23 23:59:04 iac 
+   Running /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/siac/cime_config/buildnml 
+  2021-02-23 23:59:04 esp 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/sesp/cime_config/buildnml
+  2021-02-23 23:59:04 cpl 
+   Calling /cluster/home/huit/ctsm_region/cime/src/drivers/mct/cime_config/buildnml
+-------------------------------------------------------------------------
+ - Prestage required restarts into /cluster/work/users/huit/ctsm/ALP1_moss/run
+ - Case input data directory (DIN_LOC_ROOT) is /cluster/work/users/huit/inputdata 
+ - Checking for required input datasets in DIN_LOC_ROOT
+-------------------------------------------------------------------------
+run command is mpirun  /cluster/work/users/huit/ctsm/ALP1_moss/bld/cesm.exe   >> cesm.log.$LID 2>&1  
+ERROR: RUN FAIL: Command 'mpirun  /cluster/work/users/huit/ctsm/ALP1_moss/bld/cesm.exe   >> cesm.log.$LID 2>&1 ' failed
+See log file for details: /cluster/work/users/huit/ctsm/ALP1_moss/run/cesm.log.2122950.210223-235859
+
+Task and CPU usage stats:
+       JobID    JobName  AllocCPUS   NTasks     MinCPU MinCPUTask     AveCPU    Elapsed ExitCode 
+------------ ---------- ---------- -------- ---------- ---------- ---------- ---------- -------- 
+2122950      run.ALP1_+          1                                             00:13:35      1:0 
+2122950.bat+      batch          1        1   00:00:04          0   00:00:04   00:13:35      1:0 
+2122950.ext+     extern          1        1   00:00:00          0   00:00:00   00:13:35      0:0 
+2122950.0     pmi_proxy          1        1   00:12:45          0   00:12:45   00:13:28      7:0 
+
+Memory usage stats:
+       JobID     MaxRSS MaxRSSTask     AveRSS MaxPages   MaxPagesTask   AvePages 
+------------ ---------- ---------- ---------- -------- -------------- ---------- 
+2122950                                                                          
+2122950.bat+     26400K          0     26400K        0              0          0 
+2122950.ext+          0          0          0        0              0          0 
+2122950.0        18500K          0     18500K        0              0          0 
+
+Disk usage stats:
+       JobID  MaxDiskRead MaxDiskReadTask    AveDiskRead MaxDiskWrite MaxDiskWriteTask   AveDiskWrite 
+------------ ------------ --------------- -------------- ------------ ---------------- -------------- 
+2122950                                                                                               
+2122950.bat+       10.39M               0         10.39M        0.33M                0          0.33M 
+2122950.ext+        0.00M               0          0.00M            0                0              0 
+2122950.0           0.21M               0          0.21M        0.01M                0          0.01M 
+
+Job 2122950 completed at Wed Feb 24 00:12:35 CET 2021
+Starting job 2123639 on c2-28 at Wed Feb 24 00:34:20 CET 2021
+
+Setting Environment KMP_STACKSIZE=256M
+Setting resource.RLIMIT_STACK to -1 from (-1, -1)
+Generating namelists for /cluster/home/huit/ctsm_cases/ALP1_moss
+Creating component namelists
+  2021-02-24 00:34:24 atm 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/data_comps_mct/datm/cime_config/buildnml
+  2021-02-24 00:34:25 lnd 
+   Calling /cluster/home/huit/ctsm_region/cime_config/buildnml
+  2021-02-24 00:34:26 ice 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/sice/cime_config/buildnml
+  2021-02-24 00:34:26 ocn 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/socn/cime_config/buildnml
+  2021-02-24 00:34:26 rof 
+   Calling /cluster/home/huit/ctsm_region/components/mosart//cime_config/buildnml
+  2021-02-24 00:34:26 glc 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/sglc/cime_config/buildnml
+  2021-02-24 00:34:26 wav 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/swav/cime_config/buildnml
+  2021-02-24 00:34:26 iac 
+   Running /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/siac/cime_config/buildnml 
+  2021-02-24 00:34:26 esp 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/sesp/cime_config/buildnml
+  2021-02-24 00:34:26 cpl 
+   Calling /cluster/home/huit/ctsm_region/cime/src/drivers/mct/cime_config/buildnml
+-------------------------------------------------------------------------
+ - Prestage required restarts into /cluster/work/users/huit/ctsm/ALP1_moss/run
+ - Case input data directory (DIN_LOC_ROOT) is /cluster/work/users/huit/inputdata 
+ - Checking for required input datasets in DIN_LOC_ROOT
+-------------------------------------------------------------------------
+run command is mpirun  /cluster/work/users/huit/ctsm/ALP1_moss/bld/cesm.exe   >> cesm.log.$LID 2>&1  
+ERROR: RUN FAIL: Command 'mpirun  /cluster/work/users/huit/ctsm/ALP1_moss/bld/cesm.exe   >> cesm.log.$LID 2>&1 ' failed
+See log file for details: /cluster/work/users/huit/ctsm/ALP1_moss/run/cesm.log.2123639.210224-003421
+
+Task and CPU usage stats:
+       JobID    JobName  AllocCPUS   NTasks     MinCPU MinCPUTask     AveCPU    Elapsed ExitCode 
+------------ ---------- ---------- -------- ---------- ---------- ---------- ---------- -------- 
+2123639      run.ALP1_+          1                                             00:12:59      1:0 
+2123639.bat+      batch          1        1   00:00:03          0   00:00:03   00:12:59      1:0 
+2123639.ext+     extern          1        1   00:00:00          0   00:00:00   00:12:59      0:0 
+2123639.0     pmi_proxy          1        1   00:12:20          0   00:12:20   00:12:52      7:0 
+
+Memory usage stats:
+       JobID     MaxRSS MaxRSSTask     AveRSS MaxPages   MaxPagesTask   AvePages 
+------------ ---------- ---------- ---------- -------- -------------- ---------- 
+2123639                                                                          
+2123639.bat+     26256K          0     26256K        0              0          0 
+2123639.ext+          0          0          0        0              0          0 
+2123639.0        29912K          0     29912K        0              0          0 
+
+Disk usage stats:
+       JobID  MaxDiskRead MaxDiskReadTask    AveDiskRead MaxDiskWrite MaxDiskWriteTask   AveDiskWrite 
+------------ ------------ --------------- -------------- ------------ ---------------- -------------- 
+2123639                                                                                               
+2123639.bat+       10.39M               0         10.39M        0.33M                0          0.33M 
+2123639.ext+        0.00M               0          0.00M            0                0              0 
+2123639.0           0.21M               0          0.21M        0.01M                0          0.01M 
+
+Job 2123639 completed at Wed Feb 24 00:47:21 CET 2021
+Starting job 2123807 on c5-5 at Wed Feb 24 01:15:59 CET 2021
+
+Setting Environment KMP_STACKSIZE=256M
+Setting resource.RLIMIT_STACK to -1 from (-1, -1)
+Generating namelists for /cluster/home/huit/ctsm_cases/ALP1_moss
+Creating component namelists
+  2021-02-24 01:16:03 atm 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/data_comps_mct/datm/cime_config/buildnml
+  2021-02-24 01:16:05 lnd 
+   Calling /cluster/home/huit/ctsm_region/cime_config/buildnml
+  2021-02-24 01:16:08 ice 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/sice/cime_config/buildnml
+  2021-02-24 01:16:08 ocn 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/socn/cime_config/buildnml
+  2021-02-24 01:16:08 rof 
+   Calling /cluster/home/huit/ctsm_region/components/mosart//cime_config/buildnml
+  2021-02-24 01:16:09 glc 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/sglc/cime_config/buildnml
+  2021-02-24 01:16:09 wav 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/swav/cime_config/buildnml
+  2021-02-24 01:16:09 iac 
+   Running /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/siac/cime_config/buildnml 
+  2021-02-24 01:16:09 esp 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/sesp/cime_config/buildnml
+  2021-02-24 01:16:09 cpl 
+   Calling /cluster/home/huit/ctsm_region/cime/src/drivers/mct/cime_config/buildnml
+-------------------------------------------------------------------------
+ - Prestage required restarts into /cluster/work/users/huit/ctsm/ALP1_moss/run
+ - Case input data directory (DIN_LOC_ROOT) is /cluster/work/users/huit/inputdata 
+ - Checking for required input datasets in DIN_LOC_ROOT
+-------------------------------------------------------------------------
+run command is mpirun  /cluster/work/users/huit/ctsm/ALP1_moss/bld/cesm.exe   >> cesm.log.$LID 2>&1  
+ERROR: RUN FAIL: Command 'mpirun  /cluster/work/users/huit/ctsm/ALP1_moss/bld/cesm.exe   >> cesm.log.$LID 2>&1 ' failed
+See log file for details: /cluster/work/users/huit/ctsm/ALP1_moss/run/cesm.log.2123807.210224-011601
+
+Task and CPU usage stats:
+       JobID    JobName  AllocCPUS   NTasks     MinCPU MinCPUTask     AveCPU    Elapsed ExitCode 
+------------ ---------- ---------- -------- ---------- ---------- ---------- ---------- -------- 
+2123807      run.ALP1_+          1                                             00:13:02      1:0 
+2123807.bat+      batch          1        1   00:00:03          0   00:00:03   00:13:02      1:0 
+2123807.ext+     extern          1        1   00:00:00          0   00:00:00   00:13:02      0:0 
+2123807.0     pmi_proxy          1        1   00:12:15          0   00:12:15   00:12:48      7:0 
+
+Memory usage stats:
+       JobID     MaxRSS MaxRSSTask     AveRSS MaxPages   MaxPagesTask   AvePages 
+------------ ---------- ---------- ---------- -------- -------------- ---------- 
+2123807                                                                          
+2123807.bat+     26396K          0     26396K        0              0          0 
+2123807.ext+          0          0          0        0              0          0 
+2123807.0        27984K          0     27984K        0              0          0 
+
+Disk usage stats:
+       JobID  MaxDiskRead MaxDiskReadTask    AveDiskRead MaxDiskWrite MaxDiskWriteTask   AveDiskWrite 
+------------ ------------ --------------- -------------- ------------ ---------------- -------------- 
+2123807                                                                                               
+2123807.bat+       10.39M               0         10.39M        0.33M                0          0.33M 
+2123807.ext+        0.00M               0          0.00M            0                0              0 
+2123807.0           0.21M               0          0.21M        0.01M                0          0.01M 
+
+Job 2123807 completed at Wed Feb 24 01:29:02 CET 2021
+Starting job 2125241 on c5-33 at Wed Feb 24 08:30:44 CET 2021
+
+Setting Environment KMP_STACKSIZE=256M
+Setting resource.RLIMIT_STACK to -1 from (-1, -1)
+Generating namelists for /cluster/home/huit/ctsm_cases/ALP1_moss
+Creating component namelists
+  2021-02-24 08:30:48 atm 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/data_comps_mct/datm/cime_config/buildnml
+  2021-02-24 08:30:49 lnd 
+   Calling /cluster/home/huit/ctsm_region/cime_config/buildnml
+  2021-02-24 08:30:49 ice 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/sice/cime_config/buildnml
+  2021-02-24 08:30:49 ocn 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/socn/cime_config/buildnml
+  2021-02-24 08:30:49 rof 
+   Calling /cluster/home/huit/ctsm_region/components/mosart//cime_config/buildnml
+  2021-02-24 08:30:49 glc 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/sglc/cime_config/buildnml
+  2021-02-24 08:30:49 wav 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/swav/cime_config/buildnml
+  2021-02-24 08:30:49 iac 
+   Running /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/siac/cime_config/buildnml 
+  2021-02-24 08:30:50 esp 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/sesp/cime_config/buildnml
+  2021-02-24 08:30:50 cpl 
+   Calling /cluster/home/huit/ctsm_region/cime/src/drivers/mct/cime_config/buildnml
+-------------------------------------------------------------------------
+ - Prestage required restarts into /cluster/work/users/huit/ctsm/ALP1_moss/run
+ - Case input data directory (DIN_LOC_ROOT) is /cluster/work/users/huit/inputdata 
+ - Checking for required input datasets in DIN_LOC_ROOT
+-------------------------------------------------------------------------
+run command is mpirun  /cluster/work/users/huit/ctsm/ALP1_moss/bld/cesm.exe   >> cesm.log.$LID 2>&1  
+ERROR: RUN FAIL: Command 'mpirun  /cluster/work/users/huit/ctsm/ALP1_moss/bld/cesm.exe   >> cesm.log.$LID 2>&1 ' failed
+See log file for details: /cluster/work/users/huit/ctsm/ALP1_moss/run/cesm.log.2125241.210224-083045
+
+Task and CPU usage stats:
+       JobID    JobName  AllocCPUS   NTasks     MinCPU MinCPUTask     AveCPU    Elapsed ExitCode 
+------------ ---------- ---------- -------- ---------- ---------- ---------- ---------- -------- 
+2125241      run.ALP1_+          1                                             00:13:08      1:0 
+2125241.bat+      batch          1        1   00:00:03          0   00:00:03   00:13:08      1:0 
+2125241.ext+     extern          1        1   00:00:00          0   00:00:00   00:13:08      0:0 
+2125241.0     pmi_proxy          1        1   00:12:19          0   00:12:19   00:13:03      7:0 
+
+Memory usage stats:
+       JobID     MaxRSS MaxRSSTask     AveRSS MaxPages   MaxPagesTask   AvePages 
+------------ ---------- ---------- ---------- -------- -------------- ---------- 
+2125241                                                                          
+2125241.bat+     26372K          0     26372K        0              0          0 
+2125241.ext+          0          0          0        0              0          0 
+2125241.0        28060K          0     28060K        0              0          0 
+
+Disk usage stats:
+       JobID  MaxDiskRead MaxDiskReadTask    AveDiskRead MaxDiskWrite MaxDiskWriteTask   AveDiskWrite 
+------------ ------------ --------------- -------------- ------------ ---------------- -------------- 
+2125241                                                                                               
+2125241.bat+       10.39M               0         10.39M        0.33M                0          0.33M 
+2125241.ext+        0.00M               0          0.00M            0                0              0 
+2125241.0           0.21M               0          0.21M        0.01M                0          0.01M 
+
+Job 2125241 completed at Wed Feb 24 08:43:55 CET 2021
+Starting job 2125541 on c5-54 at Wed Feb 24 08:59:20 CET 2021
+
+Setting Environment KMP_STACKSIZE=256M
+Setting resource.RLIMIT_STACK to -1 from (-1, -1)
+Generating namelists for /cluster/home/huit/ctsm_cases/ALP1_moss
+Creating component namelists
+  2021-02-24 08:59:25 atm 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/data_comps_mct/datm/cime_config/buildnml
+  2021-02-24 08:59:25 lnd 
+   Calling /cluster/home/huit/ctsm_region/cime_config/buildnml
+  2021-02-24 08:59:26 ice 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/sice/cime_config/buildnml
+  2021-02-24 08:59:26 ocn 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/socn/cime_config/buildnml
+  2021-02-24 08:59:26 rof 
+   Calling /cluster/home/huit/ctsm_region/components/mosart//cime_config/buildnml
+  2021-02-24 08:59:26 glc 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/sglc/cime_config/buildnml
+  2021-02-24 08:59:26 wav 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/swav/cime_config/buildnml
+  2021-02-24 08:59:26 iac 
+   Running /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/siac/cime_config/buildnml 
+  2021-02-24 08:59:26 esp 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/sesp/cime_config/buildnml
+  2021-02-24 08:59:26 cpl 
+   Calling /cluster/home/huit/ctsm_region/cime/src/drivers/mct/cime_config/buildnml
+-------------------------------------------------------------------------
+ - Prestage required restarts into /cluster/work/users/huit/ctsm/ALP1_moss/run
+ - Case input data directory (DIN_LOC_ROOT) is /cluster/work/users/huit/inputdata 
+ - Checking for required input datasets in DIN_LOC_ROOT
+-------------------------------------------------------------------------
+run command is mpirun  /cluster/work/users/huit/ctsm/ALP1_moss/bld/cesm.exe   >> cesm.log.$LID 2>&1  
+check for resubmit
+dout_s True 
+mach saga 
+resubmit_num 0
+
+Task and CPU usage stats:
+       JobID    JobName  AllocCPUS   NTasks     MinCPU MinCPUTask     AveCPU    Elapsed ExitCode 
+------------ ---------- ---------- -------- ---------- ---------- ---------- ---------- -------- 
+2125541      run.ALP1_+          1                                             00:13:48      0:0 
+2125541.bat+      batch          1        1   00:00:04          0   00:00:04   00:13:48      0:0 
+2125541.ext+     extern          1        1   00:00:00          0   00:00:00   00:13:48      0:0 
+2125541.0     pmi_proxy          1        1   00:13:22          0   00:13:22   00:13:39      0:0 
+
+Memory usage stats:
+       JobID     MaxRSS MaxRSSTask     AveRSS MaxPages   MaxPagesTask   AvePages 
+------------ ---------- ---------- ---------- -------- -------------- ---------- 
+2125541                                                                          
+2125541.bat+     26404K          0     26404K        0              0          0 
+2125541.ext+          0          0          0        0              0          0 
+2125541.0        28116K          0     28116K        0              0          0 
+
+Disk usage stats:
+       JobID  MaxDiskRead MaxDiskReadTask    AveDiskRead MaxDiskWrite MaxDiskWriteTask   AveDiskWrite 
+------------ ------------ --------------- -------------- ------------ ---------------- -------------- 
+2125541                                                                                               
+2125541.bat+       10.39M               0         10.39M        0.33M                0          0.33M 
+2125541.ext+        0.00M               0          0.00M            0                0              0 
+2125541.0           0.21M               0          0.21M        0.01M                0          0.01M 
+
+Job 2125541 completed at Wed Feb 24 09:13:08 CET 2021
+Starting job 2125859 on c5-54 at Wed Feb 24 09:30:10 CET 2021
+
+Setting Environment KMP_STACKSIZE=256M
+Setting resource.RLIMIT_STACK to -1 from (-1, -1)
+Generating namelists for /cluster/home/huit/ctsm_cases/ALP1_moss
+Creating component namelists
+  2021-02-24 09:30:14 atm 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/data_comps_mct/datm/cime_config/buildnml
+  2021-02-24 09:30:15 lnd 
+   Calling /cluster/home/huit/ctsm_region/cime_config/buildnml
+  2021-02-24 09:30:16 ice 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/sice/cime_config/buildnml
+  2021-02-24 09:30:16 ocn 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/socn/cime_config/buildnml
+  2021-02-24 09:30:16 rof 
+   Calling /cluster/home/huit/ctsm_region/components/mosart//cime_config/buildnml
+  2021-02-24 09:30:16 glc 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/sglc/cime_config/buildnml
+  2021-02-24 09:30:16 wav 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/swav/cime_config/buildnml
+  2021-02-24 09:30:16 iac 
+   Running /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/siac/cime_config/buildnml 
+  2021-02-24 09:30:16 esp 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/sesp/cime_config/buildnml
+  2021-02-24 09:30:16 cpl 
+   Calling /cluster/home/huit/ctsm_region/cime/src/drivers/mct/cime_config/buildnml
+-------------------------------------------------------------------------
+ - Prestage required restarts into /cluster/work/users/huit/ctsm/ALP1_moss/run
+ - Case input data directory (DIN_LOC_ROOT) is /cluster/work/users/huit/inputdata 
+ - Checking for required input datasets in DIN_LOC_ROOT
+-------------------------------------------------------------------------
+run command is mpirun  /cluster/work/users/huit/ctsm/ALP1_moss/bld/cesm.exe   >> cesm.log.$LID 2>&1  
+check for resubmit
+dout_s False 
+mach saga 
+resubmit_num 0
+
+Task and CPU usage stats:
+       JobID    JobName  AllocCPUS   NTasks     MinCPU MinCPUTask     AveCPU    Elapsed ExitCode 
+------------ ---------- ---------- -------- ---------- ---------- ---------- ---------- -------- 
+2125859      run.ALP1_+          1                                             00:00:42      0:0 
+2125859.bat+      batch          1        1   00:00:06          0   00:00:06   00:00:42      0:0 
+2125859.ext+     extern          1        1   00:00:00          0   00:00:00   00:00:43      0:0 
+2125859.0     pmi_proxy          1        1   00:00:27          0   00:00:27   00:00:33      0:0 
+
+Memory usage stats:
+       JobID     MaxRSS MaxRSSTask     AveRSS MaxPages   MaxPagesTask   AvePages 
+------------ ---------- ---------- ---------- -------- -------------- ---------- 
+2125859                                                                          
+2125859.bat+     26400K          0     26400K        0              0          0 
+2125859.ext+          0          0          0        0              0          0 
+2125859.0        59992K          0     59992K        0              0          0 
+
+Disk usage stats:
+       JobID  MaxDiskRead MaxDiskReadTask    AveDiskRead MaxDiskWrite MaxDiskWriteTask   AveDiskWrite 
+------------ ------------ --------------- -------------- ------------ ---------------- -------------- 
+2125859                                                                                               
+2125859.bat+       10.13M               0         10.13M        0.19M                0          0.19M 
+2125859.ext+        0.00M               0          0.00M            0                0              0 
+2125859.0          13.69M               0         13.69M       14.89M                0         14.89M 
+
+Job 2125859 completed at Wed Feb 24 09:30:52 CET 2021
+Starting job 2128077 on c5-48 at Wed Feb 24 12:00:32 CET 2021
+
+Setting Environment KMP_STACKSIZE=256M
+Setting resource.RLIMIT_STACK to -1 from (-1, -1)
+Generating namelists for /cluster/home/huit/ctsm_cases/ALP1_moss
+Creating component namelists
+  2021-02-24 12:00:36 atm 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/data_comps_mct/datm/cime_config/buildnml
+  2021-02-24 12:00:37 lnd 
+   Calling /cluster/home/huit/ctsm_region/cime_config/buildnml
+  2021-02-24 12:00:38 ice 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/sice/cime_config/buildnml
+  2021-02-24 12:00:38 ocn 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/socn/cime_config/buildnml
+  2021-02-24 12:00:38 rof 
+   Calling /cluster/home/huit/ctsm_region/components/mosart//cime_config/buildnml
+  2021-02-24 12:00:38 glc 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/sglc/cime_config/buildnml
+  2021-02-24 12:00:38 wav 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/swav/cime_config/buildnml
+  2021-02-24 12:00:38 iac 
+   Running /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/siac/cime_config/buildnml 
+  2021-02-24 12:00:38 esp 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/sesp/cime_config/buildnml
+  2021-02-24 12:00:38 cpl 
+   Calling /cluster/home/huit/ctsm_region/cime/src/drivers/mct/cime_config/buildnml
+-------------------------------------------------------------------------
+ - Prestage required restarts into /cluster/work/users/huit/ctsm/ALP1_moss/run
+ - Case input data directory (DIN_LOC_ROOT) is /cluster/work/users/huit/inputdata 
+ - Checking for required input datasets in DIN_LOC_ROOT
+-------------------------------------------------------------------------
+run command is mpirun  /cluster/work/users/huit/ctsm/ALP1_moss/bld/cesm.exe   >> cesm.log.$LID 2>&1  
+check for resubmit
+dout_s False 
+mach saga 
+resubmit_num 0
+
+Task and CPU usage stats:
+       JobID    JobName  AllocCPUS   NTasks     MinCPU MinCPUTask     AveCPU    Elapsed ExitCode 
+------------ ---------- ---------- -------- ---------- ---------- ---------- ---------- -------- 
+2128077      run.ALP1_+          1                                             00:00:38      0:0 
+2128077.bat+      batch          1        1   00:00:06          0   00:00:06   00:00:38      0:0 
+2128077.ext+     extern          1        1   00:00:00          0   00:00:00   00:00:38      0:0 
+2128077.0     pmi_proxy          1        1   00:00:00          0   00:00:00   00:00:29      0:0 
+
+Memory usage stats:
+       JobID     MaxRSS MaxRSSTask     AveRSS MaxPages   MaxPagesTask   AvePages 
+------------ ---------- ---------- ---------- -------- -------------- ---------- 
+2128077                                                                          
+2128077.bat+     26420K          0     26420K        0              0          0 
+2128077.ext+          0          0          0        0              0          0 
+2128077.0             0          0          0        0              0          0 
+
+Disk usage stats:
+       JobID  MaxDiskRead MaxDiskReadTask    AveDiskRead MaxDiskWrite MaxDiskWriteTask   AveDiskWrite 
+------------ ------------ --------------- -------------- ------------ ---------------- -------------- 
+2128077                                                                                               
+2128077.bat+       10.13M               0         10.13M        0.19M                0          0.19M 
+2128077.ext+        0.00M               0          0.00M            0                0              0 
+2128077.0               0               0              0            0                0              0 
+
+Job 2128077 completed at Wed Feb 24 12:01:10 CET 2021
+Starting job 2128376 on c3-18 at Wed Feb 24 12:26:10 CET 2021
+
+Setting Environment KMP_STACKSIZE=256M
+Setting resource.RLIMIT_STACK to -1 from (-1, -1)
+Generating namelists for /cluster/home/huit/ctsm_cases/ALP1_moss
+Creating component namelists
+  2021-02-24 12:26:15 atm 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/data_comps_mct/datm/cime_config/buildnml
+  2021-02-24 12:26:15 lnd 
+   Calling /cluster/home/huit/ctsm_region/cime_config/buildnml
+  2021-02-24 12:26:16 ice 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/sice/cime_config/buildnml
+  2021-02-24 12:26:16 ocn 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/socn/cime_config/buildnml
+  2021-02-24 12:26:16 rof 
+   Calling /cluster/home/huit/ctsm_region/components/mosart//cime_config/buildnml
+  2021-02-24 12:26:16 glc 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/sglc/cime_config/buildnml
+  2021-02-24 12:26:16 wav 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/swav/cime_config/buildnml
+  2021-02-24 12:26:16 iac 
+   Running /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/siac/cime_config/buildnml 
+  2021-02-24 12:26:16 esp 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/sesp/cime_config/buildnml
+  2021-02-24 12:26:16 cpl 
+   Calling /cluster/home/huit/ctsm_region/cime/src/drivers/mct/cime_config/buildnml
+-------------------------------------------------------------------------
+ - Prestage required restarts into /cluster/work/users/huit/ctsm/ALP1_moss/run
+ - Case input data directory (DIN_LOC_ROOT) is /cluster/work/users/huit/inputdata 
+ - Checking for required input datasets in DIN_LOC_ROOT
+-------------------------------------------------------------------------
+run command is mpirun  /cluster/work/users/huit/ctsm/ALP1_moss/bld/cesm.exe   >> cesm.log.$LID 2>&1  
+check for resubmit
+dout_s False 
+mach saga 
+resubmit_num 0
+
+Task and CPU usage stats:
+       JobID    JobName  AllocCPUS   NTasks     MinCPU MinCPUTask     AveCPU    Elapsed ExitCode 
+------------ ---------- ---------- -------- ---------- ---------- ---------- ---------- -------- 
+2128376      run.ALP1_+          1                                             00:00:46      0:0 
+2128376.bat+      batch          1        1   00:00:06          0   00:00:06   00:00:46      0:0 
+2128376.ext+     extern          1        1   00:00:00          0   00:00:00   00:00:46      0:0 
+2128376.0     pmi_proxy          1        1   00:00:29          0   00:00:29   00:00:37      0:0 
+
+Memory usage stats:
+       JobID     MaxRSS MaxRSSTask     AveRSS MaxPages   MaxPagesTask   AvePages 
+------------ ---------- ---------- ---------- -------- -------------- ---------- 
+2128376                                                                          
+2128376.bat+     26404K          0     26404K        0              0          0 
+2128376.ext+          0          0          0        0              0          0 
+2128376.0        58016K          0     58016K        0              0          0 
+
+Disk usage stats:
+       JobID  MaxDiskRead MaxDiskReadTask    AveDiskRead MaxDiskWrite MaxDiskWriteTask   AveDiskWrite 
+------------ ------------ --------------- -------------- ------------ ---------------- -------------- 
+2128376                                                                                               
+2128376.bat+       10.13M               0         10.13M        0.19M                0          0.19M 
+2128376.ext+        0.00M               0          0.00M            0                0              0 
+2128376.0          14.29M               0         14.29M       15.46M                0         15.46M 
+
+Job 2128376 completed at Wed Feb 24 12:26:56 CET 2021
+Starting job 2128403 on c3-2 at Wed Feb 24 12:27:42 CET 2021
+
+Setting Environment KMP_STACKSIZE=256M
+Setting resource.RLIMIT_STACK to -1 from (-1, -1)
+Generating namelists for /cluster/home/huit/ctsm_cases/ALP1_moss
+Creating component namelists
+  2021-02-24 12:27:47 atm 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/data_comps_mct/datm/cime_config/buildnml
+  2021-02-24 12:27:47 lnd 
+   Calling /cluster/home/huit/ctsm_region/cime_config/buildnml
+  2021-02-24 12:27:48 ice 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/sice/cime_config/buildnml
+  2021-02-24 12:27:48 ocn 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/socn/cime_config/buildnml
+  2021-02-24 12:27:48 rof 
+   Calling /cluster/home/huit/ctsm_region/components/mosart//cime_config/buildnml
+  2021-02-24 12:27:48 glc 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/sglc/cime_config/buildnml
+  2021-02-24 12:27:48 wav 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/swav/cime_config/buildnml
+  2021-02-24 12:27:48 iac 
+   Running /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/siac/cime_config/buildnml 
+  2021-02-24 12:27:48 esp 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/sesp/cime_config/buildnml
+  2021-02-24 12:27:48 cpl 
+   Calling /cluster/home/huit/ctsm_region/cime/src/drivers/mct/cime_config/buildnml
+-------------------------------------------------------------------------
+ - Prestage required restarts into /cluster/work/users/huit/ctsm/ALP1_moss/run
+ - Case input data directory (DIN_LOC_ROOT) is /cluster/work/users/huit/inputdata 
+ - Checking for required input datasets in DIN_LOC_ROOT
+-------------------------------------------------------------------------
+run command is mpirun  /cluster/work/users/huit/ctsm/ALP1_moss/bld/cesm.exe   >> cesm.log.$LID 2>&1  
+check for resubmit
+dout_s False 
+mach saga 
+resubmit_num 0
+
+Task and CPU usage stats:
+       JobID    JobName  AllocCPUS   NTasks     MinCPU MinCPUTask     AveCPU    Elapsed ExitCode 
+------------ ---------- ---------- -------- ---------- ---------- ---------- ---------- -------- 
+2128403      run.ALP1_+          1                                             00:00:39      0:0 
+2128403.bat+      batch          1        1   00:00:07          0   00:00:07   00:00:39      0:0 
+2128403.ext+     extern          1        1   00:00:00          0   00:00:00   00:00:39      0:0 
+2128403.0     pmi_proxy          1        1   00:00:30          0   00:00:30   00:00:30      0:0 
+
+Memory usage stats:
+       JobID     MaxRSS MaxRSSTask     AveRSS MaxPages   MaxPagesTask   AvePages 
+------------ ---------- ---------- ---------- -------- -------------- ---------- 
+2128403                                                                          
+2128403.bat+     26260K          0     26260K        0              0          0 
+2128403.ext+          0          0          0        0              0          0 
+2128403.0        58060K          0     58060K        0              0          0 
+
+Disk usage stats:
+       JobID  MaxDiskRead MaxDiskReadTask    AveDiskRead MaxDiskWrite MaxDiskWriteTask   AveDiskWrite 
+------------ ------------ --------------- -------------- ------------ ---------------- -------------- 
+2128403                                                                                               
+2128403.bat+       10.13M               0         10.13M        0.19M                0          0.19M 
+2128403.ext+        0.00M               0          0.00M            0                0              0 
+2128403.0          24.88M               0         24.88M       26.58M                0         26.58M 
+
+Job 2128403 completed at Wed Feb 24 12:28:21 CET 2021
+Starting job 2130471 on c2-13 at Wed Feb 24 13:58:58 CET 2021
+
+Setting Environment KMP_STACKSIZE=256M
+Setting resource.RLIMIT_STACK to -1 from (-1, -1)
+Generating namelists for /cluster/home/huit/ctsm_cases/ALP1_moss
+Creating component namelists
+  2021-02-24 13:59:03 atm 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/data_comps_mct/datm/cime_config/buildnml
+  2021-02-24 13:59:03 lnd 
+   Calling /cluster/home/huit/ctsm_region/cime_config/buildnml
+  2021-02-24 13:59:04 ice 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/sice/cime_config/buildnml
+  2021-02-24 13:59:04 ocn 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/socn/cime_config/buildnml
+  2021-02-24 13:59:04 rof 
+   Calling /cluster/home/huit/ctsm_region/components/mosart//cime_config/buildnml
+  2021-02-24 13:59:04 glc 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/sglc/cime_config/buildnml
+  2021-02-24 13:59:04 wav 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/swav/cime_config/buildnml
+  2021-02-24 13:59:04 iac 
+   Running /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/siac/cime_config/buildnml 
+  2021-02-24 13:59:04 esp 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/sesp/cime_config/buildnml
+  2021-02-24 13:59:04 cpl 
+   Calling /cluster/home/huit/ctsm_region/cime/src/drivers/mct/cime_config/buildnml
+-------------------------------------------------------------------------
+ - Prestage required restarts into /cluster/work/users/huit/ctsm/ALP1_moss/run
+ - Case input data directory (DIN_LOC_ROOT) is /cluster/work/users/huit/inputdata 
+ - Checking for required input datasets in DIN_LOC_ROOT
+-------------------------------------------------------------------------
+run command is mpirun  /cluster/work/users/huit/ctsm/ALP1_moss/bld/cesm.exe   >> cesm.log.$LID 2>&1  
+ERROR: RUN FAIL: Command 'mpirun  /cluster/work/users/huit/ctsm/ALP1_moss/bld/cesm.exe   >> cesm.log.$LID 2>&1 ' failed
+See log file for details: /cluster/work/users/huit/ctsm/ALP1_moss/run/cesm.log.2130471.210224-135900
+
+Task and CPU usage stats:
+       JobID    JobName  AllocCPUS   NTasks     MinCPU MinCPUTask     AveCPU    Elapsed ExitCode 
+------------ ---------- ---------- -------- ---------- ---------- ---------- ---------- -------- 
+2130471      run.ALP1_+          1                                             00:00:12      1:0 
+2130471.bat+      batch          1        1   00:00:00          0   00:00:00   00:00:12      1:0 
+2130471.ext+     extern          1        1   00:00:00          0   00:00:00   00:00:12      0:0 
+2130471.0     pmi_proxy          1        1   00:00:00          0   00:00:00   00:00:06      7:0 
+
+Memory usage stats:
+       JobID     MaxRSS MaxRSSTask     AveRSS MaxPages   MaxPagesTask   AvePages 
+------------ ---------- ---------- ---------- -------- -------------- ---------- 
+2130471                                                                          
+2130471.bat+          0          0          0        0              0          0 
+2130471.ext+          0          0          0        0              0          0 
+2130471.0             0          0          0        0              0          0 
+
+Disk usage stats:
+       JobID  MaxDiskRead MaxDiskReadTask    AveDiskRead MaxDiskWrite MaxDiskWriteTask   AveDiskWrite 
+------------ ------------ --------------- -------------- ------------ ---------------- -------------- 
+2130471                                                                                               
+2130471.bat+            0               0              0            0                0              0 
+2130471.ext+        0.00M               0          0.00M            0                0              0 
+2130471.0               0               0              0            0                0              0 
+
+Job 2130471 completed at Wed Feb 24 13:59:13 CET 2021
+Starting job 2130868 on c5-48 at Wed Feb 24 14:20:48 CET 2021
+
+Setting Environment KMP_STACKSIZE=256M
+Setting resource.RLIMIT_STACK to -1 from (-1, -1)
+Generating namelists for /cluster/home/huit/ctsm_cases/ALP1_moss
+Creating component namelists
+  2021-02-24 14:20:52 atm 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/data_comps_mct/datm/cime_config/buildnml
+  2021-02-24 14:20:52 lnd 
+   Calling /cluster/home/huit/ctsm_region/cime_config/buildnml
+  2021-02-24 14:20:53 ice 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/sice/cime_config/buildnml
+  2021-02-24 14:20:53 ocn 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/socn/cime_config/buildnml
+  2021-02-24 14:20:53 rof 
+   Calling /cluster/home/huit/ctsm_region/components/mosart//cime_config/buildnml
+  2021-02-24 14:20:53 glc 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/sglc/cime_config/buildnml
+  2021-02-24 14:20:53 wav 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/swav/cime_config/buildnml
+  2021-02-24 14:20:53 iac 
+   Running /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/siac/cime_config/buildnml 
+  2021-02-24 14:20:53 esp 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/sesp/cime_config/buildnml
+  2021-02-24 14:20:53 cpl 
+   Calling /cluster/home/huit/ctsm_region/cime/src/drivers/mct/cime_config/buildnml
+-------------------------------------------------------------------------
+ - Prestage required restarts into /cluster/work/users/huit/ctsm/ALP1_moss/run
+ - Case input data directory (DIN_LOC_ROOT) is /cluster/work/users/huit/inputdata 
+ - Checking for required input datasets in DIN_LOC_ROOT
+-------------------------------------------------------------------------
+run command is mpirun  /cluster/work/users/huit/ctsm/ALP1_moss/bld/cesm.exe   >> cesm.log.$LID 2>&1  
+ERROR: RUN FAIL: Command 'mpirun  /cluster/work/users/huit/ctsm/ALP1_moss/bld/cesm.exe   >> cesm.log.$LID 2>&1 ' failed
+See log file for details: /cluster/work/users/huit/ctsm/ALP1_moss/run/cesm.log.2130868.210224-142049
+
+Task and CPU usage stats:
+       JobID    JobName  AllocCPUS   NTasks     MinCPU MinCPUTask     AveCPU    Elapsed ExitCode 
+------------ ---------- ---------- -------- ---------- ---------- ---------- ---------- -------- 
+2130868      run.ALP1_+          1                                             00:00:12      1:0 
+2130868.bat+      batch          1        1   00:00:00          0   00:00:00   00:00:12      1:0 
+2130868.ext+     extern          1        1   00:00:00          0   00:00:00   00:00:12      0:0 
+2130868.0     pmi_proxy          1        1   00:00:00          0   00:00:00   00:00:06      7:0 
+
+Memory usage stats:
+       JobID     MaxRSS MaxRSSTask     AveRSS MaxPages   MaxPagesTask   AvePages 
+------------ ---------- ---------- ---------- -------- -------------- ---------- 
+2130868                                                                          
+2130868.bat+          0          0          0        0              0          0 
+2130868.ext+          0          0          0        0              0          0 
+2130868.0             0          0          0        0              0          0 
+
+Disk usage stats:
+       JobID  MaxDiskRead MaxDiskReadTask    AveDiskRead MaxDiskWrite MaxDiskWriteTask   AveDiskWrite 
+------------ ------------ --------------- -------------- ------------ ---------------- -------------- 
+2130868                                                                                               
+2130868.bat+            0               0              0            0                0              0 
+2130868.ext+        0.00M               0          0.00M            0                0              0 
+2130868.0               0               0              0            0                0              0 
+
+Job 2130868 completed at Wed Feb 24 14:21:02 CET 2021
+Starting job 2130909 on c5-54 at Wed Feb 24 14:25:27 CET 2021
+
+Setting Environment KMP_STACKSIZE=256M
+Setting resource.RLIMIT_STACK to -1 from (-1, -1)
+Generating namelists for /cluster/home/huit/ctsm_cases/ALP1_moss
+Creating component namelists
+  2021-02-24 14:25:31 atm 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/data_comps_mct/datm/cime_config/buildnml
+  2021-02-24 14:25:32 lnd 
+   Calling /cluster/home/huit/ctsm_region/cime_config/buildnml
+  2021-02-24 14:25:32 ice 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/sice/cime_config/buildnml
+  2021-02-24 14:25:32 ocn 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/socn/cime_config/buildnml
+  2021-02-24 14:25:32 rof 
+   Calling /cluster/home/huit/ctsm_region/components/mosart//cime_config/buildnml
+  2021-02-24 14:25:32 glc 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/sglc/cime_config/buildnml
+  2021-02-24 14:25:32 wav 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/swav/cime_config/buildnml
+  2021-02-24 14:25:32 iac 
+   Running /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/siac/cime_config/buildnml 
+  2021-02-24 14:25:33 esp 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/sesp/cime_config/buildnml
+  2021-02-24 14:25:33 cpl 
+   Calling /cluster/home/huit/ctsm_region/cime/src/drivers/mct/cime_config/buildnml
+-------------------------------------------------------------------------
+ - Prestage required restarts into /cluster/work/users/huit/ctsm/ALP1_moss/run
+ - Case input data directory (DIN_LOC_ROOT) is /cluster/work/users/huit/inputdata 
+ - Checking for required input datasets in DIN_LOC_ROOT
+-------------------------------------------------------------------------
+run command is mpirun  /cluster/work/users/huit/ctsm/ALP1_moss/bld/cesm.exe   >> cesm.log.$LID 2>&1  
+check for resubmit
+dout_s False 
+mach saga 
+resubmit_num 0
+
+Task and CPU usage stats:
+       JobID    JobName  AllocCPUS   NTasks     MinCPU MinCPUTask     AveCPU    Elapsed ExitCode 
+------------ ---------- ---------- -------- ---------- ---------- ---------- ---------- -------- 
+2130909      run.ALP1_+          1                                             00:00:40      0:0 
+2130909.bat+      batch          1        1   00:00:07          0   00:00:07   00:00:40      0:0 
+2130909.ext+     extern          1        1   00:00:00          0   00:00:00   00:00:40      0:0 
+2130909.0     pmi_proxy          1        1   00:00:29          0   00:00:29   00:00:30      0:0 
+
+Memory usage stats:
+       JobID     MaxRSS MaxRSSTask     AveRSS MaxPages   MaxPagesTask   AvePages 
+------------ ---------- ---------- ---------- -------- -------------- ---------- 
+2130909                                                                          
+2130909.bat+     26392K          0     26392K        0              0          0 
+2130909.ext+          0          0          0        0              0          0 
+2130909.0        58032K          0     58032K        0              0          0 
+
+Disk usage stats:
+       JobID  MaxDiskRead MaxDiskReadTask    AveDiskRead MaxDiskWrite MaxDiskWriteTask   AveDiskWrite 
+------------ ------------ --------------- -------------- ------------ ---------------- -------------- 
+2130909                                                                                               
+2130909.bat+       10.13M               0         10.13M        0.19M                0          0.19M 
+2130909.ext+        0.00M               0          0.00M            0                0              0 
+2130909.0          24.19M               0         24.19M       25.79M                0         25.79M 
+
+Job 2130909 completed at Wed Feb 24 14:26:07 CET 2021
+Starting job 2138825 on c5-54 at Wed Feb 24 16:39:22 CET 2021
+
+Setting Environment KMP_STACKSIZE=256M
+Setting resource.RLIMIT_STACK to -1 from (-1, -1)
+Generating namelists for /cluster/home/huit/ctsm_cases/ALP1_moss
+Creating component namelists
+  2021-02-24 16:39:27 atm 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/data_comps_mct/datm/cime_config/buildnml
+  2021-02-24 16:39:27 lnd 
+   Calling /cluster/home/huit/ctsm_region/cime_config/buildnml
+  2021-02-24 16:39:28 ice 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/sice/cime_config/buildnml
+  2021-02-24 16:39:28 ocn 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/socn/cime_config/buildnml
+  2021-02-24 16:39:28 rof 
+   Calling /cluster/home/huit/ctsm_region/components/mosart//cime_config/buildnml
+  2021-02-24 16:39:28 glc 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/sglc/cime_config/buildnml
+  2021-02-24 16:39:28 wav 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/swav/cime_config/buildnml
+  2021-02-24 16:39:28 iac 
+   Running /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/siac/cime_config/buildnml 
+  2021-02-24 16:39:28 esp 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/sesp/cime_config/buildnml
+  2021-02-24 16:39:28 cpl 
+   Calling /cluster/home/huit/ctsm_region/cime/src/drivers/mct/cime_config/buildnml
+-------------------------------------------------------------------------
+ - Prestage required restarts into /cluster/work/users/huit/ctsm/ALP1_moss/run
+ - Case input data directory (DIN_LOC_ROOT) is /cluster/work/users/huit/inputdata 
+ - Checking for required input datasets in DIN_LOC_ROOT
+-------------------------------------------------------------------------
+run command is mpirun  /cluster/work/users/huit/ctsm/ALP1_moss/bld/cesm.exe   >> cesm.log.$LID 2>&1  
+check for resubmit
+dout_s False 
+mach saga 
+resubmit_num 0
+
+Task and CPU usage stats:
+       JobID    JobName  AllocCPUS   NTasks     MinCPU MinCPUTask     AveCPU    Elapsed ExitCode 
+------------ ---------- ---------- -------- ---------- ---------- ---------- ---------- -------- 
+2138825      run.ALP1_+          1                                             00:00:43      0:0 
+2138825.bat+      batch          1        1   00:00:06          0   00:00:06   00:00:43      0:0 
+2138825.ext+     extern          1        1   00:00:00          0   00:00:00   00:00:43      0:0 
+2138825.0     pmi_proxy          1        1   00:00:28          0   00:00:28   00:00:33      0:0 
+
+Memory usage stats:
+       JobID     MaxRSS MaxRSSTask     AveRSS MaxPages   MaxPagesTask   AvePages 
+------------ ---------- ---------- ---------- -------- -------------- ---------- 
+2138825                                                                          
+2138825.bat+     26408K          0     26408K        0              0          0 
+2138825.ext+          0          0          0        0              0          0 
+2138825.0        58036K          0     58036K        0              0          0 
+
+Disk usage stats:
+       JobID  MaxDiskRead MaxDiskReadTask    AveDiskRead MaxDiskWrite MaxDiskWriteTask   AveDiskWrite 
+------------ ------------ --------------- -------------- ------------ ---------------- -------------- 
+2138825                                                                                               
+2138825.bat+       10.13M               0         10.13M        0.19M                0          0.19M 
+2138825.ext+        0.00M               0          0.00M            0                0              0 
+2138825.0          23.82M               0         23.82M       25.41M                0         25.41M 
+
+Job 2138825 completed at Wed Feb 24 16:40:05 CET 2021
+Starting job 2138888 on c5-58 at Wed Feb 24 16:47:00 CET 2021
+
+Setting Environment KMP_STACKSIZE=256M
+Setting resource.RLIMIT_STACK to -1 from (-1, -1)
+Generating namelists for /cluster/home/huit/ctsm_cases/ALP1_moss
+Creating component namelists
+  2021-02-24 16:47:04 atm 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/data_comps_mct/datm/cime_config/buildnml
+  2021-02-24 16:47:05 lnd 
+   Calling /cluster/home/huit/ctsm_region/cime_config/buildnml
+  2021-02-24 16:47:06 ice 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/sice/cime_config/buildnml
+  2021-02-24 16:47:06 ocn 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/socn/cime_config/buildnml
+  2021-02-24 16:47:06 rof 
+   Calling /cluster/home/huit/ctsm_region/components/mosart//cime_config/buildnml
+  2021-02-24 16:47:06 glc 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/sglc/cime_config/buildnml
+  2021-02-24 16:47:06 wav 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/swav/cime_config/buildnml
+  2021-02-24 16:47:06 iac 
+   Running /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/siac/cime_config/buildnml 
+  2021-02-24 16:47:06 esp 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/sesp/cime_config/buildnml
+  2021-02-24 16:47:06 cpl 
+   Calling /cluster/home/huit/ctsm_region/cime/src/drivers/mct/cime_config/buildnml
+-------------------------------------------------------------------------
+ - Prestage required restarts into /cluster/work/users/huit/ctsm/ALP1_moss/run
+ - Case input data directory (DIN_LOC_ROOT) is /cluster/work/users/huit/inputdata 
+ - Checking for required input datasets in DIN_LOC_ROOT
+-------------------------------------------------------------------------
+run command is mpirun  /cluster/work/users/huit/ctsm/ALP1_moss/bld/cesm.exe   >> cesm.log.$LID 2>&1  
+ERROR: RUN FAIL: Command 'mpirun  /cluster/work/users/huit/ctsm/ALP1_moss/bld/cesm.exe   >> cesm.log.$LID 2>&1 ' failed
+See log file for details: /cluster/work/users/huit/ctsm/ALP1_moss/run/cesm.log.2138888.210224-164702
+
+Task and CPU usage stats:
+       JobID    JobName  AllocCPUS   NTasks     MinCPU MinCPUTask     AveCPU    Elapsed ExitCode 
+------------ ---------- ---------- -------- ---------- ---------- ---------- ---------- -------- 
+2138888      run.ALP1_+          1                                             00:00:12      1:0 
+2138888.bat+      batch          1        1   00:00:00          0   00:00:00   00:00:12      1:0 
+2138888.ext+     extern          1        1   00:00:00          0   00:00:00   00:00:12      0:0 
+2138888.0     pmi_proxy          1        1   00:00:00          0   00:00:00   00:00:06      7:0 
+
+Memory usage stats:
+       JobID     MaxRSS MaxRSSTask     AveRSS MaxPages   MaxPagesTask   AvePages 
+------------ ---------- ---------- ---------- -------- -------------- ---------- 
+2138888                                                                          
+2138888.bat+          0          0          0        0              0          0 
+2138888.ext+          0          0          0        0              0          0 
+2138888.0             0          0          0        0              0          0 
+
+Disk usage stats:
+       JobID  MaxDiskRead MaxDiskReadTask    AveDiskRead MaxDiskWrite MaxDiskWriteTask   AveDiskWrite 
+------------ ------------ --------------- -------------- ------------ ---------------- -------------- 
+2138888                                                                                               
+2138888.bat+            0               0              0            0                0              0 
+2138888.ext+        0.00M               0          0.00M            0                0              0 
+2138888.0               0               0              0            0                0              0 
+
+Job 2138888 completed at Wed Feb 24 16:47:15 CET 2021
+Starting job 2139088 on c5-58 at Wed Feb 24 17:19:08 CET 2021
+
+Setting Environment KMP_STACKSIZE=256M
+Setting resource.RLIMIT_STACK to -1 from (-1, -1)
+Generating namelists for /cluster/home/huit/ctsm_cases/ALP1_moss
+Creating component namelists
+  2021-02-24 17:19:13 atm 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/data_comps_mct/datm/cime_config/buildnml
+  2021-02-24 17:19:13 lnd 
+   Calling /cluster/home/huit/ctsm_region/cime_config/buildnml
+  2021-02-24 17:19:14 ice 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/sice/cime_config/buildnml
+  2021-02-24 17:19:14 ocn 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/socn/cime_config/buildnml
+  2021-02-24 17:19:14 rof 
+   Calling /cluster/home/huit/ctsm_region/components/mosart//cime_config/buildnml
+  2021-02-24 17:19:14 glc 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/sglc/cime_config/buildnml
+  2021-02-24 17:19:14 wav 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/swav/cime_config/buildnml
+  2021-02-24 17:19:14 iac 
+   Running /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/siac/cime_config/buildnml 
+  2021-02-24 17:19:14 esp 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/sesp/cime_config/buildnml
+  2021-02-24 17:19:14 cpl 
+   Calling /cluster/home/huit/ctsm_region/cime/src/drivers/mct/cime_config/buildnml
+-------------------------------------------------------------------------
+ - Prestage required restarts into /cluster/work/users/huit/ctsm/ALP1_moss/run
+ - Case input data directory (DIN_LOC_ROOT) is /cluster/work/users/huit/inputdata 
+ - Checking for required input datasets in DIN_LOC_ROOT
+-------------------------------------------------------------------------
+run command is mpirun  /cluster/work/users/huit/ctsm/ALP1_moss/bld/cesm.exe   >> cesm.log.$LID 2>&1  
+ERROR: RUN FAIL: Command 'mpirun  /cluster/work/users/huit/ctsm/ALP1_moss/bld/cesm.exe   >> cesm.log.$LID 2>&1 ' failed
+See log file for details: /cluster/work/users/huit/ctsm/ALP1_moss/run/cesm.log.2139088.210224-171910
+
+Task and CPU usage stats:
+       JobID    JobName  AllocCPUS   NTasks     MinCPU MinCPUTask     AveCPU    Elapsed ExitCode 
+------------ ---------- ---------- -------- ---------- ---------- ---------- ---------- -------- 
+2139088      run.ALP1_+          1                                             00:00:13      1:0 
+2139088.bat+      batch          1        1   00:00:00          0   00:00:00   00:00:13      1:0 
+2139088.ext+     extern          1        1   00:00:00          0   00:00:00   00:00:13      0:0 
+2139088.0     pmi_proxy          1        1   00:00:00          0   00:00:00   00:00:06      7:0 
+
+Memory usage stats:
+       JobID     MaxRSS MaxRSSTask     AveRSS MaxPages   MaxPagesTask   AvePages 
+------------ ---------- ---------- ---------- -------- -------------- ---------- 
+2139088                                                                          
+2139088.bat+          0          0          0        0              0          0 
+2139088.ext+          0          0          0        0              0          0 
+2139088.0             0          0          0        0              0          0 
+
+Disk usage stats:
+       JobID  MaxDiskRead MaxDiskReadTask    AveDiskRead MaxDiskWrite MaxDiskWriteTask   AveDiskWrite 
+------------ ------------ --------------- -------------- ------------ ---------------- -------------- 
+2139088                                                                                               
+2139088.bat+            0               0              0            0                0              0 
+2139088.ext+        0.00M               0          0.00M            0                0              0 
+2139088.0               0               0              0            0                0              0 
+
+Job 2139088 completed at Wed Feb 24 17:19:24 CET 2021
+Starting job 2139491 on c5-54 at Wed Feb 24 17:47:03 CET 2021
+
+Setting Environment KMP_STACKSIZE=256M
+Setting resource.RLIMIT_STACK to -1 from (-1, -1)
+Generating namelists for /cluster/home/huit/ctsm_cases/ALP1_moss
+Creating component namelists
+  2021-02-24 17:47:08 atm 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/data_comps_mct/datm/cime_config/buildnml
+  2021-02-24 17:47:09 lnd 
+   Calling /cluster/home/huit/ctsm_region/cime_config/buildnml
+  2021-02-24 17:47:09 ice 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/sice/cime_config/buildnml
+  2021-02-24 17:47:09 ocn 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/socn/cime_config/buildnml
+  2021-02-24 17:47:09 rof 
+   Calling /cluster/home/huit/ctsm_region/components/mosart//cime_config/buildnml
+  2021-02-24 17:47:09 glc 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/sglc/cime_config/buildnml
+  2021-02-24 17:47:09 wav 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/swav/cime_config/buildnml
+  2021-02-24 17:47:09 iac 
+   Running /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/siac/cime_config/buildnml 
+  2021-02-24 17:47:10 esp 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/sesp/cime_config/buildnml
+  2021-02-24 17:47:10 cpl 
+   Calling /cluster/home/huit/ctsm_region/cime/src/drivers/mct/cime_config/buildnml
+-------------------------------------------------------------------------
+ - Prestage required restarts into /cluster/work/users/huit/ctsm/ALP1_moss/run
+ - Case input data directory (DIN_LOC_ROOT) is /cluster/work/users/huit/inputdata 
+ - Checking for required input datasets in DIN_LOC_ROOT
+-------------------------------------------------------------------------
+run command is mpirun  /cluster/work/users/huit/ctsm/ALP1_moss/bld/cesm.exe   >> cesm.log.$LID 2>&1  
+check for resubmit
+dout_s False 
+mach saga 
+resubmit_num 0
+
+Task and CPU usage stats:
+       JobID    JobName  AllocCPUS   NTasks     MinCPU MinCPUTask     AveCPU    Elapsed ExitCode 
+------------ ---------- ---------- -------- ---------- ---------- ---------- ---------- -------- 
+2139491      run.ALP1_+          1                                             00:00:39      0:0 
+2139491.bat+      batch          1        1   00:00:07          0   00:00:07   00:00:39      0:0 
+2139491.ext+     extern          1        1   00:00:00          0   00:00:00   00:00:39      0:0 
+2139491.0     pmi_proxy          1        1   00:00:00          0   00:00:00   00:00:30      0:0 
+
+Memory usage stats:
+       JobID     MaxRSS MaxRSSTask     AveRSS MaxPages   MaxPagesTask   AvePages 
+------------ ---------- ---------- ---------- -------- -------------- ---------- 
+2139491                                                                          
+2139491.bat+     26412K          0     26412K        0              0          0 
+2139491.ext+          0          0          0        0              0          0 
+2139491.0             0          0          0        0              0          0 
+
+Disk usage stats:
+       JobID  MaxDiskRead MaxDiskReadTask    AveDiskRead MaxDiskWrite MaxDiskWriteTask   AveDiskWrite 
+------------ ------------ --------------- -------------- ------------ ---------------- -------------- 
+2139491                                                                                               
+2139491.bat+       10.13M               0         10.13M        0.19M                0          0.19M 
+2139491.ext+        0.00M               0          0.00M            0                0              0 
+2139491.0               0               0              0            0                0              0 
+
+Job 2139491 completed at Wed Feb 24 17:47:43 CET 2021
+Starting job 2140537 on c5-58 at Wed Feb 24 20:00:19 CET 2021
+
+Setting Environment KMP_STACKSIZE=256M
+Setting resource.RLIMIT_STACK to -1 from (-1, -1)
+Generating namelists for /cluster/home/huit/ctsm_cases/ALP1_moss
+Creating component namelists
+  2021-02-24 20:00:24 atm 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/data_comps_mct/datm/cime_config/buildnml
+  2021-02-24 20:00:25 lnd 
+   Calling /cluster/home/huit/ctsm_region/cime_config/buildnml
+  2021-02-24 20:00:27 ice 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/sice/cime_config/buildnml
+  2021-02-24 20:00:27 ocn 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/socn/cime_config/buildnml
+  2021-02-24 20:00:27 rof 
+   Calling /cluster/home/huit/ctsm_region/components/mosart//cime_config/buildnml
+  2021-02-24 20:00:27 glc 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/sglc/cime_config/buildnml
+  2021-02-24 20:00:27 wav 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/swav/cime_config/buildnml
+  2021-02-24 20:00:27 iac 
+   Running /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/siac/cime_config/buildnml 
+  2021-02-24 20:00:28 esp 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/sesp/cime_config/buildnml
+  2021-02-24 20:00:28 cpl 
+   Calling /cluster/home/huit/ctsm_region/cime/src/drivers/mct/cime_config/buildnml
+-------------------------------------------------------------------------
+ - Prestage required restarts into /cluster/work/users/huit/ctsm/ALP1_moss/run
+ - Case input data directory (DIN_LOC_ROOT) is /cluster/work/users/huit/inputdata 
+ - Checking for required input datasets in DIN_LOC_ROOT
+-------------------------------------------------------------------------
+run command is mpirun  /cluster/work/users/huit/ctsm/ALP1_moss/bld/cesm.exe   >> cesm.log.$LID 2>&1  
+check for resubmit
+dout_s False 
+mach saga 
+resubmit_num 0
+
+Task and CPU usage stats:
+       JobID    JobName  AllocCPUS   NTasks     MinCPU MinCPUTask     AveCPU    Elapsed ExitCode 
+------------ ---------- ---------- -------- ---------- ---------- ---------- ---------- -------- 
+2140537      run.ALP1_+          1                                             00:00:47      0:0 
+2140537.bat+      batch          1        1   00:00:05          0   00:00:05   00:00:47      0:0 
+2140537.ext+     extern          1        1   00:00:00          0   00:00:00   00:00:47      0:0 
+2140537.0     pmi_proxy          1        1   00:00:27          0   00:00:27   00:00:32      0:0 
+
+Memory usage stats:
+       JobID     MaxRSS MaxRSSTask     AveRSS MaxPages   MaxPagesTask   AvePages 
+------------ ---------- ---------- ---------- -------- -------------- ---------- 
+2140537                                                                          
+2140537.bat+     26388K          0     26388K        0              0          0 
+2140537.ext+          0          0          0        0              0          0 
+2140537.0        58028K          0     58028K        0              0          0 
+
+Disk usage stats:
+       JobID  MaxDiskRead MaxDiskReadTask    AveDiskRead MaxDiskWrite MaxDiskWriteTask   AveDiskWrite 
+------------ ------------ --------------- -------------- ------------ ---------------- -------------- 
+2140537                                                                                               
+2140537.bat+       10.13M               0         10.13M        0.19M                0          0.19M 
+2140537.ext+        0.00M               0          0.00M            0                0              0 
+2140537.0          26.85M               0         26.85M       28.51M                0         28.51M 
+
+Job 2140537 completed at Wed Feb 24 20:01:06 CET 2021
+Starting job 2141550 on c3-3 at Wed Feb 24 20:20:28 CET 2021
+
+Setting Environment KMP_STACKSIZE=256M
+Setting resource.RLIMIT_STACK to -1 from (-1, -1)
+Generating namelists for /cluster/home/huit/ctsm_cases/ALP1_moss
+Creating component namelists
+  2021-02-24 20:20:33 atm 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/data_comps_mct/datm/cime_config/buildnml
+  2021-02-24 20:20:33 lnd 
+   Calling /cluster/home/huit/ctsm_region/cime_config/buildnml
+  2021-02-24 20:20:34 ice 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/sice/cime_config/buildnml
+  2021-02-24 20:20:34 ocn 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/socn/cime_config/buildnml
+  2021-02-24 20:20:34 rof 
+   Calling /cluster/home/huit/ctsm_region/components/mosart//cime_config/buildnml
+  2021-02-24 20:20:34 glc 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/sglc/cime_config/buildnml
+  2021-02-24 20:20:34 wav 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/swav/cime_config/buildnml
+  2021-02-24 20:20:34 iac 
+   Running /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/siac/cime_config/buildnml 
+  2021-02-24 20:20:35 esp 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/sesp/cime_config/buildnml
+  2021-02-24 20:20:35 cpl 
+   Calling /cluster/home/huit/ctsm_region/cime/src/drivers/mct/cime_config/buildnml
+-------------------------------------------------------------------------
+ - Prestage required restarts into /cluster/work/users/huit/ctsm/ALP1_moss/run
+ - Case input data directory (DIN_LOC_ROOT) is /cluster/work/users/huit/inputdata 
+ - Checking for required input datasets in DIN_LOC_ROOT
+-------------------------------------------------------------------------
+run command is mpirun  /cluster/work/users/huit/ctsm/ALP1_moss/bld/cesm.exe   >> cesm.log.$LID 2>&1  
+check for resubmit
+dout_s False 
+mach saga 
+resubmit_num 0
+
+Task and CPU usage stats:
+       JobID    JobName  AllocCPUS   NTasks     MinCPU MinCPUTask     AveCPU    Elapsed ExitCode 
+------------ ---------- ---------- -------- ---------- ---------- ---------- ---------- -------- 
+2141550      run.ALP1_+          1                                             00:00:42      0:0 
+2141550.bat+      batch          1        1   00:00:06          0   00:00:06   00:00:42      0:0 
+2141550.ext+     extern          1        1   00:00:00          0   00:00:00   00:00:42      0:0 
+2141550.0     pmi_proxy          1        1   00:00:28          0   00:00:28   00:00:32      0:0 
+
+Memory usage stats:
+       JobID     MaxRSS MaxRSSTask     AveRSS MaxPages   MaxPagesTask   AvePages 
+------------ ---------- ---------- ---------- -------- -------------- ---------- 
+2141550                                                                          
+2141550.bat+     26408K          0     26408K        0              0          0 
+2141550.ext+          0          0          0        0              0          0 
+2141550.0        58028K          0     58028K        0              0          0 
+
+Disk usage stats:
+       JobID  MaxDiskRead MaxDiskReadTask    AveDiskRead MaxDiskWrite MaxDiskWriteTask   AveDiskWrite 
+------------ ------------ --------------- -------------- ------------ ---------------- -------------- 
+2141550                                                                                               
+2141550.bat+       10.13M               0         10.13M        0.19M                0          0.19M 
+2141550.ext+        0.00M               0          0.00M            0                0              0 
+2141550.0          26.69M               0         26.69M       28.44M                0         28.44M 
+
+Job 2141550 completed at Wed Feb 24 20:21:10 CET 2021
+Starting job 2141905 on c1-54 at Wed Feb 24 21:53:40 CET 2021
+
+Setting Environment KMP_STACKSIZE=256M
+Setting resource.RLIMIT_STACK to -1 from (-1, -1)
+Generating namelists for /cluster/home/huit/ctsm_cases/ALP1_moss
+Creating component namelists
+  2021-02-24 21:53:45 atm 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/data_comps_mct/datm/cime_config/buildnml
+  2021-02-24 21:53:46 lnd 
+   Calling /cluster/home/huit/ctsm_region/cime_config/buildnml
+  2021-02-24 21:53:47 ice 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/sice/cime_config/buildnml
+  2021-02-24 21:53:47 ocn 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/socn/cime_config/buildnml
+  2021-02-24 21:53:47 rof 
+   Calling /cluster/home/huit/ctsm_region/components/mosart//cime_config/buildnml
+  2021-02-24 21:53:48 glc 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/sglc/cime_config/buildnml
+  2021-02-24 21:53:48 wav 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/swav/cime_config/buildnml
+  2021-02-24 21:53:48 iac 
+   Running /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/siac/cime_config/buildnml 
+  2021-02-24 21:53:48 esp 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/sesp/cime_config/buildnml
+  2021-02-24 21:53:48 cpl 
+   Calling /cluster/home/huit/ctsm_region/cime/src/drivers/mct/cime_config/buildnml
+-------------------------------------------------------------------------
+ - Prestage required restarts into /cluster/work/users/huit/ctsm/ALP1_moss/run
+ - Case input data directory (DIN_LOC_ROOT) is /cluster/work/users/huit/inputdata 
+ - Checking for required input datasets in DIN_LOC_ROOT
+-------------------------------------------------------------------------
+run command is mpirun  /cluster/work/users/huit/ctsm/ALP1_moss/bld/cesm.exe   >> cesm.log.$LID 2>&1  
+check for resubmit
+dout_s False 
+mach saga 
+resubmit_num 0
+
+Task and CPU usage stats:
+       JobID    JobName  AllocCPUS   NTasks     MinCPU MinCPUTask     AveCPU    Elapsed ExitCode 
+------------ ---------- ---------- -------- ---------- ---------- ---------- ---------- -------- 
+2141905      run.ALP1_+          1                                             00:00:48      0:0 
+2141905.bat+      batch          1        1   00:00:06          0   00:00:06   00:00:48      0:0 
+2141905.ext+     extern          1        1   00:00:00          0   00:00:00   00:00:48      0:0 
+2141905.0     pmi_proxy          1        1   00:00:27          0   00:00:27   00:00:36      0:0 
+
+Memory usage stats:
+       JobID     MaxRSS MaxRSSTask     AveRSS MaxPages   MaxPagesTask   AvePages 
+------------ ---------- ---------- ---------- -------- -------------- ---------- 
+2141905                                                                          
+2141905.bat+     26396K          0     26396K        0              0          0 
+2141905.ext+          0          0          0        0              0          0 
+2141905.0        58020K          0     58020K        0              0          0 
+
+Disk usage stats:
+       JobID  MaxDiskRead MaxDiskReadTask    AveDiskRead MaxDiskWrite MaxDiskWriteTask   AveDiskWrite 
+------------ ------------ --------------- -------------- ------------ ---------------- -------------- 
+2141905                                                                                               
+2141905.bat+       10.13M               0         10.13M        0.19M                0          0.19M 
+2141905.ext+        0.00M               0          0.00M            0                0              0 
+2141905.0          22.31M               0         22.31M       23.88M                0         23.88M 
+
+Job 2141905 completed at Wed Feb 24 21:54:28 CET 2021
+Starting job 2142086 on c5-48 at Wed Feb 24 22:29:52 CET 2021
+
+Setting Environment KMP_STACKSIZE=256M
+Setting resource.RLIMIT_STACK to -1 from (-1, -1)
+Generating namelists for /cluster/home/huit/ctsm_cases/ALP1_moss
+Creating component namelists
+  2021-02-24 22:29:58 atm 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/data_comps_mct/datm/cime_config/buildnml
+  2021-02-24 22:29:59 lnd 
+   Calling /cluster/home/huit/ctsm_region/cime_config/buildnml
+  2021-02-24 22:30:00 ice 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/sice/cime_config/buildnml
+  2021-02-24 22:30:00 ocn 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/socn/cime_config/buildnml
+  2021-02-24 22:30:00 rof 
+   Calling /cluster/home/huit/ctsm_region/components/mosart//cime_config/buildnml
+  2021-02-24 22:30:00 glc 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/sglc/cime_config/buildnml
+  2021-02-24 22:30:00 wav 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/swav/cime_config/buildnml
+  2021-02-24 22:30:01 iac 
+   Running /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/siac/cime_config/buildnml 
+  2021-02-24 22:30:01 esp 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/sesp/cime_config/buildnml
+  2021-02-24 22:30:01 cpl 
+   Calling /cluster/home/huit/ctsm_region/cime/src/drivers/mct/cime_config/buildnml
+-------------------------------------------------------------------------
+ - Prestage required restarts into /cluster/work/users/huit/ctsm/ALP1_moss/run
+ - Case input data directory (DIN_LOC_ROOT) is /cluster/work/users/huit/inputdata 
+ - Checking for required input datasets in DIN_LOC_ROOT
+-------------------------------------------------------------------------
+run command is mpirun  /cluster/work/users/huit/ctsm/ALP1_moss/bld/cesm.exe   >> cesm.log.$LID 2>&1  
+check for resubmit
+dout_s False 
+mach saga 
+resubmit_num 0
+
+Task and CPU usage stats:
+       JobID    JobName  AllocCPUS   NTasks     MinCPU MinCPUTask     AveCPU    Elapsed ExitCode 
+------------ ---------- ---------- -------- ---------- ---------- ---------- ---------- -------- 
+2142086      run.ALP1_+          1                                             00:00:47      0:0 
+2142086.bat+      batch          1        1   00:00:06          0   00:00:06   00:00:47      0:0 
+2142086.ext+     extern          1        1   00:00:00          0   00:00:00   00:00:47      0:0 
+2142086.0     pmi_proxy          1        1   00:00:28          0   00:00:28   00:00:33      0:0 
+
+Memory usage stats:
+       JobID     MaxRSS MaxRSSTask     AveRSS MaxPages   MaxPagesTask   AvePages 
+------------ ---------- ---------- ---------- -------- -------------- ---------- 
+2142086                                                                          
+2142086.bat+     26412K          0     26412K        0              0          0 
+2142086.ext+          0          0          0        0              0          0 
+2142086.0        58028K          0     58028K        0              0          0 
+
+Disk usage stats:
+       JobID  MaxDiskRead MaxDiskReadTask    AveDiskRead MaxDiskWrite MaxDiskWriteTask   AveDiskWrite 
+------------ ------------ --------------- -------------- ------------ ---------------- -------------- 
+2142086                                                                                               
+2142086.bat+       10.13M               0         10.13M        0.19M                0          0.19M 
+2142086.ext+        0.00M               0          0.00M            0                0              0 
+2142086.0          23.38M               0         23.38M       25.08M                0         25.08M 
+
+Job 2142086 completed at Wed Feb 24 22:30:38 CET 2021
+Starting job 2142517 on c5-13 at Wed Feb 24 23:04:05 CET 2021
+
+Setting Environment KMP_STACKSIZE=256M
+Setting resource.RLIMIT_STACK to -1 from (-1, -1)
+Generating namelists for /cluster/home/huit/ctsm_cases/ALP1_moss
+Creating component namelists
+  2021-02-24 23:04:09 atm 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/data_comps_mct/datm/cime_config/buildnml
+  2021-02-24 23:04:10 lnd 
+   Calling /cluster/home/huit/ctsm_region/cime_config/buildnml
+  2021-02-24 23:04:11 ice 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/sice/cime_config/buildnml
+  2021-02-24 23:04:11 ocn 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/socn/cime_config/buildnml
+  2021-02-24 23:04:11 rof 
+   Calling /cluster/home/huit/ctsm_region/components/mosart//cime_config/buildnml
+  2021-02-24 23:04:11 glc 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/sglc/cime_config/buildnml
+  2021-02-24 23:04:11 wav 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/swav/cime_config/buildnml
+  2021-02-24 23:04:11 iac 
+   Running /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/siac/cime_config/buildnml 
+  2021-02-24 23:04:11 esp 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/sesp/cime_config/buildnml
+  2021-02-24 23:04:11 cpl 
+   Calling /cluster/home/huit/ctsm_region/cime/src/drivers/mct/cime_config/buildnml
+-------------------------------------------------------------------------
+ - Prestage required restarts into /cluster/work/users/huit/ctsm/ALP1_moss/run
+ - Case input data directory (DIN_LOC_ROOT) is /cluster/work/users/huit/inputdata 
+ - Checking for required input datasets in DIN_LOC_ROOT
+-------------------------------------------------------------------------
+run command is mpirun  /cluster/work/users/huit/ctsm/ALP1_moss/bld/cesm.exe   >> cesm.log.$LID 2>&1  
+ERROR: RUN FAIL: Command 'mpirun  /cluster/work/users/huit/ctsm/ALP1_moss/bld/cesm.exe   >> cesm.log.$LID 2>&1 ' failed
+See log file for details: /cluster/work/users/huit/ctsm/ALP1_moss/run/cesm.log.2142517.210224-230406
+
+Task and CPU usage stats:
+       JobID    JobName  AllocCPUS   NTasks     MinCPU MinCPUTask     AveCPU    Elapsed ExitCode 
+------------ ---------- ---------- -------- ---------- ---------- ---------- ---------- -------- 
+2142517      run.ALP1_+          1                                             00:00:14      1:0 
+2142517.bat+      batch          1        1   00:00:00          0   00:00:00   00:00:14      1:0 
+2142517.ext+     extern          1        1   00:00:00          0   00:00:00   00:00:14      0:0 
+2142517.0     pmi_proxy          1        1   00:00:00          0   00:00:00   00:00:07      7:0 
+
+Memory usage stats:
+       JobID     MaxRSS MaxRSSTask     AveRSS MaxPages   MaxPagesTask   AvePages 
+------------ ---------- ---------- ---------- -------- -------------- ---------- 
+2142517                                                                          
+2142517.bat+          0          0          0        0              0          0 
+2142517.ext+          0          0          0        0              0          0 
+2142517.0             0          0          0        0              0          0 
+
+Disk usage stats:
+       JobID  MaxDiskRead MaxDiskReadTask    AveDiskRead MaxDiskWrite MaxDiskWriteTask   AveDiskWrite 
+------------ ------------ --------------- -------------- ------------ ---------------- -------------- 
+2142517                                                                                               
+2142517.bat+            0               0              0            0                0              0 
+2142517.ext+        0.00M               0          0.00M            0                0              0 
+2142517.0               0               0              0            0                0              0 
+
+Job 2142517 completed at Wed Feb 24 23:04:20 CET 2021
+Starting job 2142537 on c5-13 at Wed Feb 24 23:09:11 CET 2021
+
+Setting Environment KMP_STACKSIZE=256M
+Setting resource.RLIMIT_STACK to -1 from (-1, -1)
+Generating namelists for /cluster/home/huit/ctsm_cases/ALP1_moss
+Creating component namelists
+  2021-02-24 23:09:16 atm 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/data_comps_mct/datm/cime_config/buildnml
+  2021-02-24 23:09:17 lnd 
+   Calling /cluster/home/huit/ctsm_region/cime_config/buildnml
+  2021-02-24 23:09:18 ice 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/sice/cime_config/buildnml
+  2021-02-24 23:09:18 ocn 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/socn/cime_config/buildnml
+  2021-02-24 23:09:18 rof 
+   Calling /cluster/home/huit/ctsm_region/components/mosart//cime_config/buildnml
+  2021-02-24 23:09:18 glc 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/sglc/cime_config/buildnml
+  2021-02-24 23:09:18 wav 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/swav/cime_config/buildnml
+  2021-02-24 23:09:18 iac 
+   Running /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/siac/cime_config/buildnml 
+  2021-02-24 23:09:18 esp 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/sesp/cime_config/buildnml
+  2021-02-24 23:09:18 cpl 
+   Calling /cluster/home/huit/ctsm_region/cime/src/drivers/mct/cime_config/buildnml
+-------------------------------------------------------------------------
+ - Prestage required restarts into /cluster/work/users/huit/ctsm/ALP1_moss/run
+ - Case input data directory (DIN_LOC_ROOT) is /cluster/work/users/huit/inputdata 
+ - Checking for required input datasets in DIN_LOC_ROOT
+-------------------------------------------------------------------------
+run command is mpirun  /cluster/work/users/huit/ctsm/ALP1_moss/bld/cesm.exe   >> cesm.log.$LID 2>&1  
+ERROR: RUN FAIL: Command 'mpirun  /cluster/work/users/huit/ctsm/ALP1_moss/bld/cesm.exe   >> cesm.log.$LID 2>&1 ' failed
+See log file for details: /cluster/work/users/huit/ctsm/ALP1_moss/run/cesm.log.2142537.210224-230913
+
+Task and CPU usage stats:
+       JobID    JobName  AllocCPUS   NTasks     MinCPU MinCPUTask     AveCPU    Elapsed ExitCode 
+------------ ---------- ---------- -------- ---------- ---------- ---------- ---------- -------- 
+2142537      run.ALP1_+          1                                             00:00:14      1:0 
+2142537.bat+      batch          1        1   00:00:00          0   00:00:00   00:00:14      1:0 
+2142537.ext+     extern          1        1   00:00:00          0   00:00:00   00:00:14      0:0 
+2142537.0     pmi_proxy          1        1   00:00:00          0   00:00:00   00:00:07      7:0 
+
+Memory usage stats:
+       JobID     MaxRSS MaxRSSTask     AveRSS MaxPages   MaxPagesTask   AvePages 
+------------ ---------- ---------- ---------- -------- -------------- ---------- 
+2142537                                                                          
+2142537.bat+          0          0          0        0              0          0 
+2142537.ext+          0          0          0        0              0          0 
+2142537.0             0          0          0        0              0          0 
+
+Disk usage stats:
+       JobID  MaxDiskRead MaxDiskReadTask    AveDiskRead MaxDiskWrite MaxDiskWriteTask   AveDiskWrite 
+------------ ------------ --------------- -------------- ------------ ---------------- -------------- 
+2142537                                                                                               
+2142537.bat+            0               0              0            0                0              0 
+2142537.ext+        0.00M               0          0.00M            0                0              0 
+2142537.0               0               0              0            0                0              0 
+
+Job 2142537 completed at Wed Feb 24 23:09:28 CET 2021
+Starting job 2142720 on c5-54 at Wed Feb 24 23:28:07 CET 2021
+
+Setting Environment KMP_STACKSIZE=256M
+Setting resource.RLIMIT_STACK to -1 from (-1, -1)
+Generating namelists for /cluster/home/huit/ctsm_cases/ALP1_moss
+Creating component namelists
+  2021-02-24 23:28:11 atm 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/data_comps_mct/datm/cime_config/buildnml
+  2021-02-24 23:28:12 lnd 
+   Calling /cluster/home/huit/ctsm_region/cime_config/buildnml
+  2021-02-24 23:28:14 ice 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/sice/cime_config/buildnml
+  2021-02-24 23:28:14 ocn 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/socn/cime_config/buildnml
+  2021-02-24 23:28:14 rof 
+   Calling /cluster/home/huit/ctsm_region/components/mosart//cime_config/buildnml
+  2021-02-24 23:28:14 glc 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/sglc/cime_config/buildnml
+  2021-02-24 23:28:14 wav 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/swav/cime_config/buildnml
+  2021-02-24 23:28:14 iac 
+   Running /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/siac/cime_config/buildnml 
+  2021-02-24 23:28:14 esp 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/sesp/cime_config/buildnml
+  2021-02-24 23:28:14 cpl 
+   Calling /cluster/home/huit/ctsm_region/cime/src/drivers/mct/cime_config/buildnml
+-------------------------------------------------------------------------
+ - Prestage required restarts into /cluster/work/users/huit/ctsm/ALP1_moss/run
+ - Case input data directory (DIN_LOC_ROOT) is /cluster/work/users/huit/inputdata 
+ - Checking for required input datasets in DIN_LOC_ROOT
+-------------------------------------------------------------------------
+run command is mpirun  /cluster/work/users/huit/ctsm/ALP1_moss/bld/cesm.exe   >> cesm.log.$LID 2>&1  
+ERROR: RUN FAIL: Command 'mpirun  /cluster/work/users/huit/ctsm/ALP1_moss/bld/cesm.exe   >> cesm.log.$LID 2>&1 ' failed
+See log file for details: /cluster/work/users/huit/ctsm/ALP1_moss/run/cesm.log.2142720.210224-232808
+
+Task and CPU usage stats:
+       JobID    JobName  AllocCPUS   NTasks     MinCPU MinCPUTask     AveCPU    Elapsed ExitCode 
+------------ ---------- ---------- -------- ---------- ---------- ---------- ---------- -------- 
+2142720      run.ALP1_+          1                                             00:00:16      1:0 
+2142720.bat+      batch          1        1   00:00:00          0   00:00:00   00:00:16      1:0 
+2142720.ext+     extern          1        1   00:00:00          0   00:00:00   00:00:16      0:0 
+2142720.0     pmi_proxy          1        1   00:00:00          0   00:00:00   00:00:07      7:0 
+
+Memory usage stats:
+       JobID     MaxRSS MaxRSSTask     AveRSS MaxPages   MaxPagesTask   AvePages 
+------------ ---------- ---------- ---------- -------- -------------- ---------- 
+2142720                                                                          
+2142720.bat+          0          0          0        0              0          0 
+2142720.ext+          0          0          0        0              0          0 
+2142720.0             0          0          0        0              0          0 
+
+Disk usage stats:
+       JobID  MaxDiskRead MaxDiskReadTask    AveDiskRead MaxDiskWrite MaxDiskWriteTask   AveDiskWrite 
+------------ ------------ --------------- -------------- ------------ ---------------- -------------- 
+2142720                                                                                               
+2142720.bat+            0               0              0            0                0              0 
+2142720.ext+        0.00M               0          0.00M            0                0              0 
+2142720.0               0               0              0            0                0              0 
+
+Job 2142720 completed at Wed Feb 24 23:28:25 CET 2021
+Starting job 2142849 on c5-47 at Wed Feb 24 23:34:18 CET 2021
+
+Setting Environment KMP_STACKSIZE=256M
+Setting resource.RLIMIT_STACK to -1 from (-1, -1)
+Generating namelists for /cluster/home/huit/ctsm_cases/ALP1_moss
+Creating component namelists
+  2021-02-24 23:34:22 atm 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/data_comps_mct/datm/cime_config/buildnml
+  2021-02-24 23:34:23 lnd 
+   Calling /cluster/home/huit/ctsm_region/cime_config/buildnml
+  2021-02-24 23:34:24 ice 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/sice/cime_config/buildnml
+  2021-02-24 23:34:24 ocn 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/socn/cime_config/buildnml
+  2021-02-24 23:34:24 rof 
+   Calling /cluster/home/huit/ctsm_region/components/mosart//cime_config/buildnml
+  2021-02-24 23:34:24 glc 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/sglc/cime_config/buildnml
+  2021-02-24 23:34:24 wav 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/swav/cime_config/buildnml
+  2021-02-24 23:34:24 iac 
+   Running /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/siac/cime_config/buildnml 
+  2021-02-24 23:34:25 esp 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/sesp/cime_config/buildnml
+  2021-02-24 23:34:25 cpl 
+   Calling /cluster/home/huit/ctsm_region/cime/src/drivers/mct/cime_config/buildnml
+-------------------------------------------------------------------------
+ - Prestage required restarts into /cluster/work/users/huit/ctsm/ALP1_moss/run
+ - Case input data directory (DIN_LOC_ROOT) is /cluster/work/users/huit/inputdata 
+ - Checking for required input datasets in DIN_LOC_ROOT
+-------------------------------------------------------------------------
+run command is mpirun  /cluster/work/users/huit/ctsm/ALP1_moss/bld/cesm.exe   >> cesm.log.$LID 2>&1  
+check for resubmit
+dout_s False 
+mach saga 
+resubmit_num 0
+
+Task and CPU usage stats:
+       JobID    JobName  AllocCPUS   NTasks     MinCPU MinCPUTask     AveCPU    Elapsed ExitCode 
+------------ ---------- ---------- -------- ---------- ---------- ---------- ---------- -------- 
+2142849      run.ALP1_+          1                                             00:00:48      0:0 
+2142849.bat+      batch          1        1   00:00:06          0   00:00:06   00:00:48      0:0 
+2142849.ext+     extern          1        1   00:00:00          0   00:00:00   00:00:48      0:0 
+2142849.0     pmi_proxy          1        1   00:00:26          0   00:00:26   00:00:36      0:0 
+
+Memory usage stats:
+       JobID     MaxRSS MaxRSSTask     AveRSS MaxPages   MaxPagesTask   AvePages 
+------------ ---------- ---------- ---------- -------- -------------- ---------- 
+2142849                                                                          
+2142849.bat+     26412K          0     26412K        0              0          0 
+2142849.ext+          0          0          0        0              0          0 
+2142849.0        58172K          0     58172K        0              0          0 
+
+Disk usage stats:
+       JobID  MaxDiskRead MaxDiskReadTask    AveDiskRead MaxDiskWrite MaxDiskWriteTask   AveDiskWrite 
+------------ ------------ --------------- -------------- ------------ ---------------- -------------- 
+2142849                                                                                               
+2142849.bat+       10.13M               0         10.13M        0.19M                0          0.19M 
+2142849.ext+        0.00M               0          0.00M            0                0              0 
+2142849.0          21.87M               0         21.87M       23.36M                0         23.36M 
+
+Job 2142849 completed at Wed Feb 24 23:35:05 CET 2021
+Starting job 2308781 on c5-59 at Thu Mar 4 00:29:09 CET 2021
+
+Setting Environment KMP_STACKSIZE=256M
+Setting resource.RLIMIT_STACK to -1 from (-1, -1)
+Generating namelists for /cluster/home/huit/ctsm_cases/ALP1_moss
+Creating component namelists
+  2021-03-04 00:29:14 atm 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/data_comps_mct/datm/cime_config/buildnml
+  2021-03-04 00:29:15 lnd 
+   Calling /cluster/home/huit/ctsm_region/cime_config/buildnml
+  2021-03-04 00:29:16 ice 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/sice/cime_config/buildnml
+  2021-03-04 00:29:16 ocn 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/socn/cime_config/buildnml
+  2021-03-04 00:29:16 rof 
+   Calling /cluster/home/huit/ctsm_region/components/mosart//cime_config/buildnml
+  2021-03-04 00:29:16 glc 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/sglc/cime_config/buildnml
+  2021-03-04 00:29:16 wav 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/swav/cime_config/buildnml
+  2021-03-04 00:29:16 iac 
+   Running /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/siac/cime_config/buildnml 
+  2021-03-04 00:29:16 esp 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/sesp/cime_config/buildnml
+  2021-03-04 00:29:16 cpl 
+   Calling /cluster/home/huit/ctsm_region/cime/src/drivers/mct/cime_config/buildnml
+-------------------------------------------------------------------------
+ - Prestage required restarts into /cluster/work/users/huit/ctsm/ALP1_moss/run
+ - Case input data directory (DIN_LOC_ROOT) is /cluster/work/users/huit/inputdata 
+ - Checking for required input datasets in DIN_LOC_ROOT
+-------------------------------------------------------------------------
+run command is mpirun  /cluster/work/users/huit/ctsm/ALP1_moss/bld/cesm.exe   >> cesm.log.$LID 2>&1  
+check for resubmit
+dout_s False 
+mach saga 
+resubmit_num 0
+
+Task and CPU usage stats:
+       JobID    JobName  AllocCPUS   NTasks     MinCPU MinCPUTask     AveCPU    Elapsed ExitCode 
+------------ ---------- ---------- -------- ---------- ---------- ---------- ---------- -------- 
+2308781      run.ALP1_+          1                                             00:00:58      0:0 
+2308781.bat+      batch          1        1   00:00:05          0   00:00:05   00:00:58      0:0 
+2308781.ext+     extern          1        1   00:00:00          0   00:00:00   00:00:58      0:0 
+2308781.0     pmi_proxy          1        1   00:00:22          0   00:00:22   00:00:46      0:0 
+
+Memory usage stats:
+       JobID     MaxRSS MaxRSSTask     AveRSS MaxPages   MaxPagesTask   AvePages 
+------------ ---------- ---------- ---------- -------- -------------- ---------- 
+2308781                                                                          
+2308781.bat+     26320K          0     26320K        0              0          0 
+2308781.ext+          0          0          0        0              0          0 
+2308781.0        58176K          0     58176K        0              0          0 
+
+Disk usage stats:
+       JobID  MaxDiskRead MaxDiskReadTask    AveDiskRead MaxDiskWrite MaxDiskWriteTask   AveDiskWrite 
+------------ ------------ --------------- -------------- ------------ ---------------- -------------- 
+2308781                                                                                               
+2308781.bat+       10.23M               0         10.23M        0.20M                0          0.20M 
+2308781.ext+        0.00M               0          0.00M            0                0              0 
+2308781.0          21.01M               0         21.01M       22.30M                0         22.30M 
+
+Job 2308781 completed at Thu Mar 4 00:30:07 CET 2021
+Starting job 2322955 on c5-59 at Thu Mar 4 14:50:54 CET 2021
+
+Setting Environment KMP_STACKSIZE=256M
+Setting resource.RLIMIT_STACK to -1 from (-1, -1)
+Generating namelists for /cluster/home/huit/ctsm_cases/ALP1_moss
+Creating component namelists
+  2021-03-04 14:50:58 atm 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/data_comps_mct/datm/cime_config/buildnml
+  2021-03-04 14:50:59 lnd 
+   Calling /cluster/home/huit/ctsm_region/cime_config/buildnml
+  2021-03-04 14:51:00 ice 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/sice/cime_config/buildnml
+  2021-03-04 14:51:00 ocn 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/socn/cime_config/buildnml
+  2021-03-04 14:51:00 rof 
+   Calling /cluster/home/huit/ctsm_region/components/mosart//cime_config/buildnml
+  2021-03-04 14:51:00 glc 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/sglc/cime_config/buildnml
+  2021-03-04 14:51:00 wav 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/swav/cime_config/buildnml
+  2021-03-04 14:51:00 iac 
+   Running /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/siac/cime_config/buildnml 
+  2021-03-04 14:51:00 esp 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/sesp/cime_config/buildnml
+  2021-03-04 14:51:00 cpl 
+   Calling /cluster/home/huit/ctsm_region/cime/src/drivers/mct/cime_config/buildnml
+-------------------------------------------------------------------------
+ - Prestage required restarts into /cluster/work/users/huit/ctsm/ALP1_moss/run
+ - Case input data directory (DIN_LOC_ROOT) is /cluster/work/users/huit/inputdata 
+ - Checking for required input datasets in DIN_LOC_ROOT
+-------------------------------------------------------------------------
+run command is mpirun  /cluster/work/users/huit/ctsm/ALP1_moss/bld/cesm.exe   >> cesm.log.$LID 2>&1  
+check for resubmit
+dout_s False 
+mach saga 
+resubmit_num 0
+
+Task and CPU usage stats:
+       JobID    JobName  AllocCPUS   NTasks     MinCPU MinCPUTask     AveCPU    Elapsed ExitCode 
+------------ ---------- ---------- -------- ---------- ---------- ---------- ---------- -------- 
+2322955      run.ALP1_+          1                                             00:01:02      0:0 
+2322955.bat+      batch          1        1   00:00:13          0   00:00:13   00:01:02      0:0 
+2322955.ext+     extern          1        1   00:00:00          0   00:00:00   00:01:02      0:0 
+2322955.0     pmi_proxy          1        1   00:00:23          0   00:00:23   00:00:49      0:0 
+
+Memory usage stats:
+       JobID     MaxRSS MaxRSSTask     AveRSS MaxPages   MaxPagesTask   AvePages 
+------------ ---------- ---------- ---------- -------- -------------- ---------- 
+2322955                                                                          
+2322955.bat+     26436K          0     26436K        0              0          0 
+2322955.ext+          0          0          0        0              0          0 
+2322955.0        60152K          0     60152K        0              0          0 
+
+Disk usage stats:
+       JobID  MaxDiskRead MaxDiskReadTask    AveDiskRead MaxDiskWrite MaxDiskWriteTask   AveDiskWrite 
+------------ ------------ --------------- -------------- ------------ ---------------- -------------- 
+2322955                                                                                               
+2322955.bat+      127.46M               0        127.46M       65.20M                0         65.20M 
+2322955.ext+        0.00M               0          0.00M            0                0              0 
+2322955.0          34.73M               0         34.73M       36.37M                0         36.37M 
+
+Job 2322955 completed at Thu Mar 4 14:51:55 CET 2021
+Starting job 2323578 on c5-59 at Thu Mar 4 15:31:18 CET 2021
+
+Setting Environment KMP_STACKSIZE=256M
+Setting resource.RLIMIT_STACK to -1 from (-1, -1)
+Generating namelists for /cluster/home/huit/ctsm_cases/ALP1_moss
+Creating component namelists
+  2021-03-04 15:31:22 atm 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/data_comps_mct/datm/cime_config/buildnml
+  2021-03-04 15:31:23 lnd 
+   Calling /cluster/home/huit/ctsm_region/cime_config/buildnml
+  2021-03-04 15:31:24 ice 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/sice/cime_config/buildnml
+  2021-03-04 15:31:24 ocn 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/socn/cime_config/buildnml
+  2021-03-04 15:31:24 rof 
+   Calling /cluster/home/huit/ctsm_region/components/mosart//cime_config/buildnml
+  2021-03-04 15:31:24 glc 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/sglc/cime_config/buildnml
+  2021-03-04 15:31:24 wav 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/swav/cime_config/buildnml
+  2021-03-04 15:31:24 iac 
+   Running /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/siac/cime_config/buildnml 
+  2021-03-04 15:31:24 esp 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/sesp/cime_config/buildnml
+  2021-03-04 15:31:24 cpl 
+   Calling /cluster/home/huit/ctsm_region/cime/src/drivers/mct/cime_config/buildnml
+-------------------------------------------------------------------------
+ - Prestage required restarts into /cluster/work/users/huit/ctsm/ALP1_moss/run
+ - Case input data directory (DIN_LOC_ROOT) is /cluster/work/users/huit/inputdata 
+ - Checking for required input datasets in DIN_LOC_ROOT
+-------------------------------------------------------------------------
+run command is mpirun  /cluster/work/users/huit/ctsm/ALP1_moss/bld/cesm.exe   >> cesm.log.$LID 2>&1  
+check for resubmit
+dout_s False 
+mach saga 
+resubmit_num 0
+
+Task and CPU usage stats:
+       JobID    JobName  AllocCPUS   NTasks     MinCPU MinCPUTask     AveCPU    Elapsed ExitCode 
+------------ ---------- ---------- -------- ---------- ---------- ---------- ---------- -------- 
+2323578      run.ALP1_+          1                                             00:01:02      0:0 
+2323578.bat+      batch          1        1   00:00:13          0   00:00:13   00:01:02      0:0 
+2323578.ext+     extern          1        1   00:00:00          0   00:00:00   00:01:02      0:0 
+2323578.0     pmi_proxy          1        1   00:00:22          0   00:00:22   00:00:48      0:0 
+
+Memory usage stats:
+       JobID     MaxRSS MaxRSSTask     AveRSS MaxPages   MaxPagesTask   AvePages 
+------------ ---------- ---------- ---------- -------- -------------- ---------- 
+2323578                                                                          
+2323578.bat+     26448K          0     26448K        0              0          0 
+2323578.ext+          0          0          0        0              0          0 
+2323578.0        58176K          0     58176K        0              0          0 
+
+Disk usage stats:
+       JobID  MaxDiskRead MaxDiskReadTask    AveDiskRead MaxDiskWrite MaxDiskWriteTask   AveDiskWrite 
+------------ ------------ --------------- -------------- ------------ ---------------- -------------- 
+2323578                                                                                               
+2323578.bat+      128.11M               0        128.11M       64.62M                0         64.62M 
+2323578.ext+        0.00M               0          0.00M            0                0              0 
+2323578.0          33.17M               0         33.17M       34.69M                0         34.69M 
+
+Job 2323578 completed at Thu Mar 4 15:32:19 CET 2021
+Starting job 2323671 on c5-59 at Thu Mar 4 15:37:03 CET 2021
+
+Setting Environment KMP_STACKSIZE=256M
+Setting resource.RLIMIT_STACK to -1 from (-1, -1)
+Generating namelists for /cluster/home/huit/ctsm_cases/ALP1_moss
+Creating component namelists
+  2021-03-04 15:37:07 atm 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/data_comps_mct/datm/cime_config/buildnml
+  2021-03-04 15:37:08 lnd 
+   Calling /cluster/home/huit/ctsm_region/cime_config/buildnml
+  2021-03-04 15:37:09 ice 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/sice/cime_config/buildnml
+  2021-03-04 15:37:09 ocn 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/socn/cime_config/buildnml
+  2021-03-04 15:37:09 rof 
+   Calling /cluster/home/huit/ctsm_region/components/mosart//cime_config/buildnml
+  2021-03-04 15:37:09 glc 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/sglc/cime_config/buildnml
+  2021-03-04 15:37:09 wav 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/swav/cime_config/buildnml
+  2021-03-04 15:37:09 iac 
+   Running /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/siac/cime_config/buildnml 
+  2021-03-04 15:37:09 esp 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/sesp/cime_config/buildnml
+  2021-03-04 15:37:09 cpl 
+   Calling /cluster/home/huit/ctsm_region/cime/src/drivers/mct/cime_config/buildnml
+-------------------------------------------------------------------------
+ - Prestage required restarts into /cluster/work/users/huit/ctsm/ALP1_moss/run
+ - Case input data directory (DIN_LOC_ROOT) is /cluster/work/users/huit/inputdata 
+ - Checking for required input datasets in DIN_LOC_ROOT
+-------------------------------------------------------------------------
+run command is mpirun  /cluster/work/users/huit/ctsm/ALP1_moss/bld/cesm.exe   >> cesm.log.$LID 2>&1  
+check for resubmit
+dout_s False 
+mach saga 
+resubmit_num 0
+
+Task and CPU usage stats:
+       JobID    JobName  AllocCPUS   NTasks     MinCPU MinCPUTask     AveCPU    Elapsed ExitCode 
+------------ ---------- ---------- -------- ---------- ---------- ---------- ---------- -------- 
+2323671      run.ALP1_+          1                                             00:00:52      0:0 
+2323671.bat+      batch          1        1   00:00:07          0   00:00:07   00:00:52      0:0 
+2323671.ext+     extern          1        1   00:00:00          0   00:00:00   00:00:52      0:0 
+2323671.0     pmi_proxy          1        1   00:00:29          0   00:00:29   00:00:39      0:0 
+
+Memory usage stats:
+       JobID     MaxRSS MaxRSSTask     AveRSS MaxPages   MaxPagesTask   AvePages 
+------------ ---------- ---------- ---------- -------- -------------- ---------- 
+2323671                                                                          
+2323671.bat+     26440K          0     26440K        0              0          0 
+2323671.ext+          0          0          0        0              0          0 
+2323671.0        58184K          0     58184K        0              0          0 
+
+Disk usage stats:
+       JobID  MaxDiskRead MaxDiskReadTask    AveDiskRead MaxDiskWrite MaxDiskWriteTask   AveDiskWrite 
+------------ ------------ --------------- -------------- ------------ ---------------- -------------- 
+2323671                                                                                               
+2323671.bat+       10.25M               0         10.25M        0.20M                0          0.20M 
+2323671.ext+        0.00M               0          0.00M            0                0              0 
+2323671.0          49.28M               0         49.28M       51.52M                0         51.52M 
+
+Job 2323671 completed at Thu Mar 4 15:37:54 CET 2021
+Starting job 2436285 on c5-58 at Tue Mar 9 23:34:17 CET 2021
+
+Setting Environment KMP_STACKSIZE=256M
+Setting resource.RLIMIT_STACK to -1 from (-1, -1)
+Generating namelists for /cluster/home/huit/ctsm_cases/ALP1_moss
+Creating component namelists
+  2021-03-09 23:34:21 atm 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/data_comps_mct/datm/cime_config/buildnml
+  2021-03-09 23:34:22 lnd 
+   Calling /cluster/home/huit/ctsm_region/cime_config/buildnml
+  2021-03-09 23:34:22 ice 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/sice/cime_config/buildnml
+  2021-03-09 23:34:22 ocn 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/socn/cime_config/buildnml
+  2021-03-09 23:34:22 rof 
+   Calling /cluster/home/huit/ctsm_region/components/mosart//cime_config/buildnml
+  2021-03-09 23:34:23 glc 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/sglc/cime_config/buildnml
+  2021-03-09 23:34:23 wav 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/swav/cime_config/buildnml
+  2021-03-09 23:34:23 iac 
+   Running /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/siac/cime_config/buildnml 
+  2021-03-09 23:34:23 esp 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/sesp/cime_config/buildnml
+  2021-03-09 23:34:23 cpl 
+   Calling /cluster/home/huit/ctsm_region/cime/src/drivers/mct/cime_config/buildnml
+-------------------------------------------------------------------------
+ - Prestage required restarts into /cluster/work/users/huit/ctsm/ALP1_moss/run
+ - Case input data directory (DIN_LOC_ROOT) is /cluster/work/users/huit/inputdata 
+ - Checking for required input datasets in DIN_LOC_ROOT
+-------------------------------------------------------------------------
+run command is mpirun  /cluster/work/users/huit/ctsm/ALP1_moss/bld/cesm.exe   >> cesm.log.$LID 2>&1  
+check for resubmit
+dout_s False 
+mach saga 
+resubmit_num 0
+
+Task and CPU usage stats:
+       JobID    JobName  AllocCPUS   NTasks     MinCPU MinCPUTask     AveCPU    Elapsed ExitCode 
+------------ ---------- ---------- -------- ---------- ---------- ---------- ---------- -------- 
+2436285      run.ALP1_+          1                                             00:00:58      0:0 
+2436285.bat+      batch          1        1   00:00:05          0   00:00:05   00:00:58      0:0 
+2436285.ext+     extern          1        1   00:00:00          0   00:00:00   00:00:58      0:0 
+2436285.0     pmi_proxy          1        1   00:00:20          0   00:00:20   00:00:47      0:0 
+
+Memory usage stats:
+       JobID     MaxRSS MaxRSSTask     AveRSS MaxPages   MaxPagesTask   AvePages 
+------------ ---------- ---------- ---------- -------- -------------- ---------- 
+2436285                                                                          
+2436285.bat+     26424K          0     26424K        0              0          0 
+2436285.ext+          0          0          0        0              0          0 
+2436285.0        58168K          0     58168K        0              0          0 
+
+Disk usage stats:
+       JobID  MaxDiskRead MaxDiskReadTask    AveDiskRead MaxDiskWrite MaxDiskWriteTask   AveDiskWrite 
+------------ ------------ --------------- -------------- ------------ ---------------- -------------- 
+2436285                                                                                               
+2436285.bat+       10.29M               0         10.29M        0.20M                0          0.20M 
+2436285.ext+        0.00M               0          0.00M            0                0              0 
+2436285.0          33.18M               0         33.18M       34.77M                0         34.77M 
+
+Job 2436285 completed at Tue Mar 9 23:35:15 CET 2021
+Starting job 2451379 on c5-51 at Wed Mar 10 20:55:59 CET 2021
+
+Setting Environment KMP_STACKSIZE=256M
+Setting resource.RLIMIT_STACK to -1 from (-1, -1)
+Generating namelists for /cluster/home/huit/ctsm_cases/ALP1_moss
+Creating component namelists
+  2021-03-10 20:56:20 atm 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/data_comps_mct/datm/cime_config/buildnml
+  2021-03-10 20:56:25 lnd 
+   Calling /cluster/home/huit/ctsm_region/cime_config/buildnml
+  2021-03-10 20:56:29 ice 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/sice/cime_config/buildnml
+  2021-03-10 20:56:29 ocn 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/socn/cime_config/buildnml
+  2021-03-10 20:56:29 rof 
+   Calling /cluster/home/huit/ctsm_region/components/mosart//cime_config/buildnml
+  2021-03-10 20:56:31 glc 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/sglc/cime_config/buildnml
+  2021-03-10 20:56:31 wav 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/swav/cime_config/buildnml
+  2021-03-10 20:56:31 iac 
+   Running /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/siac/cime_config/buildnml 
+  2021-03-10 20:56:33 esp 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/sesp/cime_config/buildnml
+  2021-03-10 20:56:33 cpl 
+   Calling /cluster/home/huit/ctsm_region/cime/src/drivers/mct/cime_config/buildnml
+-------------------------------------------------------------------------
+ - Prestage required restarts into /cluster/work/users/huit/ctsm/ALP1_moss/run
+ - Case input data directory (DIN_LOC_ROOT) is /cluster/work/users/huit/inputdata 
+ - Checking for required input datasets in DIN_LOC_ROOT
+-------------------------------------------------------------------------
+run command is mpirun  /cluster/work/users/huit/ctsm/ALP1_moss/bld/cesm.exe   >> cesm.log.$LID 2>&1  
+check for resubmit
+dout_s False 
+mach saga 
+resubmit_num 0
+
+Task and CPU usage stats:
+       JobID    JobName  AllocCPUS   NTasks     MinCPU MinCPUTask     AveCPU    Elapsed ExitCode 
+------------ ---------- ---------- -------- ---------- ---------- ---------- ---------- -------- 
+2451379      run.ALP1_+          1                                             00:03:20      0:0 
+2451379.bat+      batch          1        1   00:00:10          0   00:00:10   00:03:20      0:0 
+2451379.ext+     extern          1        1   00:00:00          0   00:00:00   00:03:20      0:0 
+2451379.0     pmi_proxy          1        1   00:00:35          0   00:00:35   00:02:23      0:0 
+
+Memory usage stats:
+       JobID     MaxRSS MaxRSSTask     AveRSS MaxPages   MaxPagesTask   AvePages 
+------------ ---------- ---------- ---------- -------- -------------- ---------- 
+2451379                                                                          
+2451379.bat+     26448K          0     26448K        0              0          0 
+2451379.ext+          0          0          0        0              0          0 
+2451379.0        58180K          0     58180K        0              0          0 
+
+Disk usage stats:
+       JobID  MaxDiskRead MaxDiskReadTask    AveDiskRead MaxDiskWrite MaxDiskWriteTask   AveDiskWrite 
+------------ ------------ --------------- -------------- ------------ ---------------- -------------- 
+2451379                                                                                               
+2451379.bat+       10.29M               0         10.29M        0.20M                0          0.20M 
+2451379.ext+        0.00M               0          0.00M            0                0              0 
+2451379.0          54.85M               0         54.85M       60.06M                0         60.06M 
+
+Job 2451379 completed at Wed Mar 10 20:59:19 CET 2021
+Starting job 2451678 on c5-51 at Wed Mar 10 22:16:50 CET 2021
+
+Setting Environment KMP_STACKSIZE=256M
+Setting resource.RLIMIT_STACK to -1 from (-1, -1)
+Generating namelists for /cluster/home/huit/ctsm_cases/ALP1_moss
+Creating component namelists
+  2021-03-10 22:17:08 atm 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/data_comps_mct/datm/cime_config/buildnml
+  2021-03-10 22:17:13 lnd 
+   Calling /cluster/home/huit/ctsm_region/cime_config/buildnml
+  2021-03-10 22:17:16 ice 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/sice/cime_config/buildnml
+  2021-03-10 22:17:16 ocn 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/socn/cime_config/buildnml
+  2021-03-10 22:17:16 rof 
+   Calling /cluster/home/huit/ctsm_region/components/mosart//cime_config/buildnml
+  2021-03-10 22:17:17 glc 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/sglc/cime_config/buildnml
+  2021-03-10 22:17:17 wav 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/swav/cime_config/buildnml
+  2021-03-10 22:17:17 iac 
+   Running /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/siac/cime_config/buildnml 
+  2021-03-10 22:17:19 esp 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/sesp/cime_config/buildnml
+  2021-03-10 22:17:19 cpl 
+   Calling /cluster/home/huit/ctsm_region/cime/src/drivers/mct/cime_config/buildnml
+-------------------------------------------------------------------------
+ - Prestage required restarts into /cluster/work/users/huit/ctsm/ALP1_moss/run
+ - Case input data directory (DIN_LOC_ROOT) is /cluster/work/users/huit/inputdata 
+ - Checking for required input datasets in DIN_LOC_ROOT
+-------------------------------------------------------------------------
+run command is mpirun  /cluster/work/users/huit/ctsm/ALP1_moss/bld/cesm.exe   >> cesm.log.$LID 2>&1  
+check for resubmit
+dout_s False 
+mach saga 
+resubmit_num 0
+
+Task and CPU usage stats:
+       JobID    JobName  AllocCPUS   NTasks     MinCPU MinCPUTask     AveCPU    Elapsed ExitCode 
+------------ ---------- ---------- -------- ---------- ---------- ---------- ---------- -------- 
+2451678      run.ALP1_+          1                                             00:03:11      0:0 
+2451678.bat+      batch          1        1   00:00:10          0   00:00:10   00:03:11      0:0 
+2451678.ext+     extern          1        1   00:00:00          0   00:00:00   00:03:11      0:0 
+2451678.0     pmi_proxy          1        1   00:00:34          0   00:00:34   00:02:21      0:0 
+
+Memory usage stats:
+       JobID     MaxRSS MaxRSSTask     AveRSS MaxPages   MaxPagesTask   AvePages 
+------------ ---------- ---------- ---------- -------- -------------- ---------- 
+2451678                                                                          
+2451678.bat+     26440K          0     26440K        0              0          0 
+2451678.ext+          0          0          0        0              0          0 
+2451678.0        60140K          0     60140K        0              0          0 
+
+Disk usage stats:
+       JobID  MaxDiskRead MaxDiskReadTask    AveDiskRead MaxDiskWrite MaxDiskWriteTask   AveDiskWrite 
+------------ ------------ --------------- -------------- ------------ ---------------- -------------- 
+2451678                                                                                               
+2451678.bat+       10.29M               0         10.29M        0.20M                0          0.20M 
+2451678.ext+        0.00M               0          0.00M            0                0              0 
+2451678.0          56.27M               0         56.27M       61.32M                0         61.32M 
+
+Job 2451678 completed at Wed Mar 10 22:20:01 CET 2021
+Starting job 2451730 on c5-38 at Wed Mar 10 22:37:47 CET 2021
+
+Setting Environment KMP_STACKSIZE=256M
+Setting resource.RLIMIT_STACK to -1 from (-1, -1)
+Generating namelists for /cluster/home/huit/ctsm_cases/ALP1_moss
+Creating component namelists
+  2021-03-10 22:38:02 atm 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/data_comps_mct/datm/cime_config/buildnml
+  2021-03-10 22:38:05 lnd 
+   Calling /cluster/home/huit/ctsm_region/cime_config/buildnml
+  2021-03-10 22:38:08 ice 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/sice/cime_config/buildnml
+  2021-03-10 22:38:08 ocn 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/socn/cime_config/buildnml
+  2021-03-10 22:38:08 rof 
+   Calling /cluster/home/huit/ctsm_region/components/mosart//cime_config/buildnml
+  2021-03-10 22:38:09 glc 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/sglc/cime_config/buildnml
+  2021-03-10 22:38:09 wav 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/swav/cime_config/buildnml
+  2021-03-10 22:38:09 iac 
+   Running /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/siac/cime_config/buildnml 
+  2021-03-10 22:38:10 esp 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/sesp/cime_config/buildnml
+  2021-03-10 22:38:10 cpl 
+   Calling /cluster/home/huit/ctsm_region/cime/src/drivers/mct/cime_config/buildnml
+-------------------------------------------------------------------------
+ - Prestage required restarts into /cluster/work/users/huit/ctsm/ALP1_moss/run
+ - Case input data directory (DIN_LOC_ROOT) is /cluster/work/users/huit/inputdata 
+ - Checking for required input datasets in DIN_LOC_ROOT
+-------------------------------------------------------------------------
+run command is mpirun  /cluster/work/users/huit/ctsm/ALP1_moss/bld/cesm.exe   >> cesm.log.$LID 2>&1  
+check for resubmit
+dout_s False 
+mach saga 
+resubmit_num 0
+
+Task and CPU usage stats:
+       JobID    JobName  AllocCPUS   NTasks     MinCPU MinCPUTask     AveCPU    Elapsed ExitCode 
+------------ ---------- ---------- -------- ---------- ---------- ---------- ---------- -------- 
+2451730      run.ALP1_+          1                                             00:02:23      0:0 
+2451730.bat+      batch          1        1   00:00:09          0   00:00:09   00:02:23      0:0 
+2451730.ext+     extern          1        1   00:00:00          0   00:00:00   00:02:23      0:0 
+2451730.0     pmi_proxy          1        1   00:00:32          0   00:00:32   00:01:44      0:0 
+
+Memory usage stats:
+       JobID     MaxRSS MaxRSSTask     AveRSS MaxPages   MaxPagesTask   AvePages 
+------------ ---------- ---------- ---------- -------- -------------- ---------- 
+2451730                                                                          
+2451730.bat+     26448K          0     26448K        0              0          0 
+2451730.ext+          0          0          0        0              0          0 
+2451730.0        58200K          0     58200K        0              0          0 
+
+Disk usage stats:
+       JobID  MaxDiskRead MaxDiskReadTask    AveDiskRead MaxDiskWrite MaxDiskWriteTask   AveDiskWrite 
+------------ ------------ --------------- -------------- ------------ ---------------- -------------- 
+2451730                                                                                               
+2451730.bat+       10.29M               0         10.29M        0.20M                0          0.20M 
+2451730.ext+        0.00M               0          0.00M            0                0              0 
+2451730.0          55.84M               0         55.84M       61.33M                0         61.33M 
+
+Job 2451730 completed at Wed Mar 10 22:40:10 CET 2021
+Starting job 2451789 on c5-49 at Wed Mar 10 22:54:06 CET 2021
+
+Setting Environment KMP_STACKSIZE=256M
+Setting resource.RLIMIT_STACK to -1 from (-1, -1)
+Generating namelists for /cluster/home/huit/ctsm_cases/ALP1_moss
+Creating component namelists
+  2021-03-10 22:54:21 atm 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/data_comps_mct/datm/cime_config/buildnml
+  2021-03-10 22:54:24 lnd 
+   Calling /cluster/home/huit/ctsm_region/cime_config/buildnml
+  2021-03-10 22:54:26 ice 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/sice/cime_config/buildnml
+  2021-03-10 22:54:27 ocn 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/socn/cime_config/buildnml
+  2021-03-10 22:54:27 rof 
+   Calling /cluster/home/huit/ctsm_region/components/mosart//cime_config/buildnml
+  2021-03-10 22:54:28 glc 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/sglc/cime_config/buildnml
+  2021-03-10 22:54:28 wav 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/swav/cime_config/buildnml
+  2021-03-10 22:54:28 iac 
+   Running /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/siac/cime_config/buildnml 
+  2021-03-10 22:54:29 esp 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/sesp/cime_config/buildnml
+  2021-03-10 22:54:29 cpl 
+   Calling /cluster/home/huit/ctsm_region/cime/src/drivers/mct/cime_config/buildnml
+-------------------------------------------------------------------------
+ - Prestage required restarts into /cluster/work/users/huit/ctsm/ALP1_moss/run
+ - Case input data directory (DIN_LOC_ROOT) is /cluster/work/users/huit/inputdata 
+ - Checking for required input datasets in DIN_LOC_ROOT
+-------------------------------------------------------------------------
+run command is mpirun  /cluster/work/users/huit/ctsm/ALP1_moss/bld/cesm.exe   >> cesm.log.$LID 2>&1  
+check for resubmit
+dout_s False 
+mach saga 
+resubmit_num 0
+
+Task and CPU usage stats:
+       JobID    JobName  AllocCPUS   NTasks     MinCPU MinCPUTask     AveCPU    Elapsed ExitCode 
+------------ ---------- ---------- -------- ---------- ---------- ---------- ---------- -------- 
+2451789      run.ALP1_+          1                                             00:03:05      0:0 
+2451789.bat+      batch          1        1   00:00:10          0   00:00:10   00:03:05      0:0 
+2451789.ext+     extern          1        1   00:00:00          0   00:00:00   00:03:05      0:0 
+2451789.0     pmi_proxy          1        1   00:00:31          0   00:00:31   00:02:23      0:0 
+
+Memory usage stats:
+       JobID     MaxRSS MaxRSSTask     AveRSS MaxPages   MaxPagesTask   AvePages 
+------------ ---------- ---------- ---------- -------- -------------- ---------- 
+2451789                                                                          
+2451789.bat+     26328K          0     26328K        0              0          0 
+2451789.ext+          0          0          0        0              0          0 
+2451789.0        60040K          0     60040K        0              0          0 
+
+Disk usage stats:
+       JobID  MaxDiskRead MaxDiskReadTask    AveDiskRead MaxDiskWrite MaxDiskWriteTask   AveDiskWrite 
+------------ ------------ --------------- -------------- ------------ ---------------- -------------- 
+2451789                                                                                               
+2451789.bat+       10.29M               0         10.29M        0.20M                0          0.20M 
+2451789.ext+        0.00M               0          0.00M            0                0              0 
+2451789.0          53.23M               0         53.23M       59.66M                0         59.66M 
+
+Job 2451789 completed at Wed Mar 10 22:57:11 CET 2021
+Starting job 2455375 on c5-13 at Thu Mar 11 12:22:45 CET 2021
+
+Setting Environment KMP_STACKSIZE=256M
+Setting resource.RLIMIT_STACK to -1 from (-1, -1)
+Generating namelists for /cluster/home/huit/ctsm_cases/ALP1_moss
+Creating component namelists
+  2021-03-11 12:22:57 atm 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/data_comps_mct/datm/cime_config/buildnml
+  2021-03-11 12:22:58 lnd 
+   Calling /cluster/home/huit/ctsm_region/cime_config/buildnml
+  2021-03-11 12:23:00 ice 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/sice/cime_config/buildnml
+  2021-03-11 12:23:00 ocn 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/socn/cime_config/buildnml
+  2021-03-11 12:23:00 rof 
+   Calling /cluster/home/huit/ctsm_region/components/mosart//cime_config/buildnml
+  2021-03-11 12:23:01 glc 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/sglc/cime_config/buildnml
+  2021-03-11 12:23:01 wav 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/swav/cime_config/buildnml
+  2021-03-11 12:23:01 iac 
+   Running /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/siac/cime_config/buildnml 
+  2021-03-11 12:23:02 esp 
+   Calling /cluster/home/huit/ctsm_region/cime/src/components/stub_comps_mct/sesp/cime_config/buildnml
+  2021-03-11 12:23:02 cpl 
+   Calling /cluster/home/huit/ctsm_region/cime/src/drivers/mct/cime_config/buildnml
+-------------------------------------------------------------------------
+ - Prestage required restarts into /cluster/work/users/huit/ctsm/ALP1_moss/run
+ - Case input data directory (DIN_LOC_ROOT) is /cluster/work/users/huit/inputdata 
+ - Checking for required input datasets in DIN_LOC_ROOT
+-------------------------------------------------------------------------
+run command is mpirun  /cluster/work/users/huit/ctsm/ALP1_moss/bld/cesm.exe   >> cesm.log.$LID 2>&1  
+check for resubmit
+dout_s False 
+mach saga 
+resubmit_num 0
+
+Task and CPU usage stats:
+       JobID    JobName  AllocCPUS   NTasks     MinCPU MinCPUTask     AveCPU    Elapsed ExitCode 
+------------ ---------- ---------- -------- ---------- ---------- ---------- ---------- -------- 
+2455375      run.ALP1_+          1                                             00:01:20      0:0 
+2455375.bat+      batch          1        1   00:00:10          0   00:00:10   00:01:20      0:0 
+2455375.ext+     extern          1        1   00:00:00          0   00:00:00   00:01:20      0:0 
+2455375.0     pmi_proxy          1        1   00:00:22          0   00:00:22   00:00:53      0:0 
+
+Memory usage stats:
+       JobID     MaxRSS MaxRSSTask     AveRSS MaxPages   MaxPagesTask   AvePages 
+------------ ---------- ---------- ---------- -------- -------------- ---------- 
+2455375                                                                          
+2455375.bat+     26332K          0     26332K        0              0          0 
+2455375.ext+          0          0          0        0              0          0 
+2455375.0        58164K          0     58164K        0              0          0 
+
+Disk usage stats:
+       JobID  MaxDiskRead MaxDiskReadTask    AveDiskRead MaxDiskWrite MaxDiskWriteTask   AveDiskWrite 
+------------ ------------ --------------- -------------- ------------ ---------------- -------------- 
+2455375                                                                                               
+2455375.bat+       10.29M               0         10.29M        0.20M                0          0.20M 
+2455375.ext+        0.00M               0          0.00M            0                0              0 
+2455375.0          39.88M               0         39.88M       42.21M                0         42.21M 
+
+Job 2455375 completed at Thu Mar 11 12:24:05 CET 2021
